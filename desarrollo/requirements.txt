@@ -1,0 +1,10 @@
+numpy
+openpyxl
+pyshp
+rasterio
+scikit-learn
+scipy
+matplotlib
+catboost
+xgboost
+lightgbm
