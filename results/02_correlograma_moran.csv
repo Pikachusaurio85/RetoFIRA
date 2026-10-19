@@ -1,0 +1,11 @@
+d_lo_km,d_hi_km,n_usadas,I,z,p_one_sided,serie
+0.0,0.5,55,0.3272,2.6079,0.0084,Chignahuapan
+0.5,1.0,67,-0.1378,-1.228,0.901,Chignahuapan
+1.0,2.0,71,0.0413,1.0845,0.1294,Chignahuapan
+2.0,4.0,71,0.0146,1.1871,0.106,Chignahuapan
+4.0,8.0,71,-0.0688,-2.1464,0.9714,Chignahuapan
+0.0,0.5,91,0.2618,2.506,0.0108,"intra-municipio (pooled, centrado)"
+0.5,1.0,98,-0.1749,-1.6402,0.951,"intra-municipio (pooled, centrado)"
+1.0,2.0,118,0.0301,1.094,0.1404,"intra-municipio (pooled, centrado)"
+2.0,4.0,127,-0.0155,0.2842,0.4,"intra-municipio (pooled, centrado)"
+4.0,8.0,131,-0.0654,-1.6797,0.9472,"intra-municipio (pooled, centrado)"

@@ -1,0 +1,21 @@
+[bloo] 19 configuraciones x 6 esquemas
+00:37:09 ok       0.5s ref_muni
+00:37:09 ok       0.7s ref_knn
+00:37:10 ok       0.8s ref_muni_knnres
+00:37:15 ok       5.2s direct|Ridge|LOC
+00:37:57 ok      41.7s direct|Ridge|SAT
+00:39:23 ok      86.3s direct|Ridge|ALL
+00:40:37 ok      73.5s resid_muni|Ridge|SAT
+00:41:46 ok      69.3s resid_muni|Ridge|ALLNOLOC
+00:41:51 ok       4.3s resid_muni|Ridge|CUR
+00:41:54 ok       4.0s direct|Ridge|CLIM
+00:41:59 ok       4.4s resid_muni|Ridge|CLIM
+00:43:05 ok      66.5s resid_muni|Ridge|ALL
+00:44:40 ok      94.3s direct|Ridge|ALLNOLOC
+00:47:02 ok     142.7s direct|ET|LOC
+00:53:10 ok     368.0s direct|ET|SAT
+01:00:00 ok     410.0s direct|ET|ALL
+01:06:39 ok     398.3s resid_muni|ET|SAT
+01:13:32 ok     413.7s resid_muni|ET|ALLNOLOC
+01:16:29 ok     176.5s resid_muni|ET|CUR
+TOTAL 2361 s

@@ -1,0 +1,6 @@
+conjunto,auc_media,auc_sd,auc_nula_media,auc_nula_p95
+todas_features_sin_ubicacion,0.472,0.013,0.506,0.61
+solo_ubicacion_xy,0.443,0.017,0.495,0.582
+satelite,0.486,0.028,0.514,0.617
+clima,0.472,0.02,0.485,0.576
+topo+geom,0.496,0.013,0.5,0.593

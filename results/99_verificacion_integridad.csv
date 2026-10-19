@@ -1,0 +1,9 @@
+verificacion,resultado,detalle
+arbol original identico al hash previo (n archivos=274),OK,"modificados=0, nuevos=0, borrados=0"
+138 etiquetadas y 59 ocultas en la asignacion oficial,OK,138/59
+particiones: ningun ID oculto,OK,
+particiones: todos los IDs etiquetados,OK,
+"particiones: cada (esquema,rep) evalua cada parcela exactamente una vez",OK,"41 (esquema,rep)"
+OOF/SHAP/errores: ningun ID oculto en 172 archivos,OK,
+tablas de resultados: ningun ID oculto,OK,
+common.Data filtra por ENTRENAMIENTO,OK,

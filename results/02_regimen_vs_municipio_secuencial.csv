@@ -1,0 +1,7 @@
+,valor
+R2_regimen,0.6753
+R2_regimen_mas_municipio,0.6862
+R2_incremental_municipio_dado_regimen,0.0109
+R2adj_regimen,0.673
+R2adj_regimen_mas_municipio,0.6668
+F_p_municipio_dado_regimen,0.7215

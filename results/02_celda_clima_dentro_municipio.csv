@@ -1,0 +1,9 @@
+,valor
+n_combinaciones_municipio_celda,28.0
+R2_municipio,0.6862
+R2adj_municipio,0.6668
+R2_municipio_mas_celda,0.7101
+R2adj_municipio_mas_celda,0.6389
+R2_incremental_celda,0.0238
+p_perm_incremental_celda_intra_municipio,0.4715
+R2_incremental_esperado_bajo_H0,0.0256

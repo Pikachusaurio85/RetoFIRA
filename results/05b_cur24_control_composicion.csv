@@ -1,0 +1,9 @@
+conjunto,RMSE
+CUR24,0.5147710648667183
+CUR24 sin TOPO/GEOM (solo sus 20 de satelite),0.5171314662643857
+300 sorteos misma composicion (20 SAT + 2 TOPO + 2 GEOM): media,0.5186842049941767
+   p5 / p95,0.5097 / 0.5295
+   fraccion de sorteos con RMSE menor que CUR24,0.2966666666666667
+300 sorteos de 20 SAT solas: media,0.5196198503083984
+   p5 / p95,0.5112 / 0.5285
+   fraccion de sorteos con RMSE menor que CUR24-solo-satelite,0.3233333333333333

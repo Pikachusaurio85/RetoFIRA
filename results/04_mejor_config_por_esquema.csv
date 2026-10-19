@@ -1,0 +1,9 @@
+,cfg
+RCV5x10,resid_muni|Ridge|TOPO
+SPA_KM4,direct|Ridge|LOC
+SPA_KM6,resid_muni|ET|CUR
+SPA_KM8,resid_muni|ET|CUR
+SPA_BAND6,resid_muni|Ridge|T_PRE
+SPA_GRID3B05,resid_muni|Ridge|TOPO
+SPA_GRID8B1,resid_muni|Ridge|T_PRE
+LMO,direct|Ridge|ALL-TOPO

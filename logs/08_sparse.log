@@ -1,0 +1,53 @@
+       variable  rho_parcial_intra  p_perm_dos_colas  p_FWER_max  q_FDR_BH  rho_Chignahuapan  rho_Calpulalpan  rho_Singuilucan  rho_Almoloya  signos_concordantes_4_municipios grupo
+   s2_ndvi_base              0.301             0.007       0.111     0.237             0.318            0.082            0.045         0.705                                 4    S2
+topo_pend_media              0.268             0.013       0.242     0.237             0.290           -0.037            0.224         0.061                                 3  TOPO
+    geo_area_ha             -0.252             0.019       0.331     0.237            -0.271           -0.032            0.043        -0.444                                 3  GEOM
+    pl_ndvi_auc             -0.236             0.033       0.435     0.243            -0.261            0.026            0.417        -0.377                                 2    PL
+    s2_ndvi_auc             -0.235             0.033       0.441     0.243            -0.253           -0.047            0.215        -0.347                                 3    S2
+ clim_tmax_anom              0.225             0.039       0.509     0.243             0.238            0.087            0.024         0.124                                 4  CLIM
+    s2_msi_pico              0.204             0.067       0.666     0.312             0.209            0.232           -0.413         0.061                                 3    S2
+   s2_ndwi_pico             -0.201             0.067       0.685     0.312            -0.207           -0.221            0.431        -0.122                                 3    S2
+    s2_ndvi_pre              0.192             0.086       0.747     0.351             0.197            0.127           -0.018         0.802                                 3    S2
+    s2_ndti_pre              0.187             0.095       0.781     0.351             0.221           -0.264           -0.171         0.596                                 2    S2
+ clim_prec_prev             -0.177             0.114       0.840     0.363            -0.199            0.020            0.352         0.462                                 1  CLIM
+ clim_prec_temp             -0.173             0.119       0.852     0.363            -0.199            0.053            0.439         0.410                                 1  CLIM
+max|rho| nulo p95: 0.331 | n con q<0.10: 0 | n con FWER<0.05: 0
+00:00:57 RCV5x10 listo (8s)
+00:01:00 SPA_GRID3B05 listo (3s)
+00:01:01 SPA_KM6 listo (1s)
+     esquema      modelo  RMSE_media_reps  RMSE_sd_reps  RMSE_perdida_media_parcelas  dRMSE_vs_prior  ic_lo_cluster  ic_hi_cluster  p_cluster
+     RCV5x10       prior           0.5245        0.0042                       0.5245             NaN            NaN            NaN        NaN
+     RCV5x10   nested_k5           0.5161        0.0067                       0.5162         -0.0083        -0.0365         0.0191     0.5571
+     RCV5x10  nested_k10           0.5217        0.0083                       0.5218         -0.0027        -0.0316         0.0254     0.8417
+     RCV5x10   apriori10           0.5220        0.0070                       0.5220         -0.0025        -0.0306         0.0344     0.8224
+     RCV5x10    apriori5           0.5301        0.0057                       0.5302          0.0057        -0.0012         0.0145     0.1106
+     RCV5x10 nested_kopt           0.5216        0.0077                       0.5216         -0.0029        -0.0300         0.0247     0.8251
+SPA_GRID3B05       prior           0.5407        0.0030                       0.5407             NaN            NaN            NaN        NaN
+SPA_GRID3B05   nested_k5           0.5323        0.0046                       0.5323         -0.0084        -0.0402         0.0209     0.5911
+SPA_GRID3B05  nested_k10           0.5390        0.0090                       0.5391         -0.0016        -0.0378         0.0317     0.9350
+SPA_GRID3B05   apriori10           0.5365        0.0070                       0.5366         -0.0041        -0.0349         0.0350     0.7664
+SPA_GRID3B05    apriori5           0.5537        0.0072                       0.5537          0.0130         0.0043         0.0233     0.0033
+SPA_GRID3B05 nested_kopt           0.5371        0.0070                       0.5372         -0.0035        -0.0380         0.0288     0.8417
+     SPA_KM6       prior           0.6880        0.0000                       0.6880             NaN            NaN            NaN        NaN
+     SPA_KM6   nested_k5           0.6485        0.0000                       0.6485         -0.0394        -0.0736        -0.0121     0.0047
+     SPA_KM6  nested_k10           0.6510        0.0000                       0.6510         -0.0370        -0.0754        -0.0064     0.0187
+     SPA_KM6   apriori10           0.6735        0.0000                       0.6735         -0.0145        -0.0521         0.0301     0.4705
+     SPA_KM6    apriori5           0.6921        0.0000                       0.6921          0.0042        -0.0161         0.0289     0.6784
+     SPA_KM6 nested_kopt           0.6519        0.0000                       0.6519         -0.0361        -0.0726        -0.0064     0.0160
+                  freq_top5_RCV  freq_top10_RCV  freq_top10_espaciales
+s2_ndvi_base               0.92            0.92                  0.917
+s2_msi_pico                0.46            0.68                  0.583
+s2_ndvi_std_pico           0.54            0.66                  0.708
+s2_ndti_pre                0.30            0.58                  0.542
+topo_elev_media            0.52            0.56                  0.542
+topo_pend_media            0.30            0.48                  0.333
+geo_compacidad             0.14            0.42                  0.500
+s2_ndwi_pico               0.10            0.40                  0.417
+topo_elev_std              0.16            0.38                  0.458
+s2_fapar_pico              0.06            0.34                  0.208
+s2_lai_pico                0.10            0.34                  0.333
+clim_tmax_anom             0.12            0.32                  0.417
+s2_ndvi_veg                0.20            0.30                  0.250
+s2_ndvi_sos_doy            0.16            0.30                  0.417
+s2_ndvi_eos_doy            0.12            0.28                  0.250
+OK 08_sparse_interpretable

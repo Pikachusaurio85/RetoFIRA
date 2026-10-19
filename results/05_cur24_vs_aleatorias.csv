@@ -1,0 +1,9 @@
+conjunto,RMSE
+CUR24 (lista curada del baseline),0.5147710648667183
+24 aleatorias de ALLNOLOC (media),0.5189370002243341
+  p5 / p95,0.5111 / 0.5286
+24 aleatorias de SAT (media),0.5187619442992408
+  p5 / p95,0.5106 / 0.5272
+percentil de CUR24 entre aleatorias de SAT (menor RMSE = mejor),0.22666666666666666
+percentil de CUR24 entre aleatorias de ALLNOLOC,0.22666666666666666
+seleccion honesta top24 por Spearman dentro de fold,0.5090796877633232
