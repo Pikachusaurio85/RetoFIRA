@@ -1,0 +1,127 @@
+{
+  "parcelas_etiquetadas": 138,
+  "parcelas_sin_etiqueta": 59,
+  "objetivo": "RENDIMIENTO_T_HA",
+  "escenarios": {
+    "aleatoria_5_folds": 5,
+    "espacial_6_bloques": 6
+  },
+  "tamanos_bloques": {
+    "0": 37,
+    "1": 22,
+    "2": 16,
+    "3": 11,
+    "4": 39,
+    "5": 13
+  },
+  "metricas": [
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Lineal_8_agronomicas",
+      "n_parcelas": 138,
+      "n_variables": 8,
+      "MAE_t_ha": 0.6533464095591647,
+      "RMSE_t_ha": 0.7989988141586654,
+      "R2": 0.11237898912113697,
+      "pred_min_t_ha": 2.3573644525598905,
+      "pred_max_t_ha": 5.061320197129941,
+      "n_pred_negativas": 0
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Lineal_8_agronomicas",
+      "n_parcelas": 138,
+      "n_variables": 8,
+      "MAE_t_ha": 0.9213336190435891,
+      "RMSE_t_ha": 1.0571690452004427,
+      "R2": -0.5539039857049906,
+      "pred_min_t_ha": 2.0283203950483903,
+      "pred_max_t_ha": 4.777739018858071,
+      "n_pred_negativas": 0
+    },
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Lineal_24_curadas",
+      "n_parcelas": 138,
+      "n_variables": 24,
+      "MAE_t_ha": 0.5583581409335058,
+      "RMSE_t_ha": 0.7176803190436232,
+      "R2": 0.28386091368671285,
+      "pred_min_t_ha": 2.3175788719214463,
+      "pred_max_t_ha": 5.376709551706351,
+      "n_pred_negativas": 0
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Lineal_24_curadas",
+      "n_parcelas": 138,
+      "n_variables": 24,
+      "MAE_t_ha": 0.7413100072842669,
+      "RMSE_t_ha": 0.8907753196333227,
+      "R2": -0.10324420716210891,
+      "pred_min_t_ha": 2.536276263357923,
+      "pred_max_t_ha": 5.562414621346683,
+      "n_pred_negativas": 0
+    },
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Lineal_148_historicas",
+      "n_parcelas": 138,
+      "n_variables": 148,
+      "MAE_t_ha": 1.7545653594087742,
+      "RMSE_t_ha": 2.407325475819197,
+      "R2": -7.057585601567254,
+      "pred_min_t_ha": -4.609831604206405,
+      "pred_max_t_ha": 14.8715406872415,
+      "n_pred_negativas": 3
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Lineal_148_historicas",
+      "n_parcelas": 138,
+      "n_variables": 148,
+      "MAE_t_ha": 6.989373398986578,
+      "RMSE_t_ha": 10.51971120580508,
+      "R2": -152.86609760826448,
+      "pred_min_t_ha": -33.004092653175455,
+      "pred_max_t_ha": 35.641290145702406,
+      "n_pred_negativas": 57
+    }
+  ],
+  "diagnosticos_entrenamiento": [
+    {
+      "modelo": "Lineal_8_agronomicas",
+      "n_variables": 8,
+      "n_entrenamiento": 138,
+      "rango_matriz": 8,
+      "entrenamiento_MAE_t_ha": 0.5982851813853469,
+      "entrenamiento_RMSE_t_ha": 0.7322596643693244,
+      "entrenamiento_R2": 0.2544693052497137,
+      "norma_coeficientes": 0.5508562600156253,
+      "coeficiente_abs_max": 0.2869838822817673
+    },
+    {
+      "modelo": "Lineal_24_curadas",
+      "n_variables": 24,
+      "n_entrenamiento": 138,
+      "rango_matriz": 24,
+      "entrenamiento_MAE_t_ha": 0.43392774798571526,
+      "entrenamiento_RMSE_t_ha": 0.5753998695154993,
+      "entrenamiento_R2": 0.5396641242044993,
+      "norma_coeficientes": 2.518453511553743,
+      "coeficiente_abs_max": 1.7094778545052387
+    },
+    {
+      "modelo": "Lineal_148_historicas",
+      "n_variables": 148,
+      "n_entrenamiento": 138,
+      "rango_matriz": 137,
+      "entrenamiento_MAE_t_ha": 3.1710093488211144e-12,
+      "entrenamiento_RMSE_t_ha": 4.098137925443383e-12,
+      "entrenamiento_R2": 1.0,
+      "norma_coeficientes": 9442.414892846893,
+      "coeficiente_abs_max": 4185.14179411197
+    }
+  ],
+  "advertencia": "No se documenta ciclo/año de los rendimientos; no se pueden validar predicciones 2026. OLS-148 sobreajusta."
+}
