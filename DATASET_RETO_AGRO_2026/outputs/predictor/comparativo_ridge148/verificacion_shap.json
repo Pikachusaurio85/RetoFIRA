@@ -1,0 +1,27 @@
+{
+  "modelo_explicado": "RIDGE148_COMPARATIVO_NO_ADOPTADO",
+  "es_modelo_final": false,
+  "explicador": "SHAP lineal intervencional exacto (phi_j = w_j/s_j * (x_j - media_fondo_j)); fondo = parcelas de entrenamiento del ajuste",
+  "supuesto_dependencia": "Expectativa marginal: rompe la dependencia entre variables (fiel al modelo, no a los datos). La version condicional (correlation_dependent) no se uso: con n_train ~110 < p = 148 la covarianza es singular.",
+  "preprocesamiento": "SHAP calculado en unidades originales a traves de imputacion mediana y StandardScaler del mismo pipeline; las 197 parcelas no tienen faltantes en las 148 variables, la imputacion es identidad.",
+  "max_abs_reconstruccion_OOF": 1.7763568394002505e-15,
+  "max_abs_diferencia_vs_predicciones_fase1": 8.881784197001252e-16,
+  "max_abs_base_menos_media_y_train": 2.6645352591003757e-15,
+  "max_abs_vs_libreria_shap": 1.5959455978986625e-15,
+  "max_abs_base_vs_libreria_shap": 1.3322676295501878e-15,
+  "shap_version": "0.54.1",
+  "max_abs_reconstruccion_modelo_completo": 1.7763568394002505e-15,
+  "max_abs_coef_vs_archivo_equipo": 3.209238430557093e-16,
+  "alpha_modelo_completo": 31.622776601683793,
+  "n_permutaciones_por_fold_y_familia": 30,
+  "sd_intra_municipio_prediccion_t_ha": 0.2513675169563131,
+  "sd_intra_municipio_si_familias_fueran_independientes_t_ha": 0.5696997384078135,
+  "corr_intra_SAT_BASICO_vs_CLIMA_TMIN": 0.06214163662021466,
+  "corr_intra_SAT_BASICO_vs_SAT_PRO": -0.6378517436122185,
+  "parcelas_representativas": {
+    "acierto (|error| minimo)": "AGC_187",
+    "error alto (|error| maximo)": "AGC_171",
+    "rendimiento bajo (y minimo)": "AGC_034",
+    "rendimiento alto (y maximo)": "AGC_162"
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "schema_version": "1.0",
+    "ID_POLIGONO": "AGC_011",
+    "model_id": "modelo_final",
+    "prediction_t_ha": 4.4768,
+    "uncertainty": {
+      "method": "residuos_LOO_por_municipio_q80",
+      "lower_t_ha": 3.8005,
+      "upper_t_ha": 5.153
+    },
+    "prediction_components": [
+      {
+        "component": "media_global_entrenamiento",
+        "value_t_ha": 3.955362,
+        "description": "Media de las 138 parcelas etiquetadas"
+      },
+      {
+        "component": "ajuste_municipal",
+        "value_t_ha": 0.521391,
+        "municipio": "Chignahuapan",
+        "n_parcelas_municipio": 71,
+        "media_municipal_t_ha": 4.477324,
+        "peso_municipal": 0.998906,
+        "k_encogimiento": 0.07775395769865924,
+        "description": "peso_municipal * (media_municipal - media_global)"
+      }
+    ],
+    "warnings": [
+      "PRIOR_MUNICIPAL: la estimacion es la media municipal encogida; no distingue parcelas dentro del mismo municipio.",
+      "REGIMEN_CAPTURA: el nivel municipal puede reflejar como se registro el rendimiento (p. ej. valores en multiplos de 0.5 t/ha) ademas de diferencias agronomicas; no se puede separar con los datos actuales.",
+      "CICLO_NO_VERIFICADO: las etiquetas no indican ano o ciclo agricola; la estimacion no esta validada para 2026."
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "ID_POLIGONO": "AGC_120",
+    "model_id": "modelo_final",
+    "prediction_t_ha": 2.605,
+    "uncertainty": {
+      "method": "residuos_LOO_por_municipio_q80",
+      "lower_t_ha": 1.6427,
+      "upper_t_ha": 3.5673
+    },
+    "prediction_components": [
+      {
+        "component": "media_global_entrenamiento",
+        "value_t_ha": 3.955362,
+        "description": "Media de las 138 parcelas etiquetadas"
+      },
+      {
+        "component": "ajuste_municipal",
+        "value_t_ha": -1.350366,
+        "municipio": "Nanacamilpa de Mariano Arista",
+        "n_parcelas_municipio": 1,
+        "media_municipal_t_ha": 2.5,
+        "peso_municipal": 0.927856,
+        "k_encogimiento": 0.07775395769865924,
+        "description": "peso_municipal * (media_municipal - media_global)"
+      }
+    ],
+    "warnings": [
+      "PRIOR_MUNICIPAL: la estimacion es la media municipal encogida; no distingue parcelas dentro del mismo municipio.",
+      "REGIMEN_CAPTURA: el nivel municipal puede reflejar como se registro el rendimiento (p. ej. valores en multiplos de 0.5 t/ha) ademas de diferencias agronomicas; no se puede separar con los datos actuales.",
+      "CICLO_NO_VERIFICADO: las etiquetas no indican ano o ciclo agricola; la estimacion no esta validada para 2026.",
+      "MUNICIPIO_POCAS_PARCELAS: solo 1 parcela(s) etiquetada(s) en Nanacamilpa de Mariano Arista; el intervalo usa el estrato agrupado OTROS_n<10."
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "ID_POLIGONO": "AGC_EJEMPLO_FICTICIO",
+    "model_id": "modelo_final",
+    "prediction_t_ha": 3.9554,
+    "uncertainty": {
+      "method": "pending_validation",
+      "lower_t_ha": null,
+      "upper_t_ha": null
+    },
+    "prediction_components": [
+      {
+        "component": "media_global_entrenamiento",
+        "value_t_ha": 3.955362,
+        "description": "Media de las 138 parcelas etiquetadas"
+      },
+      {
+        "component": "ajuste_municipal",
+        "value_t_ha": 0.0,
+        "municipio": "MUNICIPIO_EJEMPLO_NO_VISTO",
+        "n_parcelas_municipio": 0,
+        "media_municipal_t_ha": null,
+        "peso_municipal": 0.0,
+        "k_encogimiento": 0.07775395769865924,
+        "description": "Municipio sin parcelas etiquetadas: sin ajuste."
+      }
+    ],
+    "warnings": [
+      "PRIOR_MUNICIPAL: la estimacion es la media municipal encogida; no distingue parcelas dentro del mismo municipio.",
+      "REGIMEN_CAPTURA: el nivel municipal puede reflejar como se registro el rendimiento (p. ej. valores en multiplos de 0.5 t/ha) ademas de diferencias agronomicas; no se puede separar con los datos actuales.",
+      "CICLO_NO_VERIFICADO: las etiquetas no indican ano o ciclo agricola; la estimacion no esta validada para 2026.",
+      "ID_DESCONOCIDO: el ID_POLIGONO no esta en el universo de 197 parcelas del reto.",
+      "MUNICIPIO_NO_VISTO: no hay parcelas etiquetadas en este municipio; se usa la media global. Sin intervalo: no hay validacion para municipios nuevos (uncertainty = pending_validation)."
+    ]
+  }
+]

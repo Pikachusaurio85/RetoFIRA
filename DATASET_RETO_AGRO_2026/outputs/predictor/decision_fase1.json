@@ -1,0 +1,98 @@
+{
+  "decision": "ADOPTAR PRIOR",
+  "criterios": {
+    "RIDGE148": {
+      "dRMSE": -0.006341932671334427,
+      "IC95_cluster": [
+        -0.05547677734773757,
+        0.051585600763811884
+      ],
+      "NB_p": 0.8132033484979703,
+      "NB_p_holm": 0.8132033484979703,
+      "reps_mejor": 7,
+      "E1": false,
+      "E2": false,
+      "E3": false,
+      "S1": false,
+      "municipios_dRMSE": {
+        "Chignahuapan": -0.0314,
+        "Calpulalpan": 0.0304,
+        "Singuilucan": 0.0904,
+        "Almoloya": 0.0307
+      },
+      "diagnostico_KM6_dRMSE": 0.06422723263830432,
+      "diagnostico_KM6_IC95_cluster": [
+        -0.06284199956909671,
+        0.19668577398371423
+      ],
+      "cumple": false
+    },
+    "HIBRIDO_TOPO": {
+      "dRMSE": -0.01236239938763345,
+      "IC95_cluster": [
+        -0.025890318446340727,
+        0.003920940983431797
+      ],
+      "NB_p": 0.1832544359637275,
+      "NB_p_holm": 0.366508871927455,
+      "reps_mejor": 10,
+      "E1": false,
+      "E2": false,
+      "E3": true,
+      "S1": false,
+      "municipios_dRMSE": {
+        "Chignahuapan": -0.023,
+        "Calpulalpan": 0.0184,
+        "Singuilucan": -0.016,
+        "Almoloya": 0.0411
+      },
+      "diagnostico_KM6_dRMSE": -0.004968274950226448,
+      "diagnostico_KM6_IC95_cluster": [
+        -0.017760263521217713,
+        0.00882103471150081
+      ],
+      "cumple": false
+    }
+  },
+  "RIDGE148_vs_HIBRIDO": {
+    "dRMSE": 0.006020466716299022,
+    "IC95_cluster": [
+      -0.043980849458763044,
+      0.060146381135637514
+    ],
+    "NB_p": 0.8088708637941545
+  },
+  "regla": "regla_decision_preregistrada.json",
+  "particiones": {
+    "KM6_ARI_random_state_0_vs_2026": 0.737246222343083,
+    "KM6_tamanos": [
+      41,
+      20,
+      16,
+      35,
+      11,
+      15
+    ]
+  },
+  "hashes_fuente": {
+    "features_parcela": "07d444f56da566130b64033795b762311017eb8b74544746566c8f9ea95b1af2",
+    "tabla_modelado_parcelaria": "b1840eade25b022d7cc134fd57149a9f8b37986691f24fdf32cf6385478b7c8f",
+    "diccionario_features": "24f341bf7e246bf7a9b95752b313442516658c008a4eace795c27185ed2d9a61"
+  },
+  "segundos": 35.6,
+  "k_prior_por_fold_RCV": {
+    "count": 50.0,
+    "mean": 0.06977756810404229,
+    "std": 0.02037387146025132,
+    "min": 0.05,
+    "25%": 0.05,
+    "50%": 0.06235140643909296,
+    "75%": 0.07775395769865924,
+    "max": 0.12091355875609787
+  },
+  "alpha_ridge148_por_fold_RCV": {
+    "31.622776601683793": 38,
+    "10.0": 8,
+    "100.0": 4
+  }
+}

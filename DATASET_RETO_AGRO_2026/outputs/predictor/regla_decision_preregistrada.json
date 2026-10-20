@@ -1,0 +1,23 @@
+{
+  "descripcion": "Regla de decision fijada ANTES de ejecutar la Fase 1 (sin haber visto metricas de esta sesion). Las cifras de sesiones previas (prior k=3 0.524, prior k anidado 0.512, Ridge148 0.498, prior+TOPO -0.013) si eran conocidas: por eso la comparacion se declara exploratoria.",
+  "esquema_principal": "RCV5x10 (KFold 5, shuffle, random_state 1000..1009 sobre las 138 parcelas en orden de ID_POLIGONO)",
+  "referencia": "PRIOR = media municipal con encogimiento k elegido dentro del fold (error leave-one-out en entrenamiento, malla geomspace(0.05, 10, 25))",
+  "candidatos": ["RIDGE148", "HIBRIDO_TOPO"],
+  "criterios_evidencia_favorable": {
+    "E1": "Limite superior del IC95 de dRMSE(candidato - PRIOR) por bootstrap de 25 microclusteres espaciales < 0",
+    "E2": "Prueba t corregida de Nadeau-Bengio sobre las 50 diferencias de MSE por fold, bilateral, p ajustada por Holm (2 candidatos) < 0.05",
+    "E3": "dRMSE < 0 en al menos 9 de las 10 repeticiones"
+  },
+  "criterio_estabilidad": {
+    "S1": "dRMSE puntual <= 0 en al menos 3 de los 4 municipios con n >= 10 (Chignahuapan, Calpulalpan, Singuilucan, Almoloya)"
+  },
+  "diagnostico_secundario_no_vinculante": "KM6 (6 bloques k-means sobre UTM) y LMO (leave-municipality-out): se reportan y generan advertencias; no deciden",
+  "decision": [
+    "Si ningun candidato cumple E1, E2, E3 y S1 -> ADOPTAR PRIOR",
+    "Si solo HIBRIDO_TOPO cumple -> ADOPTAR HIBRIDO",
+    "Si solo RIDGE148 cumple -> ADOPTAR RIDGE",
+    "Si ambos cumplen -> ADOPTAR HIBRIDO (mas sencillo), salvo que RIDGE148 cumpla E1 y E2 frente a HIBRIDO_TOPO -> ADOPTAR RIDGE"
+  ],
+  "ROPE_t_ha": 0.02,
+  "nota_ROPE": "La zona de equivalencia practica se usa para etiquetar (EQUIVALENTE si el IC95 cae dentro de +-0.02), no como criterio de adopcion"
+}

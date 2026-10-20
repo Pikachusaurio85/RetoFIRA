@@ -1,0 +1,114 @@
+{
+  "hash_tablas_fuente": {
+    "resultado": "OK",
+    "detalle": {
+      "features_parcela": "07d444f56da566130b64033795b762311017eb8b74544746566c8f9ea95b1af2",
+      "tabla_modelado_parcelaria": "b1840eade25b022d7cc134fd57149a9f8b37986691f24fdf32cf6385478b7c8f",
+      "diccionario_features": "24f341bf7e246bf7a9b95752b313442516658c008a4eace795c27185ed2d9a61"
+    }
+  },
+  "arbol_cebada_datos_baseline_1_sin_cambios": {
+    "resultado": "OK",
+    "detalle": {
+      "archivos_revisados": 90,
+      "distintos_o_ausentes": []
+    }
+  },
+  "particiones_validas": {
+    "resultado": "OK",
+    "detalle": {
+      "repeat": {
+        "KM6": 1,
+        "LMO": 1,
+        "RCV5_S2026": 1,
+        "RCV5x10": 10
+      },
+      "fold": {
+        "KM6": 6,
+        "LMO": 9,
+        "RCV5_S2026": 5,
+        "RCV5x10": 5
+      }
+    }
+  },
+  "auditoria_datos_OK": {
+    "resultado": "OK",
+    "detalle": "OK"
+  },
+  "oof_columnas_contrato": {
+    "resultado": "OK",
+    "detalle": [
+      "schema_version",
+      "model_id",
+      "scheme",
+      "repeat",
+      "fold",
+      "ID_POLIGONO",
+      "y_true_t_ha",
+      "y_pred_t_ha",
+      "municipio",
+      "error_t_ha"
+    ]
+  },
+  "oof_completo_y_coherente_con_splits": {
+    "resultado": "OK",
+    "detalle": {
+      "filas": 8970
+    }
+  },
+  "decision_coincide_con_regla": {
+    "resultado": "OK",
+    "detalle": {
+      "esperado": "ADOPTAR PRIOR",
+      "registrado": "ADOPTAR PRIOR",
+      "cumple": {
+        "RIDGE148": false,
+        "HIBRIDO_TOPO": false
+      }
+    }
+  },
+  "shap_reconstruye_prediccion": {
+    "resultado": "OK",
+    "detalle": {
+      "max_abs_base_mas_shap_menos_pred": 3.552713678800501e-15,
+      "max_abs_vs_oof_fase1": 0.0,
+      "etiqueta_modelo": [
+        "RIDGE148_COMPARATIVO_NO_ADOPTADO"
+      ]
+    }
+  },
+  "shap_etiquetado_como_comparativo": {
+    "resultado": "OK",
+    "detalle": [
+      "RIDGE148_COMPARATIVO_NO_ADOPTADO"
+    ]
+  },
+  "contrato_json_1_0": {
+    "resultado": "OK",
+    "detalle": []
+  },
+  "sin_intervalo_no_validado": {
+    "resultado": "OK",
+    "detalle": [
+      {
+        "method": "pending_validation",
+        "lower_t_ha": null,
+        "upper_t_ha": null
+      }
+    ]
+  },
+  "prediccion_final_recalculada": {
+    "resultado": "OK",
+    "detalle": {
+      "max_abs": 4.704486589890422e-05
+    }
+  },
+  "sin_rendimiento_para_parcelas_PREDICCION": {
+    "resultado": "OK",
+    "detalle": []
+  },
+  "manifiesto_hashes_salidas": {
+    "resultado": "OK",
+    "detalle": []
+  }
+}

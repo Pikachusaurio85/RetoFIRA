@@ -1,0 +1,61 @@
+{
+  "contract_version": "1.0",
+  "generation_utc": "2026-10-19T14:28:48.701479Z",
+  "predictor": {
+    "model_id": "modelo_final",
+    "model_version": "prior_municipal_calibrado_v1",
+    "manifest_hash": "b47cd5b7455d920966880b1c0ba2d7bee4a882c255c139711a091b2561e5a2d8",
+    "predicciones_ui_hash": "c4f1b12a05d1ed9b3fbe89a39f0abef0e30637c3be0f82b7c1478d494021b7aa",
+    "modelo_final_hash": "5b225587e2cdce9725f3b0c6497ffdd39362d6d5956f53161acc506223c5b21e"
+  },
+  "xai": {
+    "config_frozen": {
+      "space": "compacto",
+      "method": "ProtoDash",
+      "m": 5,
+      "sigma_factor": 1.0,
+      "optimizer": "osqp",
+      "components": [
+        "C1a_ndvi_s2_mean",
+        "C2a_amplitud_ndvi",
+        "C3a_ndwi_s2_mean",
+        "C4a_prec_acum_abr_oct",
+        "C5a_elev_media"
+      ]
+    },
+    "manifest_fase1_hash": "d74f0a4d60e0a9451af8fcab152527067f1afcbc8f733588abf79d3625ccf238",
+    "manifest_fase2_hash": "f60237bc27383d57b854de04c2fe83650321e9d2ca70fe6ec91085123a61d43b",
+    "perfiles_conceptuales_hash": "7dbba2000fb99eac8f9994700154b1accc58982b59ee39a675d450d391307121",
+    "prototipos_hash": "fe303636d7e99acb254b0b51d9477ec20d9abcb5b8958b0eaa9fd6249c512f82",
+    "similitudes_hash": "a2bf713cd631dbbbae5dbfe8708d032dbe5e522b946e31509b6a1eb90e6a1f49"
+  },
+  "counts": {
+    "n_parcelas": 197,
+    "n_entrenamiento": 138,
+    "n_prediccion": 59,
+    "n_prototipos": 5
+  },
+  "sources": {
+    "predictor": [
+      "predicciones_ui.json",
+      "modelo_final.json",
+      "explicacion_referencia_municipal.csv",
+      "manifest_modelo.json"
+    ],
+    "xai": [
+      "perfiles_conceptuales.csv",
+      "fase2/prototipos.csv",
+      "fase2/similitudes.csv",
+      "manifest_xai.json",
+      "fase2/manifest_fase2.json"
+    ]
+  },
+  "warnings": [
+    "Predictor: prior municipal encogido; no distingue parcelas dentro del mismo municipio.",
+    "Predictor: etiquetas sin año/ciclo; no validado para 2026.",
+    "XAI: ProtoDash optimiza MMD (representatividad distributiva), no explicabilidad causal ni predictiva.",
+    "XAI: Pesos ProtoDash miden representatividad distributiva, no importancia de variables ni contribucion a prediccion.",
+    "XAI: Similitud RBF mide proximidad en espacio conceptual, no probabilidad de mismo rendimiento."
+  ],
+  "validation_status": "PASSED"
+}

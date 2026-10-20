@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "descripcion": "Ejemplo de solicitud de la UI. Basta ID_POLIGONO; loc_municipio es opcional (se usa si el ID no esta en el universo del reto). El tercer registro es ficticio y solo ilustra el caso de municipio no visto.",
+  "parcelas": [
+    {
+      "ID_POLIGONO": "AGC_011"
+    },
+    {
+      "ID_POLIGONO": "AGC_120"
+    },
+    {
+      "ID_POLIGONO": "AGC_EJEMPLO_FICTICIO",
+      "loc_municipio": "MUNICIPIO_EJEMPLO_NO_VISTO"
+    }
+  ]
+}

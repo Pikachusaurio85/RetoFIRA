@@ -1,0 +1,529 @@
+cfg,esquema,municipio,n,RMSE,sesgo
+ref_global,RCV5x10,Calpulalpan,30,1.0298,0.9622
+ref_global,RCV5x10,Chignahuapan,71,0.7859,-0.525
+ref_global,RCV5x10,Singuilucan,16,0.976,0.8778
+ref_global,RCV5x10,Cuautepec de Hinojosa,5,0.6605,-0.6451
+ref_global,RCV5x10,Emiliano Zapata,3,0.4633,0.4624
+ref_global,RCV5x10,Almoloya,10,0.6049,-0.5753
+ref_global,SPA_KM6,Calpulalpan,30,1.15,1.0903
+ref_global,SPA_KM6,Chignahuapan,71,0.9513,-0.7365
+ref_global,SPA_KM6,Singuilucan,16,1.0743,0.9887
+ref_global,SPA_KM6,Cuautepec de Hinojosa,5,0.7867,-0.7751
+ref_global,SPA_KM6,Emiliano Zapata,3,0.6088,0.6088
+ref_global,SPA_KM6,Almoloya,10,0.6396,-0.6141
+ref_global,LMO,Calpulalpan,30,1.2742,1.2207
+ref_global,LMO,Chignahuapan,71,1.2217,-1.0751
+ref_global,LMO,Singuilucan,16,1.0743,0.9887
+ref_global,LMO,Cuautepec de Hinojosa,5,0.6803,-0.6668
+ref_global,LMO,Emiliano Zapata,3,0.4655,0.4655
+ref_global,LMO,Almoloya,10,0.6355,-0.6098
+ref_global,SPA_GRID3B05,Calpulalpan,30,1.0599,0.9927
+ref_global,SPA_GRID3B05,Chignahuapan,71,0.8136,-0.5616
+ref_global,SPA_GRID3B05,Singuilucan,16,1.0354,0.9366
+ref_global,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.646,-0.628
+ref_global,SPA_GRID3B05,Emiliano Zapata,3,0.444,0.4372
+ref_global,SPA_GRID3B05,Almoloya,10,0.6114,-0.5772
+ref_muni,RCV5x10,Calpulalpan,30,0.3916,0.1095
+ref_muni,RCV5x10,Chignahuapan,71,0.591,-0.0259
+ref_muni,RCV5x10,Singuilucan,16,0.48,0.174
+ref_muni,RCV5x10,Cuautepec de Hinojosa,5,0.3317,-0.2967
+ref_muni,RCV5x10,Emiliano Zapata,3,0.3002,0.297
+ref_muni,RCV5x10,Almoloya,10,0.2743,-0.1794
+ref_muni,SPA_KM6,Calpulalpan,30,0.4079,0.1817
+ref_muni,SPA_KM6,Chignahuapan,71,0.644,-0.102
+ref_muni,SPA_KM6,Singuilucan,16,1.0743,0.9887
+ref_muni,SPA_KM6,Cuautepec de Hinojosa,5,0.7867,-0.7751
+ref_muni,SPA_KM6,Emiliano Zapata,3,0.6088,0.6088
+ref_muni,SPA_KM6,Almoloya,10,0.6396,-0.6141
+ref_muni,LMO,Calpulalpan,30,1.2742,1.2207
+ref_muni,LMO,Chignahuapan,71,1.2217,-1.0751
+ref_muni,LMO,Singuilucan,16,1.0743,0.9887
+ref_muni,LMO,Cuautepec de Hinojosa,5,0.6803,-0.6668
+ref_muni,LMO,Emiliano Zapata,3,0.4655,0.4655
+ref_muni,LMO,Almoloya,10,0.6355,-0.6098
+ref_muni,SPA_GRID3B05,Calpulalpan,30,0.3957,0.1218
+ref_muni,SPA_GRID3B05,Chignahuapan,71,0.5951,-0.0258
+ref_muni,SPA_GRID3B05,Singuilucan,16,0.5924,0.3303
+ref_muni,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3849,-0.3583
+ref_muni,SPA_GRID3B05,Emiliano Zapata,3,0.3204,0.3157
+ref_muni,SPA_GRID3B05,Almoloya,10,0.2792,-0.1805
+ref_knn,RCV5x10,Calpulalpan,30,0.4373,0.0204
+ref_knn,RCV5x10,Chignahuapan,71,0.6189,0.0014
+ref_knn,RCV5x10,Singuilucan,16,0.4596,-0.0536
+ref_knn,RCV5x10,Cuautepec de Hinojosa,5,0.2801,-0.0747
+ref_knn,RCV5x10,Emiliano Zapata,3,0.2056,-0.1631
+ref_knn,RCV5x10,Almoloya,10,0.2058,-0.0301
+ref_knn,SPA_KM6,Calpulalpan,30,0.3864,0.03
+ref_knn,SPA_KM6,Chignahuapan,71,0.6117,-0.0061
+ref_knn,SPA_KM6,Singuilucan,16,1.5649,1.5065
+ref_knn,SPA_KM6,Cuautepec de Hinojosa,5,0.6892,-0.3621
+ref_knn,SPA_KM6,Emiliano Zapata,3,0.6071,-0.6071
+ref_knn,SPA_KM6,Almoloya,10,0.2887,-0.1449
+ref_knn,LMO,Calpulalpan,30,0.4213,0.061
+ref_knn,LMO,Chignahuapan,71,0.5828,0.0685
+ref_knn,LMO,Singuilucan,16,1.5649,1.5065
+ref_knn,LMO,Cuautepec de Hinojosa,5,0.2123,-0.1505
+ref_knn,LMO,Emiliano Zapata,3,0.5561,-0.5548
+ref_knn,LMO,Almoloya,10,0.2864,-0.1487
+ref_knn,SPA_GRID3B05,Calpulalpan,30,0.4125,0.0029
+ref_knn,SPA_GRID3B05,Chignahuapan,71,0.6809,-0.041
+ref_knn,SPA_GRID3B05,Singuilucan,16,0.5015,0.0155
+ref_knn,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.2488,-0.1447
+ref_knn,SPA_GRID3B05,Emiliano Zapata,3,0.392,-0.3711
+ref_knn,SPA_GRID3B05,Almoloya,10,0.2242,0.0199
+ref_muni_knnres,RCV5x10,Calpulalpan,30,0.4526,-0.0249
+ref_muni_knnres,RCV5x10,Chignahuapan,71,0.6207,0.0022
+ref_muni_knnres,RCV5x10,Singuilucan,16,0.4644,-0.0716
+ref_muni_knnres,RCV5x10,Cuautepec de Hinojosa,5,0.3324,-0.0765
+ref_muni_knnres,RCV5x10,Emiliano Zapata,3,0.0703,-0.0358
+ref_muni_knnres,RCV5x10,Almoloya,10,0.2084,-0.0135
+ref_muni_knnres,SPA_KM6,Calpulalpan,30,0.3664,-0.0096
+ref_muni_knnres,SPA_KM6,Chignahuapan,71,0.6119,-0.0024
+ref_muni_knnres,SPA_KM6,Singuilucan,16,1.3236,1.2539
+ref_muni_knnres,SPA_KM6,Cuautepec de Hinojosa,5,0.8843,-0.8663
+ref_muni_knnres,SPA_KM6,Emiliano Zapata,3,0.2979,0.2979
+ref_muni_knnres,SPA_KM6,Almoloya,10,0.7324,-0.6831
+ref_muni_knnres,LMO,Calpulalpan,30,0.4706,0.1735
+ref_muni_knnres,LMO,Chignahuapan,71,0.8912,-0.6799
+ref_muni_knnres,LMO,Singuilucan,16,1.3236,1.2539
+ref_muni_knnres,LMO,Cuautepec de Hinojosa,5,0.659,-0.6454
+ref_muni_knnres,LMO,Emiliano Zapata,3,0.266,0.2634
+ref_muni_knnres,LMO,Almoloya,10,0.7156,-0.6445
+ref_muni_knnres,SPA_GRID3B05,Calpulalpan,30,0.4224,-0.0399
+ref_muni_knnres,SPA_GRID3B05,Chignahuapan,71,0.6839,-0.0402
+ref_muni_knnres,SPA_GRID3B05,Singuilucan,16,0.4932,-0.0503
+ref_muni_knnres,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3294,-0.2859
+ref_muni_knnres,SPA_GRID3B05,Emiliano Zapata,3,0.0898,0.0491
+ref_muni_knnres,SPA_GRID3B05,Almoloya,10,0.242,0.0403
+direct|Ridge|SAT,RCV5x10,Calpulalpan,30,0.6875,0.4113
+direct|Ridge|SAT,RCV5x10,Chignahuapan,71,0.6895,-0.1762
+direct|Ridge|SAT,RCV5x10,Singuilucan,16,0.684,0.1716
+direct|Ridge|SAT,RCV5x10,Cuautepec de Hinojosa,5,0.7392,-0.5244
+direct|Ridge|SAT,RCV5x10,Emiliano Zapata,3,0.3449,-0.287
+direct|Ridge|SAT,RCV5x10,Almoloya,10,0.3503,-0.0095
+direct|Ridge|SAT,SPA_KM6,Calpulalpan,30,0.7968,0.5973
+direct|Ridge|SAT,SPA_KM6,Chignahuapan,71,0.8783,-0.6019
+direct|Ridge|SAT,SPA_KM6,Singuilucan,16,0.7537,0.1372
+direct|Ridge|SAT,SPA_KM6,Cuautepec de Hinojosa,5,0.8941,-0.7596
+direct|Ridge|SAT,SPA_KM6,Emiliano Zapata,3,0.1977,-0.1482
+direct|Ridge|SAT,SPA_KM6,Almoloya,10,0.3692,-0.0919
+direct|Ridge|SAT,LMO,Calpulalpan,30,0.9738,0.8762
+direct|Ridge|SAT,LMO,Chignahuapan,71,1.1142,-0.9097
+direct|Ridge|SAT,LMO,Singuilucan,16,0.7537,0.1372
+direct|Ridge|SAT,LMO,Cuautepec de Hinojosa,5,0.7159,-0.5711
+direct|Ridge|SAT,LMO,Emiliano Zapata,3,0.4374,-0.3584
+direct|Ridge|SAT,LMO,Almoloya,10,0.3761,-0.0728
+direct|Ridge|SAT,SPA_GRID3B05,Calpulalpan,30,0.6855,0.4504
+direct|Ridge|SAT,SPA_GRID3B05,Chignahuapan,71,0.7198,-0.2567
+direct|Ridge|SAT,SPA_GRID3B05,Singuilucan,16,0.7325,0.2141
+direct|Ridge|SAT,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.6795,-0.5274
+direct|Ridge|SAT,SPA_GRID3B05,Emiliano Zapata,3,0.2867,-0.2503
+direct|Ridge|SAT,SPA_GRID3B05,Almoloya,10,0.3449,-0.028
+direct|ET|SAT,RCV5x10,Calpulalpan,30,0.6295,0.4087
+direct|ET|SAT,RCV5x10,Chignahuapan,71,0.6937,-0.2282
+direct|ET|SAT,RCV5x10,Singuilucan,16,0.6254,0.3556
+direct|ET|SAT,RCV5x10,Cuautepec de Hinojosa,5,0.6431,-0.4532
+direct|ET|SAT,RCV5x10,Emiliano Zapata,3,0.3285,-0.1779
+direct|ET|SAT,RCV5x10,Almoloya,10,0.2079,-0.0386
+direct|ET|SAT,SPA_KM6,Calpulalpan,30,0.7972,0.6289
+direct|ET|SAT,SPA_KM6,Chignahuapan,71,0.9461,-0.6368
+direct|ET|SAT,SPA_KM6,Singuilucan,16,0.7814,0.5448
+direct|ET|SAT,SPA_KM6,Cuautepec de Hinojosa,5,0.8151,-0.7213
+direct|ET|SAT,SPA_KM6,Emiliano Zapata,3,0.2789,-0.1079
+direct|ET|SAT,SPA_KM6,Almoloya,10,0.2125,-0.049
+direct|ET|SAT,LMO,Calpulalpan,30,0.9615,0.8488
+direct|ET|SAT,LMO,Chignahuapan,71,1.1809,-0.9592
+direct|ET|SAT,LMO,Singuilucan,16,0.7814,0.5448
+direct|ET|SAT,LMO,Cuautepec de Hinojosa,5,0.6862,-0.5744
+direct|ET|SAT,LMO,Emiliano Zapata,3,0.3465,-0.2139
+direct|ET|SAT,LMO,Almoloya,10,0.2213,-0.0444
+direct|ET|SAT,SPA_GRID3B05,Calpulalpan,30,0.664,0.4514
+direct|ET|SAT,SPA_GRID3B05,Chignahuapan,71,0.7384,-0.3086
+direct|ET|SAT,SPA_GRID3B05,Singuilucan,16,0.7242,0.4651
+direct|ET|SAT,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.6317,-0.4891
+direct|ET|SAT,SPA_GRID3B05,Emiliano Zapata,3,0.3585,-0.1727
+direct|ET|SAT,SPA_GRID3B05,Almoloya,10,0.2251,-0.0387
+direct|ET|B1,RCV5x10,Calpulalpan,30,0.6186,0.3969
+direct|ET|B1,RCV5x10,Chignahuapan,71,0.6915,-0.2265
+direct|ET|B1,RCV5x10,Singuilucan,16,0.6211,0.347
+direct|ET|B1,RCV5x10,Cuautepec de Hinojosa,5,0.6474,-0.4543
+direct|ET|B1,RCV5x10,Emiliano Zapata,3,0.3244,-0.1855
+direct|ET|B1,RCV5x10,Almoloya,10,0.1994,-0.0492
+direct|ET|B1,SPA_KM6,Calpulalpan,30,0.7989,0.6222
+direct|ET|B1,SPA_KM6,Chignahuapan,71,0.9393,-0.646
+direct|ET|B1,SPA_KM6,Singuilucan,16,0.7814,0.5388
+direct|ET|B1,SPA_KM6,Cuautepec de Hinojosa,5,0.8316,-0.6929
+direct|ET|B1,SPA_KM6,Emiliano Zapata,3,0.2701,-0.1149
+direct|ET|B1,SPA_KM6,Almoloya,10,0.2024,-0.0913
+direct|ET|B1,LMO,Calpulalpan,30,0.9772,0.8688
+direct|ET|B1,LMO,Chignahuapan,71,1.1759,-0.9593
+direct|ET|B1,LMO,Singuilucan,16,0.7814,0.5388
+direct|ET|B1,LMO,Cuautepec de Hinojosa,5,0.7007,-0.5549
+direct|ET|B1,LMO,Emiliano Zapata,3,0.3472,-0.2036
+direct|ET|B1,LMO,Almoloya,10,0.22,-0.0939
+direct|ET|B1,SPA_GRID3B05,Calpulalpan,30,0.6582,0.4478
+direct|ET|B1,SPA_GRID3B05,Chignahuapan,71,0.737,-0.313
+direct|ET|B1,SPA_GRID3B05,Singuilucan,16,0.7254,0.4748
+direct|ET|B1,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.6471,-0.4942
+direct|ET|B1,SPA_GRID3B05,Emiliano Zapata,3,0.3506,-0.1719
+direct|ET|B1,SPA_GRID3B05,Almoloya,10,0.2067,-0.0512
+direct|ET|ALLNOLOC,RCV5x10,Calpulalpan,30,0.4204,0.0521
+direct|ET|ALLNOLOC,RCV5x10,Chignahuapan,71,0.621,-0.0362
+direct|ET|ALLNOLOC,RCV5x10,Singuilucan,16,0.5103,0.1396
+direct|ET|ALLNOLOC,RCV5x10,Cuautepec de Hinojosa,5,0.4511,-0.2473
+direct|ET|ALLNOLOC,RCV5x10,Emiliano Zapata,3,0.3197,-0.28
+direct|ET|ALLNOLOC,RCV5x10,Almoloya,10,0.228,-0.1644
+direct|ET|ALLNOLOC,SPA_KM6,Calpulalpan,30,0.5031,0.2846
+direct|ET|ALLNOLOC,SPA_KM6,Chignahuapan,71,0.6242,-0.1144
+direct|ET|ALLNOLOC,SPA_KM6,Singuilucan,16,1.4502,1.3762
+direct|ET|ALLNOLOC,SPA_KM6,Cuautepec de Hinojosa,5,0.4675,-0.304
+direct|ET|ALLNOLOC,SPA_KM6,Emiliano Zapata,3,0.1549,-0.0441
+direct|ET|ALLNOLOC,SPA_KM6,Almoloya,10,0.9666,-0.8883
+direct|ET|ALLNOLOC,LMO,Calpulalpan,30,0.449,0.2671
+direct|ET|ALLNOLOC,LMO,Chignahuapan,71,0.8771,-0.6077
+direct|ET|ALLNOLOC,LMO,Singuilucan,16,1.4502,1.3762
+direct|ET|ALLNOLOC,LMO,Cuautepec de Hinojosa,5,0.4419,-0.3204
+direct|ET|ALLNOLOC,LMO,Emiliano Zapata,3,0.4115,-0.3937
+direct|ET|ALLNOLOC,LMO,Almoloya,10,0.8989,-0.8138
+direct|ET|ALLNOLOC,SPA_GRID3B05,Calpulalpan,30,0.4285,0.0649
+direct|ET|ALLNOLOC,SPA_GRID3B05,Chignahuapan,71,0.6293,-0.0158
+direct|ET|ALLNOLOC,SPA_GRID3B05,Singuilucan,16,0.6935,0.3759
+direct|ET|ALLNOLOC,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.416,-0.2878
+direct|ET|ALLNOLOC,SPA_GRID3B05,Emiliano Zapata,3,0.3384,-0.292
+direct|ET|ALLNOLOC,SPA_GRID3B05,Almoloya,10,0.3198,-0.2417
+direct|ET|ALL,RCV5x10,Calpulalpan,30,0.4208,0.0465
+direct|ET|ALL,RCV5x10,Chignahuapan,71,0.6211,-0.0331
+direct|ET|ALL,RCV5x10,Singuilucan,16,0.4956,0.1307
+direct|ET|ALL,RCV5x10,Cuautepec de Hinojosa,5,0.4534,-0.2391
+direct|ET|ALL,RCV5x10,Emiliano Zapata,3,0.3201,-0.2875
+direct|ET|ALL,RCV5x10,Almoloya,10,0.2162,-0.1392
+direct|ET|ALL,SPA_KM6,Calpulalpan,30,0.4981,0.2689
+direct|ET|ALL,SPA_KM6,Chignahuapan,71,0.621,-0.0768
+direct|ET|ALL,SPA_KM6,Singuilucan,16,1.3947,1.3162
+direct|ET|ALL,SPA_KM6,Cuautepec de Hinojosa,5,0.4652,-0.3147
+direct|ET|ALL,SPA_KM6,Emiliano Zapata,3,0.1261,-0.0136
+direct|ET|ALL,SPA_KM6,Almoloya,10,0.7893,-0.7217
+direct|ET|ALL,LMO,Calpulalpan,30,0.4452,0.2522
+direct|ET|ALL,LMO,Chignahuapan,71,0.7314,-0.4094
+direct|ET|ALL,LMO,Singuilucan,16,1.3947,1.3162
+direct|ET|ALL,LMO,Cuautepec de Hinojosa,5,0.4409,-0.3018
+direct|ET|ALL,LMO,Emiliano Zapata,3,0.4074,-0.3975
+direct|ET|ALL,LMO,Almoloya,10,0.7643,-0.6897
+direct|ET|ALL,SPA_GRID3B05,Calpulalpan,30,0.4255,0.0588
+direct|ET|ALL,SPA_GRID3B05,Chignahuapan,71,0.6286,-0.0138
+direct|ET|ALL,SPA_GRID3B05,Singuilucan,16,0.6582,0.3452
+direct|ET|ALL,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.4056,-0.27
+direct|ET|ALL,SPA_GRID3B05,Emiliano Zapata,3,0.3401,-0.3004
+direct|ET|ALL,SPA_GRID3B05,Almoloya,10,0.3036,-0.2115
+direct|ET|LOC,RCV5x10,Calpulalpan,30,0.4053,0.1213
+direct|ET|LOC,RCV5x10,Chignahuapan,71,0.5852,-0.0715
+direct|ET|LOC,RCV5x10,Singuilucan,16,0.5651,0.3452
+direct|ET|LOC,RCV5x10,Cuautepec de Hinojosa,5,0.4535,-0.4023
+direct|ET|LOC,RCV5x10,Emiliano Zapata,3,0.2531,-0.2477
+direct|ET|LOC,RCV5x10,Almoloya,10,0.2877,-0.2193
+direct|ET|LOC,SPA_KM6,Calpulalpan,30,0.4126,0.1863
+direct|ET|LOC,SPA_KM6,Chignahuapan,71,0.6255,-0.1497
+direct|ET|LOC,SPA_KM6,Singuilucan,16,1.3048,1.2311
+direct|ET|LOC,SPA_KM6,Cuautepec de Hinojosa,5,0.4491,-0.415
+direct|ET|LOC,SPA_KM6,Emiliano Zapata,3,0.295,-0.2925
+direct|ET|LOC,SPA_KM6,Almoloya,10,0.4662,-0.4337
+direct|ET|LOC,LMO,Calpulalpan,30,0.6157,0.4952
+direct|ET|LOC,LMO,Chignahuapan,71,0.5948,-0.1218
+direct|ET|LOC,LMO,Singuilucan,16,1.3048,1.2311
+direct|ET|LOC,LMO,Cuautepec de Hinojosa,5,0.4576,-0.4221
+direct|ET|LOC,LMO,Emiliano Zapata,3,0.3297,-0.3262
+direct|ET|LOC,LMO,Almoloya,10,0.4699,-0.4368
+direct|ET|LOC,SPA_GRID3B05,Calpulalpan,30,0.4045,0.1263
+direct|ET|LOC,SPA_GRID3B05,Chignahuapan,71,0.5903,-0.0765
+direct|ET|LOC,SPA_GRID3B05,Singuilucan,16,0.6735,0.4683
+direct|ET|LOC,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.4676,-0.4288
+direct|ET|LOC,SPA_GRID3B05,Emiliano Zapata,3,0.3023,-0.2921
+direct|ET|LOC,SPA_GRID3B05,Almoloya,10,0.292,-0.2393
+direct|ET|CLIM,RCV5x10,Calpulalpan,30,0.4345,0.0209
+direct|ET|CLIM,RCV5x10,Chignahuapan,71,0.59,0.0087
+direct|ET|CLIM,RCV5x10,Singuilucan,16,0.5659,0.1213
+direct|ET|CLIM,RCV5x10,Cuautepec de Hinojosa,5,0.4369,-0.3288
+direct|ET|CLIM,RCV5x10,Emiliano Zapata,3,0.2324,-0.211
+direct|ET|CLIM,RCV5x10,Almoloya,10,0.2506,-0.1401
+direct|ET|CLIM,SPA_KM6,Calpulalpan,30,0.4554,0.2499
+direct|ET|CLIM,SPA_KM6,Chignahuapan,71,0.6264,0.0295
+direct|ET|CLIM,SPA_KM6,Singuilucan,16,1.4138,1.348
+direct|ET|CLIM,SPA_KM6,Cuautepec de Hinojosa,5,0.4715,-0.3555
+direct|ET|CLIM,SPA_KM6,Emiliano Zapata,3,0.0795,-0.0224
+direct|ET|CLIM,SPA_KM6,Almoloya,10,1.0063,-0.9293
+direct|ET|CLIM,LMO,Calpulalpan,30,0.4478,0.2563
+direct|ET|CLIM,LMO,Chignahuapan,71,0.5802,0.0344
+direct|ET|CLIM,LMO,Singuilucan,16,1.4138,1.348
+direct|ET|CLIM,LMO,Cuautepec de Hinojosa,5,0.5906,-0.54
+direct|ET|CLIM,LMO,Emiliano Zapata,3,0.3907,-0.3716
+direct|ET|CLIM,LMO,Almoloya,10,0.854,-0.79
+direct|ET|CLIM,SPA_GRID3B05,Calpulalpan,30,0.4369,0.0323
+direct|ET|CLIM,SPA_GRID3B05,Chignahuapan,71,0.5918,0.027
+direct|ET|CLIM,SPA_GRID3B05,Singuilucan,16,0.6687,0.2768
+direct|ET|CLIM,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.5201,-0.4692
+direct|ET|CLIM,SPA_GRID3B05,Emiliano Zapata,3,0.3311,-0.2843
+direct|ET|CLIM,SPA_GRID3B05,Almoloya,10,0.3515,-0.2235
+direct|CB|ALL,RCV5x10,Calpulalpan,30,0.4525,0.1156
+direct|CB|ALL,RCV5x10,Chignahuapan,71,0.6598,-0.0743
+direct|CB|ALL,RCV5x10,Singuilucan,16,0.5247,0.2063
+direct|CB|ALL,RCV5x10,Cuautepec de Hinojosa,5,0.4985,-0.3234
+direct|CB|ALL,RCV5x10,Emiliano Zapata,3,0.3002,-0.234
+direct|CB|ALL,RCV5x10,Almoloya,10,0.2214,-0.1247
+direct|CB|ALL,SPA_KM6,Calpulalpan,30,0.6778,0.4959
+direct|CB|ALL,SPA_KM6,Chignahuapan,71,0.6984,-0.2613
+direct|CB|ALL,SPA_KM6,Singuilucan,16,1.1353,1.0072
+direct|CB|ALL,SPA_KM6,Cuautepec de Hinojosa,5,0.489,-0.2449
+direct|CB|ALL,SPA_KM6,Emiliano Zapata,3,0.2205,0.1421
+direct|CB|ALL,SPA_KM6,Almoloya,10,0.6653,-0.6037
+direct|CB|ALL,LMO,Calpulalpan,30,0.5979,0.4692
+direct|CB|ALL,LMO,Chignahuapan,71,0.8426,-0.5715
+direct|CB|ALL,LMO,Singuilucan,16,1.1353,1.0072
+direct|CB|ALL,LMO,Cuautepec de Hinojosa,5,0.5204,-0.4306
+direct|CB|ALL,LMO,Emiliano Zapata,3,0.3998,-0.3396
+direct|CB|ALL,LMO,Almoloya,10,0.3695,-0.3062
+direct|CB|ALL,SPA_GRID3B05,Calpulalpan,30,0.4497,0.1407
+direct|CB|ALL,SPA_GRID3B05,Chignahuapan,71,0.6606,-0.0928
+direct|CB|ALL,SPA_GRID3B05,Singuilucan,16,0.7394,0.4802
+direct|CB|ALL,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.4753,-0.3451
+direct|CB|ALL,SPA_GRID3B05,Emiliano Zapata,3,0.3159,-0.2477
+direct|CB|ALL,SPA_GRID3B05,Almoloya,10,0.2707,-0.183
+direct|CB|SAT,RCV5x10,Calpulalpan,30,0.6513,0.4022
+direct|CB|SAT,RCV5x10,Chignahuapan,71,0.7302,-0.2153
+direct|CB|SAT,RCV5x10,Singuilucan,16,0.6317,0.2789
+direct|CB|SAT,RCV5x10,Cuautepec de Hinojosa,5,0.6627,-0.4769
+direct|CB|SAT,RCV5x10,Emiliano Zapata,3,0.3664,-0.1415
+direct|CB|SAT,RCV5x10,Almoloya,10,0.2259,-0.055
+direct|CB|SAT,SPA_KM6,Calpulalpan,30,0.8075,0.633
+direct|CB|SAT,SPA_KM6,Chignahuapan,71,0.9722,-0.6619
+direct|CB|SAT,SPA_KM6,Singuilucan,16,0.7823,0.4308
+direct|CB|SAT,SPA_KM6,Cuautepec de Hinojosa,5,0.8797,-0.7339
+direct|CB|SAT,SPA_KM6,Emiliano Zapata,3,0.3063,-0.1007
+direct|CB|SAT,SPA_KM6,Almoloya,10,0.2489,-0.006
+direct|CB|SAT,LMO,Calpulalpan,30,1.0262,0.9101
+direct|CB|SAT,LMO,Chignahuapan,71,1.1853,-0.9562
+direct|CB|SAT,LMO,Singuilucan,16,0.7823,0.4308
+direct|CB|SAT,LMO,Cuautepec de Hinojosa,5,0.7442,-0.5552
+direct|CB|SAT,LMO,Emiliano Zapata,3,0.3815,-0.2197
+direct|CB|SAT,LMO,Almoloya,10,0.2267,-0.0043
+direct|CB|SAT,SPA_GRID3B05,Calpulalpan,30,0.6799,0.4468
+direct|CB|SAT,SPA_GRID3B05,Chignahuapan,71,0.7516,-0.2852
+direct|CB|SAT,SPA_GRID3B05,Singuilucan,16,0.742,0.4016
+direct|CB|SAT,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.7129,-0.5571
+direct|CB|SAT,SPA_GRID3B05,Emiliano Zapata,3,0.4024,-0.1387
+direct|CB|SAT,SPA_GRID3B05,Almoloya,10,0.2374,-0.0362
+resid_muni|Ridge|CUR,RCV5x10,Calpulalpan,30,0.3854,0.0125
+resid_muni|Ridge|CUR,RCV5x10,Chignahuapan,71,0.5738,-0.0215
+resid_muni|Ridge|CUR,RCV5x10,Singuilucan,16,0.4779,0.0849
+resid_muni|Ridge|CUR,RCV5x10,Cuautepec de Hinojosa,5,0.3573,-0.23
+resid_muni|Ridge|CUR,RCV5x10,Emiliano Zapata,3,0.1341,0.1197
+resid_muni|Ridge|CUR,RCV5x10,Almoloya,10,0.2297,-0.1281
+resid_muni|Ridge|CUR,SPA_KM6,Calpulalpan,30,0.379,0.0684
+resid_muni|Ridge|CUR,SPA_KM6,Chignahuapan,71,0.635,-0.1098
+resid_muni|Ridge|CUR,SPA_KM6,Singuilucan,16,0.9765,0.8543
+resid_muni|Ridge|CUR,SPA_KM6,Cuautepec de Hinojosa,5,0.7686,-0.7478
+resid_muni|Ridge|CUR,SPA_KM6,Emiliano Zapata,3,0.476,0.4741
+resid_muni|Ridge|CUR,SPA_KM6,Almoloya,10,0.626,-0.6048
+resid_muni|Ridge|CUR,LMO,Calpulalpan,30,1.1152,1.0507
+resid_muni|Ridge|CUR,LMO,Chignahuapan,71,1.1724,-1.0212
+resid_muni|Ridge|CUR,LMO,Singuilucan,16,0.9765,0.8543
+resid_muni|Ridge|CUR,LMO,Cuautepec de Hinojosa,5,0.6575,-0.6128
+resid_muni|Ridge|CUR,LMO,Emiliano Zapata,3,0.3232,0.3212
+resid_muni|Ridge|CUR,LMO,Almoloya,10,0.5969,-0.5763
+resid_muni|Ridge|CUR,SPA_GRID3B05,Calpulalpan,30,0.381,0.0227
+resid_muni|Ridge|CUR,SPA_GRID3B05,Chignahuapan,71,0.5813,-0.0078
+resid_muni|Ridge|CUR,SPA_GRID3B05,Singuilucan,16,0.5568,0.2199
+resid_muni|Ridge|CUR,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3795,-0.3001
+resid_muni|Ridge|CUR,SPA_GRID3B05,Emiliano Zapata,3,0.195,0.1778
+resid_muni|Ridge|CUR,SPA_GRID3B05,Almoloya,10,0.241,-0.1308
+resid_muni|Ridge|SAT,RCV5x10,Calpulalpan,30,0.3797,0.0308
+resid_muni|Ridge|SAT,RCV5x10,Chignahuapan,71,0.5907,-0.0265
+resid_muni|Ridge|SAT,RCV5x10,Singuilucan,16,0.4736,0.0666
+resid_muni|Ridge|SAT,RCV5x10,Cuautepec de Hinojosa,5,0.3532,-0.2689
+resid_muni|Ridge|SAT,RCV5x10,Emiliano Zapata,3,0.1569,0.1484
+resid_muni|Ridge|SAT,RCV5x10,Almoloya,10,0.2383,-0.1362
+resid_muni|Ridge|SAT,SPA_KM6,Calpulalpan,30,0.3796,0.0892
+resid_muni|Ridge|SAT,SPA_KM6,Chignahuapan,71,0.6326,-0.0953
+resid_muni|Ridge|SAT,SPA_KM6,Singuilucan,16,0.9595,0.8349
+resid_muni|Ridge|SAT,SPA_KM6,Cuautepec de Hinojosa,5,0.7712,-0.7518
+resid_muni|Ridge|SAT,SPA_KM6,Emiliano Zapata,3,0.4915,0.4906
+resid_muni|Ridge|SAT,SPA_KM6,Almoloya,10,0.6405,-0.6192
+resid_muni|Ridge|SAT,LMO,Calpulalpan,30,1.1495,1.0899
+resid_muni|Ridge|SAT,LMO,Chignahuapan,71,1.1576,-1.0036
+resid_muni|Ridge|SAT,LMO,Singuilucan,16,0.9595,0.8349
+resid_muni|Ridge|SAT,LMO,Cuautepec de Hinojosa,5,0.6737,-0.642
+resid_muni|Ridge|SAT,LMO,Emiliano Zapata,3,0.3455,0.3441
+resid_muni|Ridge|SAT,LMO,Almoloya,10,0.6274,-0.6059
+resid_muni|Ridge|SAT,SPA_GRID3B05,Calpulalpan,30,0.3785,0.0339
+resid_muni|Ridge|SAT,SPA_GRID3B05,Chignahuapan,71,0.5939,-0.02
+resid_muni|Ridge|SAT,SPA_GRID3B05,Singuilucan,16,0.5506,0.195
+resid_muni|Ridge|SAT,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.388,-0.3397
+resid_muni|Ridge|SAT,SPA_GRID3B05,Emiliano Zapata,3,0.2009,0.1927
+resid_muni|Ridge|SAT,SPA_GRID3B05,Almoloya,10,0.2317,-0.1268
+resid_muni|ET|SAT,RCV5x10,Calpulalpan,30,0.3954,-0.009
+resid_muni|ET|SAT,RCV5x10,Chignahuapan,71,0.6141,-0.0431
+resid_muni|ET|SAT,RCV5x10,Singuilucan,16,0.4248,0.067
+resid_muni|ET|SAT,RCV5x10,Cuautepec de Hinojosa,5,0.3706,-0.1961
+resid_muni|ET|SAT,RCV5x10,Emiliano Zapata,3,0.1183,0.1001
+resid_muni|ET|SAT,RCV5x10,Almoloya,10,0.2135,-0.0373
+resid_muni|ET|SAT,SPA_KM6,Calpulalpan,30,0.3995,0.0785
+resid_muni|ET|SAT,SPA_KM6,Chignahuapan,71,0.6269,-0.0939
+resid_muni|ET|SAT,SPA_KM6,Singuilucan,16,0.981,0.8572
+resid_muni|ET|SAT,SPA_KM6,Cuautepec de Hinojosa,5,0.748,-0.6968
+resid_muni|ET|SAT,SPA_KM6,Emiliano Zapata,3,0.4585,0.4546
+resid_muni|ET|SAT,SPA_KM6,Almoloya,10,0.5396,-0.5065
+resid_muni|ET|SAT,LMO,Calpulalpan,30,1.1174,1.0528
+resid_muni|ET|SAT,LMO,Chignahuapan,71,1.1662,-1.0068
+resid_muni|ET|SAT,LMO,Singuilucan,16,0.981,0.8572
+resid_muni|ET|SAT,LMO,Cuautepec de Hinojosa,5,0.6593,-0.5788
+resid_muni|ET|SAT,LMO,Emiliano Zapata,3,0.3618,0.3587
+resid_muni|ET|SAT,LMO,Almoloya,10,0.5469,-0.5166
+resid_muni|ET|SAT,SPA_GRID3B05,Calpulalpan,30,0.3981,-0.0079
+resid_muni|ET|SAT,SPA_GRID3B05,Chignahuapan,71,0.6179,-0.033
+resid_muni|ET|SAT,SPA_GRID3B05,Singuilucan,16,0.5384,0.2277
+resid_muni|ET|SAT,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3707,-0.2573
+resid_muni|ET|SAT,SPA_GRID3B05,Emiliano Zapata,3,0.1615,0.1486
+resid_muni|ET|SAT,SPA_GRID3B05,Almoloya,10,0.2116,-0.0313
+resid_muni|ET|ALLNOLOC,RCV5x10,Calpulalpan,30,0.4045,-0.0435
+resid_muni|ET|ALLNOLOC,RCV5x10,Chignahuapan,71,0.6206,-0.0251
+resid_muni|ET|ALLNOLOC,RCV5x10,Singuilucan,16,0.4232,0.0619
+resid_muni|ET|ALLNOLOC,RCV5x10,Cuautepec de Hinojosa,5,0.3642,-0.1821
+resid_muni|ET|ALLNOLOC,RCV5x10,Emiliano Zapata,3,0.0976,0.0745
+resid_muni|ET|ALLNOLOC,RCV5x10,Almoloya,10,0.1982,-0.0426
+resid_muni|ET|ALLNOLOC,SPA_KM6,Calpulalpan,30,0.3931,0.0005
+resid_muni|ET|ALLNOLOC,SPA_KM6,Chignahuapan,71,0.6222,-0.0918
+resid_muni|ET|ALLNOLOC,SPA_KM6,Singuilucan,16,0.9902,0.8784
+resid_muni|ET|ALLNOLOC,SPA_KM6,Cuautepec de Hinojosa,5,0.7255,-0.6705
+resid_muni|ET|ALLNOLOC,SPA_KM6,Emiliano Zapata,3,0.452,0.4498
+resid_muni|ET|ALLNOLOC,SPA_KM6,Almoloya,10,0.5891,-0.5617
+resid_muni|ET|ALLNOLOC,LMO,Calpulalpan,30,0.5235,0.3681
+resid_muni|ET|ALLNOLOC,LMO,Chignahuapan,71,1.071,-0.8963
+resid_muni|ET|ALLNOLOC,LMO,Singuilucan,16,0.9902,0.8784
+resid_muni|ET|ALLNOLOC,LMO,Cuautepec de Hinojosa,5,0.6525,-0.588
+resid_muni|ET|ALLNOLOC,LMO,Emiliano Zapata,3,0.3233,0.3197
+resid_muni|ET|ALLNOLOC,LMO,Almoloya,10,0.5539,-0.5339
+resid_muni|ET|ALLNOLOC,SPA_GRID3B05,Calpulalpan,30,0.4071,-0.0541
+resid_muni|ET|ALLNOLOC,SPA_GRID3B05,Chignahuapan,71,0.6208,-0.0165
+resid_muni|ET|ALLNOLOC,SPA_GRID3B05,Singuilucan,16,0.5318,0.229
+resid_muni|ET|ALLNOLOC,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3574,-0.2408
+resid_muni|ET|ALLNOLOC,SPA_GRID3B05,Emiliano Zapata,3,0.1479,0.1342
+resid_muni|ET|ALLNOLOC,SPA_GRID3B05,Almoloya,10,0.2085,-0.0466
+resid_muni|ET|ALL,RCV5x10,Calpulalpan,30,0.4086,-0.0431
+resid_muni|ET|ALL,RCV5x10,Chignahuapan,71,0.6183,-0.027
+resid_muni|ET|ALL,RCV5x10,Singuilucan,16,0.4191,0.0645
+resid_muni|ET|ALL,RCV5x10,Cuautepec de Hinojosa,5,0.3631,-0.1796
+resid_muni|ET|ALL,RCV5x10,Emiliano Zapata,3,0.0972,0.0796
+resid_muni|ET|ALL,RCV5x10,Almoloya,10,0.2008,-0.0489
+resid_muni|ET|ALL,SPA_KM6,Calpulalpan,30,0.4014,0.0184
+resid_muni|ET|ALL,SPA_KM6,Chignahuapan,71,0.6186,-0.0887
+resid_muni|ET|ALL,SPA_KM6,Singuilucan,16,0.9878,0.8754
+resid_muni|ET|ALL,SPA_KM6,Cuautepec de Hinojosa,5,0.72,-0.664
+resid_muni|ET|ALL,SPA_KM6,Emiliano Zapata,3,0.4695,0.4658
+resid_muni|ET|ALL,SPA_KM6,Almoloya,10,0.6117,-0.5887
+resid_muni|ET|ALL,LMO,Calpulalpan,30,0.5122,0.3526
+resid_muni|ET|ALL,LMO,Chignahuapan,71,1.0364,-0.8567
+resid_muni|ET|ALL,LMO,Singuilucan,16,0.9878,0.8754
+resid_muni|ET|ALL,LMO,Cuautepec de Hinojosa,5,0.6414,-0.5776
+resid_muni|ET|ALL,LMO,Emiliano Zapata,3,0.3241,0.3231
+resid_muni|ET|ALL,LMO,Almoloya,10,0.5639,-0.5439
+resid_muni|ET|ALL,SPA_GRID3B05,Calpulalpan,30,0.4025,-0.0518
+resid_muni|ET|ALL,SPA_GRID3B05,Chignahuapan,71,0.6216,-0.0184
+resid_muni|ET|ALL,SPA_GRID3B05,Singuilucan,16,0.5324,0.229
+resid_muni|ET|ALL,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3654,-0.2466
+resid_muni|ET|ALL,SPA_GRID3B05,Emiliano Zapata,3,0.1462,0.1349
+resid_muni|ET|ALL,SPA_GRID3B05,Almoloya,10,0.2096,-0.0448
+resid_muni|ET|CUR,RCV5x10,Calpulalpan,30,0.3826,0.0077
+resid_muni|ET|CUR,RCV5x10,Chignahuapan,71,0.6009,-0.0363
+resid_muni|ET|CUR,RCV5x10,Singuilucan,16,0.4181,0.0711
+resid_muni|ET|CUR,RCV5x10,Cuautepec de Hinojosa,5,0.3587,-0.1317
+resid_muni|ET|CUR,RCV5x10,Emiliano Zapata,3,0.1254,0.098
+resid_muni|ET|CUR,RCV5x10,Almoloya,10,0.1931,-0.0945
+resid_muni|ET|CUR,SPA_KM6,Calpulalpan,30,0.3908,0.0694
+resid_muni|ET|CUR,SPA_KM6,Chignahuapan,71,0.5978,-0.0828
+resid_muni|ET|CUR,SPA_KM6,Singuilucan,16,0.9607,0.8403
+resid_muni|ET|CUR,SPA_KM6,Cuautepec de Hinojosa,5,0.6513,-0.5901
+resid_muni|ET|CUR,SPA_KM6,Emiliano Zapata,3,0.5289,0.5288
+resid_muni|ET|CUR,SPA_KM6,Almoloya,10,0.6263,-0.609
+resid_muni|ET|CUR,LMO,Calpulalpan,30,1.0623,0.997
+resid_muni|ET|CUR,LMO,Chignahuapan,71,1.1868,-1.0354
+resid_muni|ET|CUR,LMO,Singuilucan,16,0.9607,0.8403
+resid_muni|ET|CUR,LMO,Cuautepec de Hinojosa,5,0.5733,-0.4651
+resid_muni|ET|CUR,LMO,Emiliano Zapata,3,0.3237,0.3181
+resid_muni|ET|CUR,LMO,Almoloya,10,0.5869,-0.5691
+resid_muni|ET|CUR,SPA_GRID3B05,Calpulalpan,30,0.3849,0.0102
+resid_muni|ET|CUR,SPA_GRID3B05,Chignahuapan,71,0.5925,-0.0123
+resid_muni|ET|CUR,SPA_GRID3B05,Singuilucan,16,0.5245,0.22
+resid_muni|ET|CUR,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.3466,-0.1806
+resid_muni|ET|CUR,SPA_GRID3B05,Emiliano Zapata,3,0.1558,0.1312
+resid_muni|ET|CUR,SPA_GRID3B05,Almoloya,10,0.2202,-0.1
+resid_muni|CB|ALL,RCV5x10,Calpulalpan,30,0.4276,-0.036
+resid_muni|CB|ALL,RCV5x10,Chignahuapan,71,0.6516,-0.0468
+resid_muni|CB|ALL,RCV5x10,Singuilucan,16,0.4078,0.0497
+resid_muni|CB|ALL,RCV5x10,Cuautepec de Hinojosa,5,0.3853,-0.2484
+resid_muni|CB|ALL,RCV5x10,Emiliano Zapata,3,0.1289,0.0783
+resid_muni|CB|ALL,RCV5x10,Almoloya,10,0.1942,-0.0682
+resid_muni|CB|ALL,SPA_KM6,Calpulalpan,30,0.4108,0.0321
+resid_muni|CB|ALL,SPA_KM6,Chignahuapan,71,0.6555,-0.131
+resid_muni|CB|ALL,SPA_KM6,Singuilucan,16,1.0235,0.8855
+resid_muni|CB|ALL,SPA_KM6,Cuautepec de Hinojosa,5,0.749,-0.7127
+resid_muni|CB|ALL,SPA_KM6,Emiliano Zapata,3,0.5269,0.5176
+resid_muni|CB|ALL,SPA_KM6,Almoloya,10,0.56,-0.5404
+resid_muni|CB|ALL,LMO,Calpulalpan,30,0.7864,0.7012
+resid_muni|CB|ALL,LMO,Chignahuapan,71,1.1227,-0.9505
+resid_muni|CB|ALL,LMO,Singuilucan,16,1.0235,0.8855
+resid_muni|CB|ALL,LMO,Cuautepec de Hinojosa,5,0.6764,-0.6232
+resid_muni|CB|ALL,LMO,Emiliano Zapata,3,0.3145,0.2958
+resid_muni|CB|ALL,LMO,Almoloya,10,0.5156,-0.491
+resid_muni|CB|ALL,SPA_GRID3B05,Calpulalpan,30,0.4169,-0.0254
+resid_muni|CB|ALL,SPA_GRID3B05,Chignahuapan,71,0.6544,-0.0381
+resid_muni|CB|ALL,SPA_GRID3B05,Singuilucan,16,0.5256,0.226
+resid_muni|CB|ALL,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.4006,-0.3081
+resid_muni|CB|ALL,SPA_GRID3B05,Emiliano Zapata,3,0.1662,0.133
+resid_muni|CB|ALL,SPA_GRID3B05,Almoloya,10,0.1935,-0.0402
+resid_muni|CB|SAT,RCV5x10,Calpulalpan,30,0.4158,-0.0035
+resid_muni|CB|SAT,RCV5x10,Chignahuapan,71,0.6471,-0.0519
+resid_muni|CB|SAT,RCV5x10,Singuilucan,16,0.4199,0.0468
+resid_muni|CB|SAT,RCV5x10,Cuautepec de Hinojosa,5,0.3807,-0.2539
+resid_muni|CB|SAT,RCV5x10,Emiliano Zapata,3,0.14,0.0896
+resid_muni|CB|SAT,RCV5x10,Almoloya,10,0.1819,-0.0393
+resid_muni|CB|SAT,SPA_KM6,Calpulalpan,30,0.413,0.0939
+resid_muni|CB|SAT,SPA_KM6,Chignahuapan,71,0.6424,-0.1083
+resid_muni|CB|SAT,SPA_KM6,Singuilucan,16,1.0078,0.8718
+resid_muni|CB|SAT,SPA_KM6,Cuautepec de Hinojosa,5,0.8217,-0.7801
+resid_muni|CB|SAT,SPA_KM6,Emiliano Zapata,3,0.5353,0.5277
+resid_muni|CB|SAT,SPA_KM6,Almoloya,10,0.5522,-0.5203
+resid_muni|CB|SAT,LMO,Calpulalpan,30,1.1425,1.0744
+resid_muni|CB|SAT,LMO,Chignahuapan,71,1.1832,-1.0255
+resid_muni|CB|SAT,LMO,Singuilucan,16,1.0078,0.8718
+resid_muni|CB|SAT,LMO,Cuautepec de Hinojosa,5,0.6892,-0.6454
+resid_muni|CB|SAT,LMO,Emiliano Zapata,3,0.3404,0.3379
+resid_muni|CB|SAT,LMO,Almoloya,10,0.5067,-0.4845
+resid_muni|CB|SAT,SPA_GRID3B05,Calpulalpan,30,0.408,0.0045
+resid_muni|CB|SAT,SPA_GRID3B05,Chignahuapan,71,0.6469,-0.0397
+resid_muni|CB|SAT,SPA_GRID3B05,Singuilucan,16,0.519,0.2129
+resid_muni|CB|SAT,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.4221,-0.3414
+resid_muni|CB|SAT,SPA_GRID3B05,Emiliano Zapata,3,0.1762,0.147
+resid_muni|CB|SAT,SPA_GRID3B05,Almoloya,10,0.189,-0.0184
+resid_muni|ET|CLIM,RCV5x10,Calpulalpan,30,0.4353,-0.072
+resid_muni|ET|CLIM,RCV5x10,Chignahuapan,71,0.5919,0.0185
+resid_muni|ET|CLIM,RCV5x10,Singuilucan,16,0.504,0.0548
+resid_muni|ET|CLIM,RCV5x10,Cuautepec de Hinojosa,5,0.3689,-0.2863
+resid_muni|ET|CLIM,RCV5x10,Emiliano Zapata,3,0.0785,0.0012
+resid_muni|ET|CLIM,RCV5x10,Almoloya,10,0.2346,-0.0364
+resid_muni|ET|CLIM,SPA_KM6,Calpulalpan,30,0.37,-0.0468
+resid_muni|ET|CLIM,SPA_KM6,Chignahuapan,71,0.6304,0.0646
+resid_muni|ET|CLIM,SPA_KM6,Singuilucan,16,1.1299,1.0488
+resid_muni|ET|CLIM,SPA_KM6,Cuautepec de Hinojosa,5,0.7692,-0.7547
+resid_muni|ET|CLIM,SPA_KM6,Emiliano Zapata,3,0.4712,0.4712
+resid_muni|ET|CLIM,SPA_KM6,Almoloya,10,0.7479,-0.7275
+resid_muni|ET|CLIM,LMO,Calpulalpan,30,0.5294,0.3815
+resid_muni|ET|CLIM,LMO,Chignahuapan,71,0.8606,-0.6247
+resid_muni|ET|CLIM,LMO,Singuilucan,16,1.1299,1.0488
+resid_muni|ET|CLIM,LMO,Cuautepec de Hinojosa,5,0.7736,-0.7552
+resid_muni|ET|CLIM,LMO,Emiliano Zapata,3,0.2758,0.2739
+resid_muni|ET|CLIM,LMO,Almoloya,10,0.6846,-0.6619
+resid_muni|ET|CLIM,SPA_GRID3B05,Calpulalpan,30,0.4176,-0.0714
+resid_muni|ET|CLIM,SPA_GRID3B05,Chignahuapan,71,0.595,0.0416
+resid_muni|ET|CLIM,SPA_GRID3B05,Singuilucan,16,0.5491,0.1712
+resid_muni|ET|CLIM,SPA_GRID3B05,Cuautepec de Hinojosa,5,0.4732,-0.4467
+resid_muni|ET|CLIM,SPA_GRID3B05,Emiliano Zapata,3,0.1072,0.0608
+resid_muni|ET|CLIM,SPA_GRID3B05,Almoloya,10,0.2402,-0.0462

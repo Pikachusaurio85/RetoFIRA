@@ -1,0 +1,849 @@
+
+===== SCREEN B0 (vif=None) =====
+[B0/screen] rep0 fold0 rmse=0.5424 mae=0.3835 rhat=1.013 ess=282 div=0 5.0s
+[B0/screen] rep0 fold1 rmse=0.4146 mae=0.3072 rhat=1.005 ess=250 div=0 4.3s
+[B0/screen] rep0 fold2 rmse=0.4815 mae=0.2816 rhat=1.015 ess=191 div=0 4.9s
+[B0/screen] rep0 fold3 rmse=0.5965 mae=0.3585 rhat=1.012 ess=195 div=0 5.3s
+[B0/screen] rep0 fold4 rmse=0.4985 mae=0.3555 rhat=1.009 ess=228 div=0 4.5s
+[B0/screen] rep1 fold0 rmse=0.4504 mae=0.2904 rhat=1.008 ess=275 div=0 3.8s
+[B0/screen] rep1 fold1 rmse=0.6216 mae=0.3860 rhat=1.007 ess=237 div=0 4.4s
+[B0/screen] rep1 fold2 rmse=0.5887 mae=0.4263 rhat=1.012 ess=232 div=0 4.6s
+[B0/screen] rep1 fold3 rmse=0.4547 mae=0.3149 rhat=1.012 ess=286 div=0 4.3s
+[B0/screen] rep1 fold4 rmse=0.3698 mae=0.2656 rhat=1.013 ess=265 div=0 3.8s
+[B0/screen] rep2 fold0 rmse=0.5335 mae=0.3242 rhat=1.011 ess=228 div=0 4.5s
+[B0/screen] rep2 fold1 rmse=0.4202 mae=0.2720 rhat=1.011 ess=302 div=0 4.5s
+[B0/screen] rep2 fold2 rmse=0.5287 mae=0.4119 rhat=1.011 ess=235 div=0 3.8s
+[B0/screen] rep2 fold3 rmse=0.5001 mae=0.3673 rhat=1.029 ess=199 div=0 4.2s
+[B0/screen] rep2 fold4 rmse=0.5865 mae=0.3737 rhat=1.009 ess=227 div=0 4.5s
+[B0/screen] rep3 fold0 rmse=0.3165 mae=0.2327 rhat=1.011 ess=297 div=0 4.6s
+[B0/screen] rep3 fold1 rmse=0.5563 mae=0.3953 rhat=1.017 ess=280 div=0 4.2s
+[B0/screen] rep3 fold2 rmse=0.5440 mae=0.3720 rhat=1.026 ess=170 div=0 4.4s
+[B0/screen] rep3 fold3 rmse=0.6022 mae=0.3682 rhat=1.012 ess=205 div=0 4.8s
+[B0/screen] rep3 fold4 rmse=0.4977 mae=0.3499 rhat=1.010 ess=252 div=0 4.3s
+[B0/screen] rep4 fold0 rmse=0.4836 mae=0.3767 rhat=1.004 ess=243 div=0 4.0s
+[B0/screen] rep4 fold1 rmse=0.3748 mae=0.2502 rhat=1.012 ess=256 div=0 4.2s
+[B0/screen] rep4 fold2 rmse=0.4455 mae=0.3129 rhat=1.014 ess=203 div=0 4.0s
+[B0/screen] rep4 fold3 rmse=0.4924 mae=0.3609 rhat=1.012 ess=157 div=0 4.2s
+[B0/screen] rep4 fold4 rmse=0.7265 mae=0.4166 rhat=1.017 ess=154 div=0 4.6s
+
+===== SCREEN B3 (vif=None) =====
+[B3/screen] rep0 fold0 rmse=0.5233 mae=0.3689 rhat=1.006 ess=374 div=0 5.4s
+[B3/screen] rep0 fold1 rmse=0.4083 mae=0.3227 rhat=1.028 ess=177 div=0 4.8s
+[B3/screen] rep0 fold2 rmse=0.4772 mae=0.3090 rhat=1.010 ess=289 div=0 5.1s
+[B3/screen] rep0 fold3 rmse=0.6143 mae=0.4158 rhat=1.014 ess=267 div=0 4.9s
+[B3/screen] rep0 fold4 rmse=0.4963 mae=0.3759 rhat=1.011 ess=315 div=0 5.4s
+[B3/screen] rep1 fold0 rmse=0.4436 mae=0.3104 rhat=1.007 ess=327 div=0 5.0s
+[B3/screen] rep1 fold1 rmse=0.6277 mae=0.4156 rhat=1.008 ess=268 div=0 5.3s
+[B3/screen] rep1 fold2 rmse=0.5774 mae=0.4165 rhat=1.008 ess=242 div=0 6.7s
+[B3/screen] rep1 fold3 rmse=0.4692 mae=0.3496 rhat=1.008 ess=316 div=0 6.1s
+[B3/screen] rep1 fold4 rmse=0.3809 mae=0.3081 rhat=1.013 ess=325 div=0 4.9s
+[B3/screen] rep2 fold0 rmse=0.5472 mae=0.3510 rhat=1.012 ess=190 div=1 4.6s
+[B3/screen] rep2 fold1 rmse=0.4421 mae=0.3345 rhat=1.011 ess=329 div=0 4.6s
+[B3/screen] rep2 fold2 rmse=0.5281 mae=0.4203 rhat=1.016 ess=284 div=0 5.3s
+[B3/screen] rep2 fold3 rmse=0.4770 mae=0.3415 rhat=1.004 ess=267 div=0 5.3s
+[B3/screen] rep2 fold4 rmse=0.5767 mae=0.3885 rhat=1.008 ess=278 div=0 5.4s
+[B3/screen] rep3 fold0 rmse=0.3196 mae=0.2423 rhat=1.016 ess=296 div=0 4.9s
+[B3/screen] rep3 fold1 rmse=0.5395 mae=0.3886 rhat=1.010 ess=224 div=0 4.9s
+[B3/screen] rep3 fold2 rmse=0.5500 mae=0.3908 rhat=1.021 ess=296 div=0 5.2s
+[B3/screen] rep3 fold3 rmse=0.6124 mae=0.3831 rhat=1.012 ess=298 div=0 6.0s
+[B3/screen] rep3 fold4 rmse=0.4955 mae=0.3728 rhat=1.013 ess=386 div=0 5.2s
+[B3/screen] rep4 fold0 rmse=0.4731 mae=0.3727 rhat=1.004 ess=267 div=0 5.2s
+[B3/screen] rep4 fold1 rmse=0.3864 mae=0.2911 rhat=1.010 ess=373 div=0 4.8s
+[B3/screen] rep4 fold2 rmse=0.4694 mae=0.3452 rhat=1.006 ess=408 div=0 5.1s
+[B3/screen] rep4 fold3 rmse=0.4784 mae=0.3513 rhat=1.016 ess=369 div=0 4.6s
+[B3/screen] rep4 fold4 rmse=0.7159 mae=0.4320 rhat=1.010 ess=215 div=0 5.1s
+
+===== SCREEN B5 (vif=None) =====
+[B5/screen] rep0 fold0 rmse=0.5584 mae=0.3859 rhat=1.007 ess=193 div=0 4.9s
+[B5/screen] rep0 fold1 rmse=0.4126 mae=0.3255 rhat=1.007 ess=307 div=0 5.1s
+[B5/screen] rep0 fold2 rmse=0.4876 mae=0.3069 rhat=1.006 ess=401 div=0 6.8s
+[B5/screen] rep0 fold3 rmse=0.6425 mae=0.4451 rhat=1.004 ess=320 div=0 5.6s
+[B5/screen] rep0 fold4 rmse=0.4867 mae=0.3633 rhat=1.015 ess=202 div=0 5.5s
+[B5/screen] rep1 fold0 rmse=0.4783 mae=0.3329 rhat=1.008 ess=268 div=0 5.1s
+[B5/screen] rep1 fold1 rmse=0.6392 mae=0.4272 rhat=1.010 ess=326 div=0 6.0s
+[B5/screen] rep1 fold2 rmse=0.5845 mae=0.4289 rhat=1.047 ess=66 div=0 5.9s
+[B5/screen] rep1 fold3 rmse=0.4706 mae=0.3541 rhat=1.008 ess=194 div=0 5.6s
+[B5/screen] rep1 fold4 rmse=0.3736 mae=0.2966 rhat=1.005 ess=333 div=0 5.7s
+[B5/screen] rep2 fold0 rmse=0.5455 mae=0.3411 rhat=1.013 ess=248 div=0 6.2s
+[B5/screen] rep2 fold1 rmse=0.4540 mae=0.3298 rhat=1.010 ess=379 div=0 5.7s
+[B5/screen] rep2 fold2 rmse=0.5247 mae=0.4246 rhat=1.005 ess=323 div=0 5.9s
+[B5/screen] rep2 fold3 rmse=0.4781 mae=0.3440 rhat=1.037 ess=72 div=2 6.1s
+[B5/screen] rep2 fold4 rmse=0.5971 mae=0.3832 rhat=1.021 ess=201 div=0 5.1s
+[B5/screen] rep3 fold0 rmse=0.3251 mae=0.2553 rhat=1.010 ess=351 div=0 5.0s
+[B5/screen] rep3 fold1 rmse=0.5417 mae=0.3889 rhat=1.006 ess=224 div=0 4.7s
+[B5/screen] rep3 fold2 rmse=0.5406 mae=0.3936 rhat=1.008 ess=261 div=0 4.8s
+[B5/screen] rep3 fold3 rmse=0.6167 mae=0.3662 rhat=1.011 ess=271 div=0 5.0s
+[B5/screen] rep3 fold4 rmse=0.5099 mae=0.3703 rhat=1.007 ess=362 div=0 4.8s
+[B5/screen] rep4 fold0 rmse=0.4776 mae=0.3698 rhat=1.010 ess=257 div=0 5.1s
+[B5/screen] rep4 fold1 rmse=0.3931 mae=0.2887 rhat=1.009 ess=220 div=0 4.4s
+[B5/screen] rep4 fold2 rmse=0.4667 mae=0.3467 rhat=1.014 ess=254 div=0 4.9s
+[B5/screen] rep4 fold3 rmse=0.4725 mae=0.3617 rhat=1.012 ess=352 div=0 4.5s
+[B5/screen] rep4 fold4 rmse=0.7599 mae=0.4667 rhat=1.013 ess=279 div=0 5.1s
+
+===== SCREEN B8 (vif=None) =====
+[B8/screen] rep0 fold0 rmse=0.5594 mae=0.3690 rhat=1.012 ess=360 div=0 5.7s
+[B8/screen] rep0 fold1 rmse=0.4334 mae=0.3385 rhat=1.015 ess=314 div=0 5.3s
+[B8/screen] rep0 fold2 rmse=0.5072 mae=0.3247 rhat=1.016 ess=263 div=0 5.5s
+[B8/screen] rep0 fold3 rmse=0.6270 mae=0.4348 rhat=1.007 ess=330 div=0 5.2s
+[B8/screen] rep0 fold4 rmse=0.4597 mae=0.3483 rhat=1.004 ess=327 div=0 5.7s
+[B8/screen] rep1 fold0 rmse=0.4648 mae=0.3354 rhat=1.009 ess=382 div=0 5.7s
+[B8/screen] rep1 fold1 rmse=0.6242 mae=0.4087 rhat=1.009 ess=287 div=0 6.0s
+[B8/screen] rep1 fold2 rmse=0.5927 mae=0.4329 rhat=1.007 ess=345 div=0 6.9s
+[B8/screen] rep1 fold3 rmse=0.4616 mae=0.3432 rhat=1.009 ess=322 div=0 6.0s
+[B8/screen] rep1 fold4 rmse=0.3961 mae=0.3247 rhat=1.010 ess=349 div=0 6.2s
+[B8/screen] rep2 fold0 rmse=0.5635 mae=0.3440 rhat=1.015 ess=321 div=0 6.9s
+[B8/screen] rep2 fold1 rmse=0.4576 mae=0.3393 rhat=1.025 ess=151 div=0 6.2s
+[B8/screen] rep2 fold2 rmse=0.4980 mae=0.4038 rhat=1.009 ess=237 div=0 6.1s
+[B8/screen] rep2 fold3 rmse=0.4916 mae=0.3434 rhat=1.008 ess=439 div=0 5.7s
+[B8/screen] rep2 fold4 rmse=0.6000 mae=0.4010 rhat=1.008 ess=467 div=0 5.7s
+[B8/screen] rep3 fold0 rmse=0.3762 mae=0.2974 rhat=1.007 ess=349 div=0 5.4s
+[B8/screen] rep3 fold1 rmse=0.5384 mae=0.3788 rhat=1.011 ess=211 div=0 5.5s
+[B8/screen] rep3 fold2 rmse=0.5429 mae=0.3893 rhat=1.007 ess=339 div=0 5.6s
+[B8/screen] rep3 fold3 rmse=0.6122 mae=0.3506 rhat=1.010 ess=338 div=1 6.0s
+[B8/screen] rep3 fold4 rmse=0.5039 mae=0.3841 rhat=1.005 ess=290 div=0 5.2s
+[B8/screen] rep4 fold0 rmse=0.4636 mae=0.3691 rhat=1.013 ess=255 div=0 6.2s
+[B8/screen] rep4 fold1 rmse=0.4072 mae=0.2815 rhat=1.010 ess=256 div=0 5.4s
+[B8/screen] rep4 fold2 rmse=0.4547 mae=0.3299 rhat=1.007 ess=378 div=0 5.3s
+[B8/screen] rep4 fold3 rmse=0.4907 mae=0.3750 rhat=1.011 ess=208 div=0 5.4s
+[B8/screen] rep4 fold4 rmse=0.7469 mae=0.4753 rhat=1.014 ess=286 div=0 6.0s
+
+===== SCREEN B12 (vif=None) =====
+[B12/screen] rep0 fold0 rmse=0.5485 mae=0.3625 rhat=1.009 ess=332 div=0 5.8s
+[B12/screen] rep0 fold1 rmse=0.4362 mae=0.3356 rhat=1.005 ess=380 div=0 5.9s
+[B12/screen] rep0 fold2 rmse=0.5097 mae=0.3398 rhat=1.007 ess=344 div=0 6.2s
+[B12/screen] rep0 fold3 rmse=0.6475 mae=0.4495 rhat=1.011 ess=468 div=0 6.0s
+[B12/screen] rep0 fold4 rmse=0.4600 mae=0.3497 rhat=1.006 ess=364 div=0 6.6s
+[B12/screen] rep1 fold0 rmse=0.4516 mae=0.3228 rhat=1.007 ess=472 div=0 6.6s
+[B12/screen] rep1 fold1 rmse=0.6255 mae=0.4052 rhat=1.011 ess=383 div=0 6.9s
+[B12/screen] rep1 fold2 rmse=0.5916 mae=0.4371 rhat=1.012 ess=474 div=0 6.7s
+[B12/screen] rep1 fold3 rmse=0.4646 mae=0.3405 rhat=1.013 ess=417 div=0 6.6s
+[B12/screen] rep1 fold4 rmse=0.4002 mae=0.3271 rhat=1.021 ess=307 div=0 5.9s
+[B12/screen] rep2 fold0 rmse=0.5691 mae=0.3487 rhat=1.027 ess=467 div=0 6.2s
+[B12/screen] rep2 fold1 rmse=0.4769 mae=0.3544 rhat=1.007 ess=451 div=0 6.3s
+[B12/screen] rep2 fold2 rmse=0.4957 mae=0.4035 rhat=1.005 ess=403 div=0 5.8s
+[B12/screen] rep2 fold3 rmse=0.5024 mae=0.3690 rhat=1.008 ess=284 div=0 6.1s
+[B12/screen] rep2 fold4 rmse=0.6116 mae=0.4058 rhat=1.010 ess=379 div=0 7.1s
+[B12/screen] rep3 fold0 rmse=0.4035 mae=0.3297 rhat=1.004 ess=340 div=0 6.5s
+[B12/screen] rep3 fold1 rmse=0.5402 mae=0.3777 rhat=1.009 ess=392 div=0 6.1s
+[B12/screen] rep3 fold2 rmse=0.5542 mae=0.4133 rhat=1.012 ess=279 div=0 6.3s
+[B12/screen] rep3 fold3 rmse=0.6188 mae=0.3535 rhat=1.008 ess=487 div=0 8.6s
+[B12/screen] rep3 fold4 rmse=0.5011 mae=0.3821 rhat=1.006 ess=377 div=0 9.4s
+[B12/screen] rep4 fold0 rmse=0.4623 mae=0.3704 rhat=1.006 ess=357 div=0 8.5s
+[B12/screen] rep4 fold1 rmse=0.4190 mae=0.2966 rhat=1.015 ess=294 div=0 9.1s
+[B12/screen] rep4 fold2 rmse=0.4668 mae=0.3302 rhat=1.006 ess=266 div=0 6.5s
+[B12/screen] rep4 fold3 rmse=0.4983 mae=0.3875 rhat=1.017 ess=439 div=0 7.3s
+[B12/screen] rep4 fold4 rmse=0.7466 mae=0.4754 rhat=1.013 ess=305 div=0 7.4s
+
+===== SCREEN B20 (vif=10.0) =====
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 3 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 4 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 6 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 7 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 7 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 6 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 7 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 5 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 6 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 2 chains for 500 tune and 500 draw iterations (1_000 + 1_000 draws total) took 6 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+Traceback (most recent call last):
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/run_phase3_screen.py", line 67, in <module>
+    main()
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/run_phase3_screen.py", line 30, in main
+    run_cv(config, mcmc_key="screen", repeats=repeats, vif_threshold=vif, out_dir=out,
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/src/validation/cv_runner.py", line 79, in run_cv
+    Xtr, Xte, ytr, gtr, gte, kept, scaler = prepare_fold(
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/src/models/preprocess.py", line 58, in prepare_fold
+    kept = select_vif(feature_cols, Xtr, vif_threshold)
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/src/models/preprocess.py", line 9, in select_vif
+    from statsmodels.stats.outliers_influence import variance_inflation_factor
+ModuleNotFoundError: No module named 'statsmodels'
+ERROR conda.cli.main_run:execute(148): `conda run python run_phase3_screen.py` failed. (See above for error)

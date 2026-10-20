@@ -1,0 +1,220 @@
+columna,grupo,descripcion
+CONJUNTO,objetivo/particion,Partición oficial (ENTRENAMIENTO/PREDICCION)
+RENDIMIENTO_T_HA,objetivo/particion,Rendimiento de cebada ciclo abr-oct 2025 (t/ha); vacío en PREDICCION
+s2_ndvi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de NDVI (vigor verde) en la ventana pre-siembra/siembra (abr-may)
+s2_ndvi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de NDVI (vigor verde) en la ventana crecimiento (jun-jul)
+s2_ndvi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de NDVI (vigor verde) en la ventana pico (ago-sep)
+s2_ndvi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de NDVI (vigor verde) en la ventana senescencia/cosecha (oct)
+s2_ndvi_base,satelite Sentinel-2 (nubes<=5%),"Fenologia de NDVI (vigor verde): linea base ene-may (suelo/rastrojo), mediana de la curva"
+s2_ndvi_peak,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): valor maximo de la curva (jun-oct)
+s2_ndvi_amp,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): amplitud = pico - linea base
+s2_ndvi_peak_doy,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): dia del anio del pico
+s2_ndvi_sos_doy,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): dia del anio de inicio de temporada (50% de la amplitud)
+s2_ndvi_eos_doy,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): dia del anio de fin de temporada (50% de la amplitud)
+s2_ndvi_los,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): duracion de temporada (dias) = fin - inicio
+s2_ndvi_auc,satelite Sentinel-2 (nubes<=5%),"Fenologia de NDVI (vigor verde): area bajo la curva sobre la linea base, jun-nov"
+s2_ndvi_slope_up,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): pendiente maxima de subida (unidades/dia)
+s2_ndvi_slope_down,satelite Sentinel-2 (nubes<=5%),Fenologia de NDVI (vigor verde): pendiente maxima de bajada (unidades/dia)
+s2_evi_pre,satelite Sentinel-2 (nubes<=5%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pre-siembra/siembra (abr-may)"
+s2_evi_veg,satelite Sentinel-2 (nubes<=5%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana crecimiento (jun-jul)"
+s2_evi_pico,satelite Sentinel-2 (nubes<=5%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pico (ago-sep)"
+s2_evi_sen,satelite Sentinel-2 (nubes<=5%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana senescencia/cosecha (oct)"
+s2_evi_base,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): linea base ene-may (suelo/rastrojo), mediana de la curva"
+s2_evi_peak,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): valor maximo de la curva (jun-oct)"
+s2_evi_amp,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): amplitud = pico - linea base"
+s2_evi_peak_doy,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): dia del anio del pico"
+s2_evi_sos_doy,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): dia del anio de inicio de temporada (50% de la amplitud)"
+s2_evi_eos_doy,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): dia del anio de fin de temporada (50% de la amplitud)"
+s2_evi_los,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): duracion de temporada (dias) = fin - inicio"
+s2_evi_auc,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): area bajo la curva sobre la linea base, jun-nov"
+s2_evi_slope_up,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): pendiente maxima de subida (unidades/dia)"
+s2_evi_slope_down,satelite Sentinel-2 (nubes<=5%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): pendiente maxima de bajada (unidades/dia)"
+s2_crc_pre,satelite Sentinel-2 (nubes<=5%),Promedio de CRC (cobertura de residuos) en la ventana pre-siembra/siembra (abr-may)
+s2_crc_veg,satelite Sentinel-2 (nubes<=5%),Promedio de CRC (cobertura de residuos) en la ventana crecimiento (jun-jul)
+s2_crc_pico,satelite Sentinel-2 (nubes<=5%),Promedio de CRC (cobertura de residuos) en la ventana pico (ago-sep)
+s2_crc_sen,satelite Sentinel-2 (nubes<=5%),Promedio de CRC (cobertura de residuos) en la ventana senescencia/cosecha (oct)
+s2_mcrc_pre,satelite Sentinel-2 (nubes<=5%),"Promedio de MCRC (residuos, variante) en la ventana pre-siembra/siembra (abr-may)"
+s2_mcrc_veg,satelite Sentinel-2 (nubes<=5%),"Promedio de MCRC (residuos, variante) en la ventana crecimiento (jun-jul)"
+s2_mcrc_pico,satelite Sentinel-2 (nubes<=5%),"Promedio de MCRC (residuos, variante) en la ventana pico (ago-sep)"
+s2_mcrc_sen,satelite Sentinel-2 (nubes<=5%),"Promedio de MCRC (residuos, variante) en la ventana senescencia/cosecha (oct)"
+s2_ndsvi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de NDSVI (vegetacion senescente) en la ventana pre-siembra/siembra (abr-may)
+s2_ndsvi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de NDSVI (vegetacion senescente) en la ventana crecimiento (jun-jul)
+s2_ndsvi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de NDSVI (vegetacion senescente) en la ventana pico (ago-sep)
+s2_ndsvi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de NDSVI (vegetacion senescente) en la ventana senescencia/cosecha (oct)
+s2_srndi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de SRNDI (infrarrojo onda corta vs rojo) en la ventana pre-siembra/siembra (abr-may)
+s2_srndi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de SRNDI (infrarrojo onda corta vs rojo) en la ventana crecimiento (jun-jul)
+s2_srndi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de SRNDI (infrarrojo onda corta vs rojo) en la ventana pico (ago-sep)
+s2_srndi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de SRNDI (infrarrojo onda corta vs rojo) en la ventana senescencia/cosecha (oct)
+s2_mra_pre,satelite Sentinel-2 (nubes<=5%),Promedio de MRA (nomenclatura del proveedor) en la ventana pre-siembra/siembra (abr-may)
+s2_mra_veg,satelite Sentinel-2 (nubes<=5%),Promedio de MRA (nomenclatura del proveedor) en la ventana crecimiento (jun-jul)
+s2_mra_pico,satelite Sentinel-2 (nubes<=5%),Promedio de MRA (nomenclatura del proveedor) en la ventana pico (ago-sep)
+s2_mra_sen,satelite Sentinel-2 (nubes<=5%),Promedio de MRA (nomenclatura del proveedor) en la ventana senescencia/cosecha (oct)
+s2_lai_pre,satelite Sentinel-2 (nubes<=5%),Promedio de LAI (indice de area foliar) en la ventana pre-siembra/siembra (abr-may)
+s2_lai_veg,satelite Sentinel-2 (nubes<=5%),Promedio de LAI (indice de area foliar) en la ventana crecimiento (jun-jul)
+s2_lai_pico,satelite Sentinel-2 (nubes<=5%),Promedio de LAI (indice de area foliar) en la ventana pico (ago-sep)
+s2_lai_sen,satelite Sentinel-2 (nubes<=5%),Promedio de LAI (indice de area foliar) en la ventana senescencia/cosecha (oct)
+s2_lai_base,satelite Sentinel-2 (nubes<=5%),"Fenologia de LAI (indice de area foliar): linea base ene-may (suelo/rastrojo), mediana de la curva"
+s2_lai_peak,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): valor maximo de la curva (jun-oct)
+s2_lai_amp,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): amplitud = pico - linea base
+s2_lai_peak_doy,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): dia del anio del pico
+s2_lai_sos_doy,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): dia del anio de inicio de temporada (50% de la amplitud)
+s2_lai_eos_doy,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): dia del anio de fin de temporada (50% de la amplitud)
+s2_lai_los,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): duracion de temporada (dias) = fin - inicio
+s2_lai_auc,satelite Sentinel-2 (nubes<=5%),"Fenologia de LAI (indice de area foliar): area bajo la curva sobre la linea base, jun-nov"
+s2_lai_slope_up,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): pendiente maxima de subida (unidades/dia)
+s2_lai_slope_down,satelite Sentinel-2 (nubes<=5%),Fenologia de LAI (indice de area foliar): pendiente maxima de bajada (unidades/dia)
+s2_fapar_pre,satelite Sentinel-2 (nubes<=5%),Promedio de FAPAR (radiacion fotosintetica absorbida) en la ventana pre-siembra/siembra (abr-may)
+s2_fapar_veg,satelite Sentinel-2 (nubes<=5%),Promedio de FAPAR (radiacion fotosintetica absorbida) en la ventana crecimiento (jun-jul)
+s2_fapar_pico,satelite Sentinel-2 (nubes<=5%),Promedio de FAPAR (radiacion fotosintetica absorbida) en la ventana pico (ago-sep)
+s2_fapar_sen,satelite Sentinel-2 (nubes<=5%),Promedio de FAPAR (radiacion fotosintetica absorbida) en la ventana senescencia/cosecha (oct)
+s2_savi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de SAVI (ajustado por suelo) en la ventana pre-siembra/siembra (abr-may)
+s2_savi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de SAVI (ajustado por suelo) en la ventana crecimiento (jun-jul)
+s2_savi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de SAVI (ajustado por suelo) en la ventana pico (ago-sep)
+s2_savi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de SAVI (ajustado por suelo) en la ventana senescencia/cosecha (oct)
+s2_ndti_pre,satelite Sentinel-2 (nubes<=5%),Promedio de NDTI (labranza) en la ventana pre-siembra/siembra (abr-may)
+s2_ndti_veg,satelite Sentinel-2 (nubes<=5%),Promedio de NDTI (labranza) en la ventana crecimiento (jun-jul)
+s2_ndti_pico,satelite Sentinel-2 (nubes<=5%),Promedio de NDTI (labranza) en la ventana pico (ago-sep)
+s2_ndti_sen,satelite Sentinel-2 (nubes<=5%),Promedio de NDTI (labranza) en la ventana senescencia/cosecha (oct)
+s2_sti_pre,satelite Sentinel-2 (nubes<=5%),Promedio de STI (labranza simple) en la ventana pre-siembra/siembra (abr-may)
+s2_sti_veg,satelite Sentinel-2 (nubes<=5%),Promedio de STI (labranza simple) en la ventana crecimiento (jun-jul)
+s2_sti_pico,satelite Sentinel-2 (nubes<=5%),Promedio de STI (labranza simple) en la ventana pico (ago-sep)
+s2_sti_sen,satelite Sentinel-2 (nubes<=5%),Promedio de STI (labranza simple) en la ventana senescencia/cosecha (oct)
+s2_ndwi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de NDWI (agua/humedad) en la ventana pre-siembra/siembra (abr-may)
+s2_ndwi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de NDWI (agua/humedad) en la ventana crecimiento (jun-jul)
+s2_ndwi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de NDWI (agua/humedad) en la ventana pico (ago-sep)
+s2_ndwi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de NDWI (agua/humedad) en la ventana senescencia/cosecha (oct)
+s2_endwi_pre,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDWI (agua, variante) en la ventana pre-siembra/siembra (abr-may)"
+s2_endwi_veg,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDWI (agua, variante) en la ventana crecimiento (jun-jul)"
+s2_endwi_pico,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDWI (agua, variante) en la ventana pico (ago-sep)"
+s2_endwi_sen,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDWI (agua, variante) en la ventana senescencia/cosecha (oct)"
+s2_msi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de MSI (estres hidrico) en la ventana pre-siembra/siembra (abr-may)
+s2_msi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de MSI (estres hidrico) en la ventana crecimiento (jun-jul)
+s2_msi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de MSI (estres hidrico) en la ventana pico (ago-sep)
+s2_msi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de MSI (estres hidrico) en la ventana senescencia/cosecha (oct)
+s2_emsi_pre,satelite Sentinel-2 (nubes<=5%),"Promedio de EMSI (estres, variante) en la ventana pre-siembra/siembra (abr-may)"
+s2_emsi_veg,satelite Sentinel-2 (nubes<=5%),"Promedio de EMSI (estres, variante) en la ventana crecimiento (jun-jul)"
+s2_emsi_pico,satelite Sentinel-2 (nubes<=5%),"Promedio de EMSI (estres, variante) en la ventana pico (ago-sep)"
+s2_emsi_sen,satelite Sentinel-2 (nubes<=5%),"Promedio de EMSI (estres, variante) en la ventana senescencia/cosecha (oct)"
+s2_dswi2_pre,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI2 en la ventana pre-siembra/siembra (abr-may)
+s2_dswi2_veg,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI2 en la ventana crecimiento (jun-jul)
+s2_dswi2_pico,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI2 en la ventana pico (ago-sep)
+s2_dswi2_sen,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI2 en la ventana senescencia/cosecha (oct)
+s2_dswi3_pre,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI3 en la ventana pre-siembra/siembra (abr-may)
+s2_dswi3_veg,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI3 en la ventana crecimiento (jun-jul)
+s2_dswi3_pico,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI3 en la ventana pico (ago-sep)
+s2_dswi3_sen,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI3 en la ventana senescencia/cosecha (oct)
+s2_dswi4_pre,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI4 en la ventana pre-siembra/siembra (abr-may)
+s2_dswi4_veg,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI4 en la ventana crecimiento (jun-jul)
+s2_dswi4_pico,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI4 en la ventana pico (ago-sep)
+s2_dswi4_sen,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI4 en la ventana senescencia/cosecha (oct)
+s2_dswi5_pre,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI5 (estres hidrico/condicion vegetal) en la ventana pre-siembra/siembra (abr-may)
+s2_dswi5_veg,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI5 (estres hidrico/condicion vegetal) en la ventana crecimiento (jun-jul)
+s2_dswi5_pico,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI5 (estres hidrico/condicion vegetal) en la ventana pico (ago-sep)
+s2_dswi5_sen,satelite Sentinel-2 (nubes<=5%),Promedio de DSWI5 (estres hidrico/condicion vegetal) en la ventana senescencia/cosecha (oct)
+s2_nddi_pre,satelite Sentinel-2 (nubes<=5%),Promedio de NDDI (sequia) en la ventana pre-siembra/siembra (abr-may)
+s2_nddi_veg,satelite Sentinel-2 (nubes<=5%),Promedio de NDDI (sequia) en la ventana crecimiento (jun-jul)
+s2_nddi_pico,satelite Sentinel-2 (nubes<=5%),Promedio de NDDI (sequia) en la ventana pico (ago-sep)
+s2_nddi_sen,satelite Sentinel-2 (nubes<=5%),Promedio de NDDI (sequia) en la ventana senescencia/cosecha (oct)
+s2_enddi_pre,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDDI (sequia, variante) en la ventana pre-siembra/siembra (abr-may)"
+s2_enddi_veg,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDDI (sequia, variante) en la ventana crecimiento (jun-jul)"
+s2_enddi_pico,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDDI (sequia, variante) en la ventana pico (ago-sep)"
+s2_enddi_sen,satelite Sentinel-2 (nubes<=5%),"Promedio de ENDDI (sequia, variante) en la ventana senescencia/cosecha (oct)"
+s2_ndvi_std_pico,satelite Sentinel-2 (nubes<=5%),Heterogeneidad intra-parcela: promedio de std espacial de NDVI (vigor verde) en la ventana pico (ago-sep)
+s2_ndvi_min_pico,satelite Sentinel-2 (nubes<=5%),Heterogeneidad intra-parcela: promedio de min espacial de NDVI (vigor verde) en la ventana pico (ago-sep)
+s2_ndvi_max_pico,satelite Sentinel-2 (nubes<=5%),Heterogeneidad intra-parcela: promedio de max espacial de NDVI (vigor verde) en la ventana pico (ago-sep)
+s2_evi_std_pico,satelite Sentinel-2 (nubes<=5%),"Heterogeneidad intra-parcela: promedio de std espacial de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pico (ago-sep)"
+s2_evi_min_pico,satelite Sentinel-2 (nubes<=5%),"Heterogeneidad intra-parcela: promedio de min espacial de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pico (ago-sep)"
+s2_evi_max_pico,satelite Sentinel-2 (nubes<=5%),"Heterogeneidad intra-parcela: promedio de max espacial de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pico (ago-sep)"
+ls_vi6t_pre,satelite Landsat (nubes<=5%),"Promedio de VI6T (espectral-termico, Landsat) en la ventana pre-siembra/siembra (abr-may)"
+ls_vi6t_veg,satelite Landsat (nubes<=5%),"Promedio de VI6T (espectral-termico, Landsat) en la ventana crecimiento (jun-jul)"
+ls_vi6t_pico,satelite Landsat (nubes<=5%),"Promedio de VI6T (espectral-termico, Landsat) en la ventana pico (ago-sep)"
+ls_vi6t_sen,satelite Landsat (nubes<=5%),"Promedio de VI6T (espectral-termico, Landsat) en la ventana senescencia/cosecha (oct)"
+ls_vi6t_std_pico,satelite Landsat (nubes<=5%),"Heterogeneidad intra-parcela: promedio de std espacial de VI6T (espectral-termico, Landsat) en la ventana pico (ago-sep)"
+pl_ndvi_pre,satelite Planet (nubes<=20%),Promedio de NDVI (vigor verde) en la ventana pre-siembra/siembra (abr-may)
+pl_ndvi_veg,satelite Planet (nubes<=20%),Promedio de NDVI (vigor verde) en la ventana crecimiento (jun-jul)
+pl_ndvi_pico,satelite Planet (nubes<=20%),Promedio de NDVI (vigor verde) en la ventana pico (ago-sep)
+pl_ndvi_sen,satelite Planet (nubes<=20%),Promedio de NDVI (vigor verde) en la ventana senescencia/cosecha (oct)
+pl_ndvi_base,satelite Planet (nubes<=20%),"Fenologia de NDVI (vigor verde): linea base ene-may (suelo/rastrojo), mediana de la curva"
+pl_ndvi_peak,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): valor maximo de la curva (jun-oct)
+pl_ndvi_amp,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): amplitud = pico - linea base
+pl_ndvi_peak_doy,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): dia del anio del pico
+pl_ndvi_sos_doy,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): dia del anio de inicio de temporada (50% de la amplitud)
+pl_ndvi_eos_doy,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): dia del anio de fin de temporada (50% de la amplitud)
+pl_ndvi_los,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): duracion de temporada (dias) = fin - inicio
+pl_ndvi_auc,satelite Planet (nubes<=20%),"Fenologia de NDVI (vigor verde): area bajo la curva sobre la linea base, jun-nov"
+pl_ndvi_slope_up,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): pendiente maxima de subida (unidades/dia)
+pl_ndvi_slope_down,satelite Planet (nubes<=20%),Fenologia de NDVI (vigor verde): pendiente maxima de bajada (unidades/dia)
+pl_evi_pre,satelite Planet (nubes<=20%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pre-siembra/siembra (abr-may)"
+pl_evi_veg,satelite Planet (nubes<=20%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana crecimiento (jun-jul)"
+pl_evi_pico,satelite Planet (nubes<=20%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pico (ago-sep)"
+pl_evi_sen,satelite Planet (nubes<=20%),"Promedio de EVI (vigor, menos efecto suelo/atmosfera) en la ventana senescencia/cosecha (oct)"
+pl_evi_base,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): linea base ene-may (suelo/rastrojo), mediana de la curva"
+pl_evi_peak,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): valor maximo de la curva (jun-oct)"
+pl_evi_amp,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): amplitud = pico - linea base"
+pl_evi_peak_doy,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): dia del anio del pico"
+pl_evi_sos_doy,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): dia del anio de inicio de temporada (50% de la amplitud)"
+pl_evi_eos_doy,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): dia del anio de fin de temporada (50% de la amplitud)"
+pl_evi_los,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): duracion de temporada (dias) = fin - inicio"
+pl_evi_auc,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): area bajo la curva sobre la linea base, jun-nov"
+pl_evi_slope_up,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): pendiente maxima de subida (unidades/dia)"
+pl_evi_slope_down,satelite Planet (nubes<=20%),"Fenologia de EVI (vigor, menos efecto suelo/atmosfera): pendiente maxima de bajada (unidades/dia)"
+pl_lai_pre,satelite Planet (nubes<=20%),Promedio de LAI (indice de area foliar) en la ventana pre-siembra/siembra (abr-may)
+pl_lai_veg,satelite Planet (nubes<=20%),Promedio de LAI (indice de area foliar) en la ventana crecimiento (jun-jul)
+pl_lai_pico,satelite Planet (nubes<=20%),Promedio de LAI (indice de area foliar) en la ventana pico (ago-sep)
+pl_lai_sen,satelite Planet (nubes<=20%),Promedio de LAI (indice de area foliar) en la ventana senescencia/cosecha (oct)
+pl_lai_base,satelite Planet (nubes<=20%),"Fenologia de LAI (indice de area foliar): linea base ene-may (suelo/rastrojo), mediana de la curva"
+pl_lai_peak,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): valor maximo de la curva (jun-oct)
+pl_lai_amp,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): amplitud = pico - linea base
+pl_lai_peak_doy,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): dia del anio del pico
+pl_lai_sos_doy,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): dia del anio de inicio de temporada (50% de la amplitud)
+pl_lai_eos_doy,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): dia del anio de fin de temporada (50% de la amplitud)
+pl_lai_los,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): duracion de temporada (dias) = fin - inicio
+pl_lai_auc,satelite Planet (nubes<=20%),"Fenologia de LAI (indice de area foliar): area bajo la curva sobre la linea base, jun-nov"
+pl_lai_slope_up,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): pendiente maxima de subida (unidades/dia)
+pl_lai_slope_down,satelite Planet (nubes<=20%),Fenologia de LAI (indice de area foliar): pendiente maxima de bajada (unidades/dia)
+pl_msavi_pre,satelite Planet (nubes<=20%),Promedio de MSAVI (ajustado por suelo) en la ventana pre-siembra/siembra (abr-may)
+pl_msavi_veg,satelite Planet (nubes<=20%),Promedio de MSAVI (ajustado por suelo) en la ventana crecimiento (jun-jul)
+pl_msavi_pico,satelite Planet (nubes<=20%),Promedio de MSAVI (ajustado por suelo) en la ventana pico (ago-sep)
+pl_msavi_sen,satelite Planet (nubes<=20%),Promedio de MSAVI (ajustado por suelo) en la ventana senescencia/cosecha (oct)
+pl_ndvi_std_pico,satelite Planet (nubes<=20%),Heterogeneidad intra-parcela: promedio de std espacial de NDVI (vigor verde) en la ventana pico (ago-sep)
+pl_evi_std_pico,satelite Planet (nubes<=20%),"Heterogeneidad intra-parcela: promedio de std espacial de EVI (vigor, menos efecto suelo/atmosfera) en la ventana pico (ago-sep)"
+clim_prec_pre,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Precipitacion acumulada (mm) - abr-may
+clim_tmin_pre,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura minima media (C) - abr-may
+clim_tmax_pre,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura maxima media (C) - abr-may
+clim_dtr_pre,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Rango termico diurno Tmax-Tmin (C) - abr-may
+clim_prec_veg,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Precipitacion acumulada (mm) - jun-jul
+clim_tmin_veg,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura minima media (C) - jun-jul
+clim_tmax_veg,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura maxima media (C) - jun-jul
+clim_dtr_veg,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Rango termico diurno Tmax-Tmin (C) - jun-jul
+clim_prec_pico,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Precipitacion acumulada (mm) - ago-sep
+clim_tmin_pico,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura minima media (C) - ago-sep
+clim_tmax_pico,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura maxima media (C) - ago-sep
+clim_dtr_pico,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Rango termico diurno Tmax-Tmin (C) - ago-sep
+clim_prec_sen,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Precipitacion acumulada (mm) - oct
+clim_tmin_sen,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura minima media (C) - oct
+clim_tmax_sen,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura maxima media (C) - oct
+clim_dtr_sen,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Rango termico diurno Tmax-Tmin (C) - oct
+clim_prec_temp,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Precipitacion acumulada (mm) - temporada abr-oct
+clim_prec_prev,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Precipitacion acumulada (mm) - previa nov 2024-mar 2025
+clim_tmin_temp,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura minima media (C) - temporada abr-oct
+clim_tmax_temp,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura maxima media (C) - temporada abr-oct
+clim_tmean_temp,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura media (C) - temporada abr-oct
+clim_gdd0_temp,"clima (CHIRPS/CHIRTS, celda 0.05 grados)","Grados-dia base 0 C aprox. (medias mensuales), abr-oct - temporada abr-oct"
+clim_tmin_minmes,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Temperatura minima media (C) - mes mas frio de la temporada
+clim_prec_cv,"clima (CHIRPS/CHIRTS, celda 0.05 grados)","Coeficiente de variacion mensual de la lluvia, abr-oct"
+clim_prec_anom_pct,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Anomalia (%) de lluvia de temporada abr-oct vs media 2022-2024 (referencia debil: 3 anios)
+clim_tmax_anom,"clima (CHIRPS/CHIRTS, celda 0.05 grados)",Anomalia de Tmax de temporada abr-oct vs media 2022-2024 (C)
+topo_elev_media,topografia (INEGI CEM 120 m),"Elevacion (m), media en el poligono"
+topo_elev_std,topografia (INEGI CEM 120 m),"Elevacion (m), desviacion estandar en el poligono"
+topo_pend_media,topografia (INEGI CEM 120 m),"Pendiente (grados), media en el poligono"
+topo_pend_std,topografia (INEGI CEM 120 m),"Pendiente (grados), desviacion estandar en el poligono"
+geo_area_ha,geometria de parcela,Area (ha)
+geo_compacidad,geometria de parcela,Compacidad 4*pi*A/P^2 (1 = circulo)
+geo_perim_m,geometria de parcela,Perimetro (m)
+loc_lon,ubicacion,Longitud centroide (WGS84)
+loc_lat,ubicacion,Latitud centroide (WGS84)
+loc_x_utm,ubicacion,X centroide UTM 14N (m)
+loc_y_utm,ubicacion,Y centroide UTM 14N (m)
+loc_municipio,ubicacion,Municipio
+loc_estado,ubicacion,Estado
+loc_celda_clima,ubicacion,Celda de clima (fila_col) de CHIRPS/CHIRTS

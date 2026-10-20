@@ -1,0 +1,856 @@
+
+===== FINALIST B0 =====
+[B0/finalists] rep0 fold0 rmse=0.5380 mae=0.3834 rhat=1.003 ess=2229 div=1 12.2s
+[B0/finalists] rep0 fold1 rmse=0.4237 mae=0.3155 rhat=1.002 ess=1976 div=2 11.9s
+[B0/finalists] rep0 fold2 rmse=0.4803 mae=0.2888 rhat=1.003 ess=1878 div=0 12.5s
+[B0/finalists] rep0 fold3 rmse=0.6033 mae=0.3602 rhat=1.002 ess=1958 div=0 12.8s
+[B0/finalists] rep0 fold4 rmse=0.4866 mae=0.3434 rhat=1.001 ess=1725 div=1 14.1s
+[B0/finalists] rep1 fold0 rmse=0.4478 mae=0.2868 rhat=1.001 ess=1958 div=3 13.0s
+[B0/finalists] rep1 fold1 rmse=0.6236 mae=0.3905 rhat=1.002 ess=1868 div=1 12.4s
+[B0/finalists] rep1 fold2 rmse=0.5950 mae=0.4316 rhat=1.006 ess=1820 div=1 13.0s
+[B0/finalists] rep1 fold3 rmse=0.4576 mae=0.3151 rhat=1.003 ess=2302 div=0 12.9s
+[B0/finalists] rep1 fold4 rmse=0.3664 mae=0.2620 rhat=1.002 ess=2003 div=1 12.6s
+[B0/finalists] rep2 fold0 rmse=0.5354 mae=0.3243 rhat=1.004 ess=1903 div=0 11.8s
+[B0/finalists] rep2 fold1 rmse=0.4117 mae=0.2676 rhat=1.004 ess=2006 div=0 10.9s
+[B0/finalists] rep2 fold2 rmse=0.5275 mae=0.4137 rhat=1.001 ess=1840 div=0 11.4s
+[B0/finalists] rep2 fold3 rmse=0.4914 mae=0.3566 rhat=1.002 ess=2115 div=0 12.0s
+[B0/finalists] rep2 fold4 rmse=0.5898 mae=0.3690 rhat=1.004 ess=1728 div=1 12.3s
+[B0/finalists] rep3 fold0 rmse=0.3186 mae=0.2349 rhat=1.002 ess=2076 div=0 10.4s
+[B0/finalists] rep3 fold1 rmse=0.5554 mae=0.3963 rhat=1.002 ess=1733 div=0 11.9s
+[B0/finalists] rep3 fold2 rmse=0.5430 mae=0.3674 rhat=1.004 ess=1759 div=0 11.5s
+[B0/finalists] rep3 fold3 rmse=0.6094 mae=0.3713 rhat=1.003 ess=1819 div=1 13.1s
+[B0/finalists] rep3 fold4 rmse=0.4870 mae=0.3404 rhat=1.002 ess=2088 div=0 11.6s
+[B0/finalists] rep4 fold0 rmse=0.4828 mae=0.3744 rhat=1.003 ess=1993 div=0 12.2s
+[B0/finalists] rep4 fold1 rmse=0.3717 mae=0.2494 rhat=1.002 ess=2360 div=0 11.3s
+[B0/finalists] rep4 fold2 rmse=0.4482 mae=0.3117 rhat=1.002 ess=2084 div=1 11.9s
+[B0/finalists] rep4 fold3 rmse=0.4803 mae=0.3582 rhat=1.002 ess=1825 div=0 10.9s
+[B0/finalists] rep4 fold4 rmse=0.7222 mae=0.4185 rhat=1.004 ess=1329 div=4 13.5s
+[B0/finalists] rep5 fold0 rmse=0.4679 mae=0.2991 rhat=1.001 ess=1970 div=0 11.0s
+[B0/finalists] rep5 fold1 rmse=0.3801 mae=0.2833 rhat=1.002 ess=2047 div=0 11.9s
+[B0/finalists] rep5 fold2 rmse=0.5501 mae=0.3519 rhat=1.001 ess=1805 div=0 12.4s
+[B0/finalists] rep5 fold3 rmse=0.6105 mae=0.3866 rhat=1.003 ess=1796 div=0 11.9s
+[B0/finalists] rep5 fold4 rmse=0.5112 mae=0.3663 rhat=1.002 ess=1922 div=1 10.7s
+[B0/finalists] rep6 fold0 rmse=0.4110 mae=0.2964 rhat=1.001 ess=1907 div=1 11.9s
+[B0/finalists] rep6 fold1 rmse=0.5891 mae=0.4201 rhat=1.003 ess=1829 div=1 11.9s
+[B0/finalists] rep6 fold2 rmse=0.4568 mae=0.2596 rhat=1.002 ess=2094 div=1 11.8s
+[B0/finalists] rep6 fold3 rmse=0.4462 mae=0.3315 rhat=1.004 ess=1769 div=1 12.8s
+[B0/finalists] rep6 fold4 rmse=0.6173 mae=0.3966 rhat=1.002 ess=1639 div=1 12.4s
+[B0/finalists] rep7 fold0 rmse=0.4655 mae=0.2791 rhat=1.003 ess=2183 div=0 10.0s
+[B0/finalists] rep7 fold1 rmse=0.4167 mae=0.3077 rhat=1.003 ess=2043 div=0 11.8s
+[B0/finalists] rep7 fold2 rmse=0.3770 mae=0.2743 rhat=1.002 ess=2525 div=0 10.7s
+[B0/finalists] rep7 fold3 rmse=0.6320 mae=0.4535 rhat=1.002 ess=1748 div=3 12.4s
+[B0/finalists] rep7 fold4 rmse=0.6240 mae=0.3925 rhat=1.004 ess=1558 div=1 13.1s
+[B0/finalists] rep8 fold0 rmse=0.5510 mae=0.4337 rhat=1.003 ess=1874 div=2 12.9s
+[B0/finalists] rep8 fold1 rmse=0.6753 mae=0.3682 rhat=1.002 ess=1635 div=2 11.8s
+[B0/finalists] rep8 fold2 rmse=0.3378 mae=0.2441 rhat=1.002 ess=2182 div=0 10.8s
+[B0/finalists] rep8 fold3 rmse=0.4275 mae=0.2950 rhat=1.002 ess=1608 div=0 10.9s
+[B0/finalists] rep8 fold4 rmse=0.5157 mae=0.3711 rhat=1.002 ess=1969 div=0 11.8s
+[B0/finalists] rep9 fold0 rmse=0.3907 mae=0.2737 rhat=1.002 ess=1934 div=0 12.0s
+[B0/finalists] rep9 fold1 rmse=0.5224 mae=0.3380 rhat=1.003 ess=1828 div=0 12.7s
+[B0/finalists] rep9 fold2 rmse=0.3561 mae=0.2329 rhat=1.002 ess=1877 div=0 12.4s
+[B0/finalists] rep9 fold3 rmse=0.5926 mae=0.3738 rhat=1.002 ess=1818 div=0 11.6s
+[B0/finalists] rep9 fold4 rmse=0.6174 mae=0.4698 rhat=1.002 ess=1760 div=0 11.6s
+
+===== FINALIST B3 =====
+[B3/finalists] rep0 fold0 rmse=0.5141 mae=0.3702 rhat=1.002 ess=2163 div=0 12.4s
+[B3/finalists] rep0 fold1 rmse=0.4154 mae=0.3247 rhat=1.002 ess=2160 div=2 13.0s
+[B3/finalists] rep0 fold2 rmse=0.4761 mae=0.3110 rhat=1.002 ess=2613 div=0 15.0s
+[B3/finalists] rep0 fold3 rmse=0.6260 mae=0.4208 rhat=1.001 ess=1970 div=1 14.7s
+[B3/finalists] rep0 fold4 rmse=0.4850 mae=0.3654 rhat=1.002 ess=2118 div=1 13.3s
+[B3/finalists] rep1 fold0 rmse=0.4438 mae=0.3089 rhat=1.002 ess=2543 div=1 14.8s
+[B3/finalists] rep1 fold1 rmse=0.6230 mae=0.4127 rhat=1.004 ess=2136 div=0 13.7s
+[B3/finalists] rep1 fold2 rmse=0.5885 mae=0.4279 rhat=1.002 ess=2047 div=17 15.3s
+[B3/finalists] rep1 fold3 rmse=0.4767 mae=0.3577 rhat=1.003 ess=2241 div=1 13.2s
+[B3/finalists] rep1 fold4 rmse=0.3779 mae=0.3044 rhat=1.002 ess=2710 div=0 11.6s
+[B3/finalists] rep2 fold0 rmse=0.5497 mae=0.3545 rhat=1.002 ess=2072 div=0 13.7s
+[B3/finalists] rep2 fold1 rmse=0.4336 mae=0.3255 rhat=1.001 ess=2740 div=0 12.6s
+[B3/finalists] rep2 fold2 rmse=0.5299 mae=0.4271 rhat=1.001 ess=2434 div=1 13.8s
+[B3/finalists] rep2 fold3 rmse=0.4724 mae=0.3322 rhat=1.002 ess=2286 div=0 13.2s
+[B3/finalists] rep2 fold4 rmse=0.5795 mae=0.3830 rhat=1.001 ess=2100 div=1 14.7s
+[B3/finalists] rep3 fold0 rmse=0.3216 mae=0.2419 rhat=1.001 ess=2793 div=0 13.2s
+[B3/finalists] rep3 fold1 rmse=0.5425 mae=0.3903 rhat=1.001 ess=2498 div=1 12.5s
+[B3/finalists] rep3 fold2 rmse=0.5420 mae=0.3860 rhat=1.001 ess=2244 div=0 13.3s
+[B3/finalists] rep3 fold3 rmse=0.6180 mae=0.3894 rhat=1.003 ess=2042 div=1 15.3s
+[B3/finalists] rep3 fold4 rmse=0.4882 mae=0.3654 rhat=1.001 ess=2713 div=1 12.6s
+[B3/finalists] rep4 fold0 rmse=0.4708 mae=0.3749 rhat=1.002 ess=2388 div=1 13.3s
+[B3/finalists] rep4 fold1 rmse=0.3915 mae=0.2907 rhat=1.002 ess=2512 div=0 13.3s
+[B3/finalists] rep4 fold2 rmse=0.4790 mae=0.3467 rhat=1.002 ess=1634 div=2 15.1s
+[B3/finalists] rep4 fold3 rmse=0.4707 mae=0.3517 rhat=1.002 ess=2456 div=0 15.0s
+[B3/finalists] rep4 fold4 rmse=0.7140 mae=0.4369 rhat=1.002 ess=1897 div=1 16.5s
+[B3/finalists] rep5 fold0 rmse=0.4871 mae=0.3432 rhat=1.001 ess=2413 div=0 14.7s
+[B3/finalists] rep5 fold1 rmse=0.3996 mae=0.3124 rhat=1.002 ess=2675 div=0 14.5s
+[B3/finalists] rep5 fold2 rmse=0.5425 mae=0.3511 rhat=1.002 ess=2049 div=0 16.3s
+[B3/finalists] rep5 fold3 rmse=0.6226 mae=0.4245 rhat=1.002 ess=1873 div=0 15.4s
+[B3/finalists] rep5 fold4 rmse=0.4903 mae=0.3663 rhat=1.001 ess=2540 div=0 16.3s
+[B3/finalists] rep6 fold0 rmse=0.4274 mae=0.3337 rhat=1.002 ess=2257 div=0 14.5s
+[B3/finalists] rep6 fold1 rmse=0.5751 mae=0.4277 rhat=1.001 ess=2204 div=0 14.6s
+[B3/finalists] rep6 fold2 rmse=0.4899 mae=0.3083 rhat=1.005 ess=2418 div=1 15.2s
+[B3/finalists] rep6 fold3 rmse=0.4269 mae=0.3167 rhat=1.003 ess=2526 div=0 14.6s
+[B3/finalists] rep6 fold4 rmse=0.6134 mae=0.4102 rhat=1.001 ess=2098 div=0 13.6s
+[B3/finalists] rep7 fold0 rmse=0.4467 mae=0.2980 rhat=1.002 ess=2481 div=0 14.7s
+[B3/finalists] rep7 fold1 rmse=0.4325 mae=0.3223 rhat=1.003 ess=2391 div=5 15.5s
+[B3/finalists] rep7 fold2 rmse=0.4186 mae=0.3249 rhat=1.003 ess=2435 div=0 14.3s
+[B3/finalists] rep7 fold3 rmse=0.6173 mae=0.4483 rhat=1.002 ess=1997 div=1 15.8s
+[B3/finalists] rep7 fold4 rmse=0.6133 mae=0.4000 rhat=1.004 ess=1961 div=3 17.4s
+[B3/finalists] rep8 fold0 rmse=0.5440 mae=0.4336 rhat=1.001 ess=2114 div=3 16.8s
+[B3/finalists] rep8 fold1 rmse=0.6913 mae=0.4210 rhat=1.004 ess=1809 div=0 17.4s
+[B3/finalists] rep8 fold2 rmse=0.3812 mae=0.2999 rhat=1.002 ess=2778 div=1 13.5s
+[B3/finalists] rep8 fold3 rmse=0.4197 mae=0.3116 rhat=1.002 ess=2838 div=1 12.5s
+[B3/finalists] rep8 fold4 rmse=0.5174 mae=0.3818 rhat=1.001 ess=2076 div=0 13.2s
+[B3/finalists] rep9 fold0 rmse=0.3841 mae=0.2772 rhat=1.001 ess=2326 div=1 14.5s
+[B3/finalists] rep9 fold1 rmse=0.5116 mae=0.3520 rhat=1.002 ess=2463 div=2 13.8s
+[B3/finalists] rep9 fold2 rmse=0.3910 mae=0.3004 rhat=1.001 ess=2722 div=0 12.0s
+[B3/finalists] rep9 fold3 rmse=0.5842 mae=0.3690 rhat=1.002 ess=2073 div=0 13.6s
+[B3/finalists] rep9 fold4 rmse=0.6118 mae=0.4663 rhat=1.002 ess=2113 div=1 14.2s
+
+===== FINALIST B5 =====
+[B5/finalists] rep0 fold0 rmse=0.5497 mae=0.3820 rhat=1.001 ess=2364 div=0 15.8s
+[B5/finalists] rep0 fold1 rmse=0.4219 mae=0.3296 rhat=1.001 ess=2631 div=0 16.1s
+[B5/finalists] rep0 fold2 rmse=0.4882 mae=0.3095 rhat=1.002 ess=2876 div=0 15.8s
+[B5/finalists] rep0 fold3 rmse=0.6543 mae=0.4526 rhat=1.003 ess=2518 div=0 16.1s
+[B5/finalists] rep0 fold4 rmse=0.4779 mae=0.3587 rhat=1.002 ess=2599 div=1 16.0s
+[B5/finalists] rep1 fold0 rmse=0.4771 mae=0.3285 rhat=1.001 ess=2648 div=0 16.2s
+[B5/finalists] rep1 fold1 rmse=0.6363 mae=0.4204 rhat=1.002 ess=2351 div=0 16.5s
+[B5/finalists] rep1 fold2 rmse=0.5907 mae=0.4381 rhat=1.006 ess=2335 div=2 16.8s
+[B5/finalists] rep1 fold3 rmse=0.4757 mae=0.3576 rhat=1.001 ess=2581 div=0 15.6s
+[B5/finalists] rep1 fold4 rmse=0.3670 mae=0.2898 rhat=1.001 ess=2944 div=0 14.8s
+[B5/finalists] rep2 fold0 rmse=0.5478 mae=0.3460 rhat=1.003 ess=2147 div=3 16.8s
+[B5/finalists] rep2 fold1 rmse=0.4418 mae=0.3208 rhat=1.001 ess=2443 div=0 15.8s
+[B5/finalists] rep2 fold2 rmse=0.5236 mae=0.4251 rhat=1.002 ess=2273 div=0 18.4s
+[B5/finalists] rep2 fold3 rmse=0.4801 mae=0.3393 rhat=1.001 ess=2590 div=0 17.5s
+[B5/finalists] rep2 fold4 rmse=0.5941 mae=0.3765 rhat=1.002 ess=2431 div=2 16.7s
+[B5/finalists] rep3 fold0 rmse=0.3269 mae=0.2559 rhat=1.001 ess=2897 div=0 16.3s
+[B5/finalists] rep3 fold1 rmse=0.5491 mae=0.3970 rhat=1.001 ess=2463 div=2 15.7s
+[B5/finalists] rep3 fold2 rmse=0.5402 mae=0.3970 rhat=1.002 ess=2597 div=1 15.7s
+[B5/finalists] rep3 fold3 rmse=0.6228 mae=0.3739 rhat=1.004 ess=2021 div=11 17.1s
+[B5/finalists] rep3 fold4 rmse=0.5043 mae=0.3647 rhat=1.002 ess=2462 div=0 16.7s
+[B5/finalists] rep4 fold0 rmse=0.4781 mae=0.3719 rhat=1.003 ess=2756 div=0 15.4s
+[B5/finalists] rep4 fold1 rmse=0.3878 mae=0.2850 rhat=1.002 ess=2441 div=2 15.3s
+[B5/finalists] rep4 fold2 rmse=0.4707 mae=0.3414 rhat=1.002 ess=2606 div=1 16.8s
+[B5/finalists] rep4 fold3 rmse=0.4686 mae=0.3606 rhat=1.002 ess=2534 div=1 19.7s
+[B5/finalists] rep4 fold4 rmse=0.7550 mae=0.4635 rhat=1.001 ess=2458 div=0 20.8s
+[B5/finalists] rep5 fold0 rmse=0.4860 mae=0.3459 rhat=1.002 ess=2816 div=0 14.3s
+[B5/finalists] rep5 fold1 rmse=0.3863 mae=0.2979 rhat=1.003 ess=2679 div=0 14.9s
+[B5/finalists] rep5 fold2 rmse=0.5597 mae=0.3527 rhat=1.001 ess=2419 div=1 16.1s
+[B5/finalists] rep5 fold3 rmse=0.6210 mae=0.4279 rhat=1.002 ess=2231 div=1 15.7s
+[B5/finalists] rep5 fold4 rmse=0.4787 mae=0.3618 rhat=1.001 ess=2807 div=1 14.5s
+[B5/finalists] rep6 fold0 rmse=0.4302 mae=0.3270 rhat=1.001 ess=2646 div=1 15.3s
+[B5/finalists] rep6 fold1 rmse=0.5850 mae=0.4294 rhat=1.002 ess=2535 div=1 15.5s
+[B5/finalists] rep6 fold2 rmse=0.4914 mae=0.3088 rhat=1.002 ess=2586 div=0 16.3s
+[B5/finalists] rep6 fold3 rmse=0.4276 mae=0.3256 rhat=1.002 ess=2774 div=2 13.8s
+[B5/finalists] rep6 fold4 rmse=0.6201 mae=0.4162 rhat=1.003 ess=1894 div=11 15.6s
+[B5/finalists] rep7 fold0 rmse=0.4498 mae=0.2982 rhat=1.002 ess=2362 div=1 16.0s
+[B5/finalists] rep7 fold1 rmse=0.4482 mae=0.3409 rhat=1.002 ess=2641 div=0 15.3s
+[B5/finalists] rep7 fold2 rmse=0.4152 mae=0.3140 rhat=1.002 ess=2271 div=0 15.4s
+[B5/finalists] rep7 fold3 rmse=0.6223 mae=0.4519 rhat=1.002 ess=2434 div=2 16.1s
+[B5/finalists] rep7 fold4 rmse=0.6120 mae=0.3838 rhat=1.002 ess=2475 div=4 19.0s
+[B5/finalists] rep8 fold0 rmse=0.5269 mae=0.4162 rhat=1.002 ess=2440 div=5 17.1s
+[B5/finalists] rep8 fold1 rmse=0.7088 mae=0.4253 rhat=1.002 ess=2248 div=0 17.7s
+[B5/finalists] rep8 fold2 rmse=0.3846 mae=0.2928 rhat=1.001 ess=2731 div=0 12.9s
+[B5/finalists] rep8 fold3 rmse=0.4345 mae=0.3232 rhat=1.002 ess=2543 div=0 15.9s
+[B5/finalists] rep8 fold4 rmse=0.5078 mae=0.3792 rhat=1.002 ess=2530 div=2 15.7s
+[B5/finalists] rep9 fold0 rmse=0.3808 mae=0.2744 rhat=1.003 ess=2638 div=0 16.2s
+[B5/finalists] rep9 fold1 rmse=0.5387 mae=0.3924 rhat=1.002 ess=2699 div=0 16.0s
+[B5/finalists] rep9 fold2 rmse=0.3738 mae=0.2846 rhat=1.002 ess=2697 div=0 15.4s
+[B5/finalists] rep9 fold3 rmse=0.5827 mae=0.3593 rhat=1.002 ess=2437 div=2 15.9s
+[B5/finalists] rep9 fold4 rmse=0.6224 mae=0.4705 rhat=1.002 ess=2463 div=0 16.3s
+        model      block     rmse      mae    n
+           B0  selection 0.511432 0.341121  690
+           B0 evaluation 0.510405 0.339326  690
+           B0        all 0.510919 0.340224 1380
+           B3  selection 0.512228 0.359835  690
+           B3 evaluation 0.512792 0.359596  690
+           B3        all 0.512510 0.359716 1380
+           B5  selection 0.521222 0.363268  690
+           B5 evaluation 0.515642 0.359568  690
+           B5        all 0.518440 0.361418 1380
+PRIOR_OFICIAL  selection 0.513576 0.337723  690
+PRIOR_OFICIAL evaluation 0.511026 0.335099  690
+PRIOR_OFICIAL        all 0.512302 0.336411 1380
+a b  n_pairs   rmse_a   rmse_b  delta_rmse  mean_err2_diff  mean_abserr_diff  median_abserr_diff                         bootstrap_ci_err2_diff model            vs     stat       pvalue
+A B     1380 0.510919 0.512302   -0.001384       -0.001416          0.003813            0.003584 [-0.004411591034217075, 0.0014219783193942846]    B0 PRIOR_OFICIAL 427036.0 8.472098e-04
+A B     1380 0.512510 0.512302    0.000208        0.000213          0.023305            0.023093   [-0.006472757063013083, 0.00707926963568744]    B3 PRIOR_OFICIAL 406271.0 2.144801e-06
+A B     1380 0.518440 0.512302    0.006138        0.006326          0.025007            0.022617 [-0.0008708008731255252, 0.013432534218289088]    B5 PRIOR_OFICIAL 403479.0 8.314378e-07
+
+ENV vs B0:
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There were 3 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 9 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There were 4 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 9 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 9 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 9 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There were 3 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 9 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 17 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 5 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 16 seconds.
+There were 3 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There were 3 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There were 3 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 16 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 16 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There were 11 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 18 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 19 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 11 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 17 seconds.
+There were 4 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+There were 5 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 16 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 14 seconds.
+Traceback (most recent call last):
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/run_phase3_finalists.py", line 88, in <module>
+    evaluate(mcmc["selection_repeats"], mcmc["evaluation_repeats"])
+  File "/mnt/FEDORA-DATOS/ModoZebada/DATASET_RETO_AGRO_2026 (1)/DATASET_RETO_AGRO_2026/experiments/bayesian_hierarchical/run_phase3_finalists.py", line 81, in evaluate
+    print(pd.DataFrame(env_rows)[["model", "rmse", "bootstrap_ci_err2_diff", "pvalue"]].to_string(index=False))
+  File "/home/brunotarangogaray/miniconda3/envs/agrocebada-xai/lib/python3.10/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/brunotarangogaray/miniconda3/envs/agrocebada-xai/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/brunotarangogaray/miniconda3/envs/agrocebada-xai/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6264, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['rmse'] not in index"
+ERROR conda.cli.main_run:execute(148): `conda run python run_phase3_finalists.py` failed. (See above for error)

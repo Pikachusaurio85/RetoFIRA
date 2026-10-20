@@ -1,0 +1,94 @@
+{
+  "n_rows": 197,
+  "n_features_available": 231,
+  "n_missing_rows_target": 59,
+  "n_constant_features": 3,
+  "yield_summary": {
+    "n": 138,
+    "mean": 3.9553623188405793,
+    "std": 0.8511607869757011,
+    "min": 2.0,
+    "q25": 3.2,
+    "median": 4.34,
+    "q75": 4.55,
+    "max": 5.59,
+    "frac_multiple_0p5": 0.14492753623188406,
+    "n_outliers_iqr": 0
+  },
+  "variance_decomposition": {
+    "grand_mean": 3.9553623188405793,
+    "ss_between": 68.1120953347622,
+    "ss_within": 31.140936549295777,
+    "ss_total": 99.25303188405798,
+    "frac_between": 0.686246999631478,
+    "frac_within": 0.3137530003685221,
+    "icc_approx": 0.686246999631478
+  },
+  "municipality_counts": [
+    {
+      "loc_municipio": "Chignahuapan",
+      "ENTRENAMIENTO": 71,
+      "PREDICCION": 29,
+      "total": 100,
+      "small_train": false
+    },
+    {
+      "loc_municipio": "Calpulalpan",
+      "ENTRENAMIENTO": 30,
+      "PREDICCION": 14,
+      "total": 44,
+      "small_train": false
+    },
+    {
+      "loc_municipio": "Singuilucan",
+      "ENTRENAMIENTO": 16,
+      "PREDICCION": 7,
+      "total": 23,
+      "small_train": false
+    },
+    {
+      "loc_municipio": "Almoloya",
+      "ENTRENAMIENTO": 10,
+      "PREDICCION": 4,
+      "total": 14,
+      "small_train": false
+    },
+    {
+      "loc_municipio": "Cuautepec de Hinojosa",
+      "ENTRENAMIENTO": 5,
+      "PREDICCION": 4,
+      "total": 9,
+      "small_train": true
+    },
+    {
+      "loc_municipio": "Emiliano Zapata",
+      "ENTRENAMIENTO": 3,
+      "PREDICCION": 0,
+      "total": 3,
+      "small_train": true
+    },
+    {
+      "loc_municipio": "Nanacamilpa de Mariano Arista",
+      "ENTRENAMIENTO": 1,
+      "PREDICCION": 1,
+      "total": 2,
+      "small_train": true
+    },
+    {
+      "loc_municipio": "Apan",
+      "ENTRENAMIENTO": 1,
+      "PREDICCION": 0,
+      "total": 1,
+      "small_train": true
+    },
+    {
+      "loc_municipio": "Tepeapulco",
+      "ENTRENAMIENTO": 1,
+      "PREDICCION": 0,
+      "total": 1,
+      "small_train": true
+    }
+  ],
+  "n_municipios_train_lt10": 5,
+  "n_high_corr_pairs_095": 207
+}

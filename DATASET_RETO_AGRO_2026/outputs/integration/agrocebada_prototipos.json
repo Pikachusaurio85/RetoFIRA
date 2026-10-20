@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "configuracion": {
+    "space": "compacto",
+    "method": "ProtoDash",
+    "m": 5,
+    "sigma_factor": 1.0,
+    "optimizer": "osqp",
+    "components": [
+      "C1a_ndvi_s2_mean",
+      "C2a_amplitud_ndvi",
+      "C3a_ndwi_s2_mean",
+      "C4a_prec_acum_abr_oct",
+      "C5a_elev_media"
+    ]
+  },
+  "prototipos": [
+    {
+      "prototype_id": "AGC_076",
+      "global_selection_rank": 1,
+      "municipio": "Chignahuapan",
+      "particion": "PREDICCION",
+      "weight_original": 0.6503616908382096,
+      "weight_normalized": 0.6877478448711648,
+      "conceptual_original": {
+        "C1a_ndvi_s2_mean": 0.359875,
+        "C2a_amplitud_ndvi": 0.511,
+        "C3a_ndwi_s2_mean": 0.0339375,
+        "C4a_prec_acum_abr_oct": 961.35080909729,
+        "C5a_elev_media": 2631.0
+      },
+      "conceptual_scaled": {
+        "C1a_ndvi_s2_mean": 0.0661384722479898,
+        "C2a_amplitud_ndvi": -0.0947368421052632,
+        "C3a_ndwi_s2_mean": -0.2012583854355667,
+        "C4a_prec_acum_abr_oct": 0.0,
+        "C5a_elev_media": -0.0692640692640692
+      },
+      "metadata": {
+        "space": "compacto",
+        "method": "ProtoDash",
+        "m": 5,
+        "sigma_factor": 1.0,
+        "optimizer": "osqp",
+        "global_selection_rank": 1
+      }
+    },
+    {
+      "prototype_id": "AGC_133",
+      "global_selection_rank": 2,
+      "municipio": "Chignahuapan",
+      "particion": "ENTRENAMIENTO",
+      "weight_original": 0.1058833616997926,
+      "weight_normalized": 0.1119700850197557,
+      "conceptual_original": {
+        "C1a_ndvi_s2_mean": 0.4371379310344827,
+        "C2a_amplitud_ndvi": 0.5845,
+        "C3a_ndwi_s2_mean": 0.134,
+        "C4a_prec_acum_abr_oct": 793.7303228378296,
+        "C5a_elev_media": 2839.5
+      },
+      "conceptual_scaled": {
+        "C1a_ndvi_s2_mean": 1.6407052048084136,
+        "C2a_amplitud_ndvi": 0.6789473684210529,
+        "C3a_ndwi_s2_mean": 1.5702334140397427,
+        "C4a_prec_acum_abr_oct": -0.6631257554248304,
+        "C5a_elev_media": 1.735930735930736
+      },
+      "metadata": {
+        "space": "compacto",
+        "method": "ProtoDash",
+        "m": 5,
+        "sigma_factor": 1.0,
+        "optimizer": "osqp",
+        "global_selection_rank": 2
+      }
+    },
+    {
+      "prototype_id": "AGC_162",
+      "global_selection_rank": 3,
+      "municipio": "Chignahuapan",
+      "particion": "ENTRENAMIENTO",
+      "weight_original": 0.0698535128140877,
+      "weight_normalized": 0.073869054053063,
+      "conceptual_original": {
+        "C1a_ndvi_s2_mean": 0.2690967741935484,
+        "C2a_amplitud_ndvi": 0.358,
+        "C3a_ndwi_s2_mean": 0.0146451612903225,
+        "C4a_prec_acum_abr_oct": 793.7303228378296,
+        "C5a_elev_media": 2833.25
+      },
+      "conceptual_scaled": {
+        "C1a_ndvi_s2_mean": -1.7838609062625668,
+        "C2a_amplitud_ndvi": -1.7052631578947377,
+        "C3a_ndwi_s2_mean": -0.5428071156481201,
+        "C4a_prec_acum_abr_oct": -0.6631257554248304,
+        "C5a_elev_media": 1.681818181818182
+      },
+      "metadata": {
+        "space": "compacto",
+        "method": "ProtoDash",
+        "m": 5,
+        "sigma_factor": 1.0,
+        "optimizer": "osqp",
+        "global_selection_rank": 3
+      }
+    },
+    {
+      "prototype_id": "AGC_074",
+      "global_selection_rank": 4,
+      "municipio": "Calpulalpan",
+      "particion": "ENTRENAMIENTO",
+      "weight_original": 0.0744479860415408,
+      "weight_normalized": 0.07872764136688,
+      "conceptual_original": {
+        "C1a_ndvi_s2_mean": 0.3958275862068965,
+        "C2a_amplitud_ndvi": 0.662,
+        "C3a_ndwi_s2_mean": 0.1136551724137931,
+        "C4a_prec_acum_abr_oct": 1459.1384239196775,
+        "C5a_elev_media": 2809.428571428572
+      },
+      "conceptual_scaled": {
+        "C1a_ndvi_s2_mean": 0.7988280742723398,
+        "C2a_amplitud_ndvi": 1.4947368421052638,
+        "C3a_ndwi_s2_mean": 1.210051575381858,
+        "C4a_prec_acum_abr_oct": 1.9693045610741384,
+        "C5a_elev_media": 1.4755720470006235
+      },
+      "metadata": {
+        "space": "compacto",
+        "method": "ProtoDash",
+        "m": 5,
+        "sigma_factor": 1.0,
+        "optimizer": "osqp",
+        "global_selection_rank": 4
+      }
+    },
+    {
+      "prototype_id": "AGC_170",
+      "global_selection_rank": 5,
+      "municipio": "Calpulalpan",
+      "particion": "ENTRENAMIENTO",
+      "weight_original": 0.0450931851584209,
+      "weight_normalized": 0.0476853746891365,
+      "conceptual_original": {
+        "C1a_ndvi_s2_mean": 0.2629999999999999,
+        "C2a_amplitud_ndvi": 0.411,
+        "C3a_ndwi_s2_mean": -0.0675526315789473,
+        "C4a_prec_acum_abr_oct": 770.9277410507202,
+        "C5a_elev_media": 2501.4
+      },
+      "conceptual_scaled": {
+        "C1a_ndvi_s2_mean": -1.908109076666688,
+        "C2a_amplitud_ndvi": -1.1473684210526318,
+        "C3a_ndwi_s2_mean": -1.9980247646463136,
+        "C4a_prec_acum_abr_oct": -0.7533353688834595,
+        "C5a_elev_media": -1.1913419913419905
+      },
+      "metadata": {
+        "space": "compacto",
+        "method": "ProtoDash",
+        "m": 5,
+        "sigma_factor": 1.0,
+        "optimizer": "osqp",
+        "global_selection_rank": 5
+      }
+    }
+  ]
+}

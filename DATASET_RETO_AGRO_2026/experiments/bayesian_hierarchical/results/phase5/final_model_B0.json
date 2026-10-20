@@ -1,0 +1,88 @@
+{
+  "config": "B0",
+  "formula": "y ~ Normal(alpha + u_municipio + X @ beta, sigma); u = tau*z, z~N(0,1)",
+  "features": [],
+  "scaling": "z-score ajustado sobre las 138 parcelas de ENTRENAMIENTO",
+  "priors": {
+    "alpha": [
+      4.0,
+      1.5
+    ],
+    "beta_sd": 0.0,
+    "sigma_scale": 1.0,
+    "tau_scale": 0.7
+  },
+  "posterior": {
+    "alpha_mean": 3.734370506793869,
+    "sigma_mean": 0.49628682942633984,
+    "tau_mean": 0.7958868263242173,
+    "icc_mean": 0.69529990605896,
+    "icc_ci": [
+      0.4638604836119117,
+      0.8776733267794863
+    ]
+  },
+  "municipio_effects": {
+    "Almoloya": {
+      "u_mean": 0.7503316087373333,
+      "u_lo": 0.11769867237887638,
+      "u_hi": 1.39432548886842,
+      "n_train": 10
+    },
+    "Apan": {
+      "u_mean": -0.515775509605567,
+      "u_lo": -1.4881353111899953,
+      "u_hi": 0.40741216360856564,
+      "n_train": 1
+    },
+    "Calpulalpan": {
+      "u_mean": -0.7235168898905572,
+      "u_lo": -1.3294101873096122,
+      "u_hi": -0.12609790709838956,
+      "n_train": 30
+    },
+    "Chignahuapan": {
+      "u_mean": 0.7380589912851185,
+      "u_lo": 0.1546241483087976,
+      "u_hi": 1.3359530616713624,
+      "n_train": 71
+    },
+    "Cuautepec de Hinojosa": {
+      "u_mean": 0.7901573809431672,
+      "u_lo": 0.1342091486911851,
+      "u_hi": 1.5012117641185183,
+      "n_train": 5
+    },
+    "Emiliano Zapata": {
+      "u_mean": -0.20153931019966703,
+      "u_lo": -0.9123726265318508,
+      "u_hi": 0.5284543138157926,
+      "n_train": 3
+    },
+    "Nanacamilpa de Mariano Arista": {
+      "u_mean": -0.8564006399135851,
+      "u_lo": -1.830752877173042,
+      "u_hi": 0.06932407101119603,
+      "n_train": 1
+    },
+    "Singuilucan": {
+      "u_mean": -0.6334422998305917,
+      "u_lo": -1.2563896197328035,
+      "u_hi": -0.02622772259488856,
+      "n_train": 16
+    },
+    "Tepeapulco": {
+      "u_mean": 0.5024184004112688,
+      "u_lo": -0.38781662834292857,
+      "u_hi": 1.4682384688911119,
+      "n_train": 1
+    }
+  },
+  "scaler": {
+    "mean": [],
+    "sd": [],
+    "median": []
+  },
+  "kept_features": [],
+  "n_train": 138
+}

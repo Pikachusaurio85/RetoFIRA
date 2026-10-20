@@ -1,0 +1,96 @@
+{
+  "etiquetadas": 138,
+  "reserva": 59,
+  "config": {
+    "n_estimators": 350,
+    "max_features": 0.7,
+    "min_samples_leaf": 3,
+    "max_depth": null,
+    "bootstrap": true,
+    "random_state": 2026,
+    "n_jobs": -1
+  },
+  "modelos": {
+    "RF_8_agronomicas": 8,
+    "RF_24_curadas": 24,
+    "RF_148_historicas": 148
+  },
+  "bloques": {
+    "0": 37,
+    "1": 22,
+    "2": 16,
+    "3": 11,
+    "4": 39,
+    "5": 13
+  },
+  "metricas": [
+    {
+      "modelo": "RF_8_agronomicas",
+      "escenario": "aleatoria_5_folds",
+      "n_parcelas": 138,
+      "n_variables": 8,
+      "MAE_t_ha": 0.5904403596593193,
+      "RMSE_t_ha": 0.7300844132218774,
+      "R2": 0.25889207449903284,
+      "pred_min": 3.0057222242043675,
+      "pred_max": 5.053824288251433
+    },
+    {
+      "modelo": "RF_8_agronomicas",
+      "escenario": "espacial_6_bloques",
+      "n_parcelas": 138,
+      "n_variables": 8,
+      "MAE_t_ha": 0.9503159443521171,
+      "RMSE_t_ha": 1.075137684283944,
+      "R2": -0.6071761286793358,
+      "pred_min": 2.899053133850278,
+      "pred_max": 4.593433069034139
+    },
+    {
+      "modelo": "RF_24_curadas",
+      "escenario": "aleatoria_5_folds",
+      "n_parcelas": 138,
+      "n_variables": 24,
+      "MAE_t_ha": 0.5016245828906544,
+      "RMSE_t_ha": 0.685949046254225,
+      "R2": 0.34578722939438333,
+      "pred_min": 2.937573616780045,
+      "pred_max": 4.863644571222429
+    },
+    {
+      "modelo": "RF_24_curadas",
+      "escenario": "espacial_6_bloques",
+      "n_parcelas": 138,
+      "n_variables": 24,
+      "MAE_t_ha": 0.6989068347588352,
+      "RMSE_t_ha": 0.8862377712277663,
+      "R2": -0.0920331335914979,
+      "pred_min": 2.9489850020614305,
+      "pred_max": 4.68209580522652
+    },
+    {
+      "modelo": "RF_148_historicas",
+      "escenario": "aleatoria_5_folds",
+      "n_parcelas": 138,
+      "n_variables": 148,
+      "MAE_t_ha": 0.3938824169367758,
+      "RMSE_t_ha": 0.5384462060690572,
+      "R2": 0.596893364735706,
+      "pred_min": 2.8109667332667323,
+      "pred_max": 4.71624681350396
+    },
+    {
+      "modelo": "RF_148_historicas",
+      "escenario": "espacial_6_bloques",
+      "n_parcelas": 138,
+      "n_variables": 148,
+      "MAE_t_ha": 0.7242699095239935,
+      "RMSE_t_ha": 0.8861507370152029,
+      "R2": -0.0918186548590747,
+      "pred_min": 2.6976740775097916,
+      "pred_max": 4.758663506493508
+    }
+  ],
+  "mejor_rf_espacial": "RF_148_historicas",
+  "advertencia": "Resultados de validacion espacial no demuestran generalizacion a un ciclo 2026."
+}

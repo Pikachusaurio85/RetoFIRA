@@ -1,0 +1,3 @@
+cfg,RMSE_media,RMSE_sd_por_semilla,min,max
+resid_muni|ET|ALL,0.5321,0.0019,0.5291,0.5347
+direct|ET|ALL,0.525,0.0018,0.523,0.5288

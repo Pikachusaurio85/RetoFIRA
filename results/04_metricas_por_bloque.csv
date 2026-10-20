@@ -1,0 +1,727 @@
+esquema,bloque,cfg,n,municipios,y_media,pred_media,sesgo,RMSE,MAE
+SPA_KM4,0,direct|CB|ALL,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.6856,-0.797,1.0236,0.8945
+SPA_KM4,1,direct|CB|ALL,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1342,1.1056,1.2002,1.1056
+SPA_KM4,2,direct|CB|ALL,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.0561,0.8808,1.0846,0.9483
+SPA_KM4,3,direct|CB|ALL,11,"Almoloya,Tepeapulco",4.5145,4.0385,-0.4761,0.5293,0.4852
+SPA_KM4,0,direct|CB|SAT,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3997,-1.083,1.2801,1.1601
+SPA_KM4,1,direct|CB|SAT,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.0444,1.0159,1.1167,1.0159
+SPA_KM4,2,direct|CB|SAT,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.5878,0.4125,0.7799,0.616
+SPA_KM4,3,direct|CB|SAT,11,"Almoloya,Tepeapulco",4.5145,4.3989,-0.1157,0.319,0.256
+SPA_KM4,0,direct|ET|ALL,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.8046,-0.678,0.8996,0.796
+SPA_KM4,1,direct|ET|ALL,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1046,1.076,1.1763,1.076
+SPA_KM4,2,direct|ET|ALL,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.3754,1.2001,1.3398,1.2437
+SPA_KM4,3,direct|ET|ALL,11,"Almoloya,Tepeapulco",4.5145,3.7703,-0.7443,0.8162,0.7443
+SPA_KM4,0,direct|ET|ALLNOLOC,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.615,-0.8676,1.062,0.9579
+SPA_KM4,1,direct|ET|ALLNOLOC,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1055,1.0769,1.1851,1.0771
+SPA_KM4,2,direct|ET|ALLNOLOC,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.4275,1.2522,1.3948,1.2982
+SPA_KM4,3,direct|ET|ALLNOLOC,11,"Almoloya,Tepeapulco",4.5145,3.642,-0.8725,0.9492,0.8725
+SPA_KM4,0,direct|ET|B1,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3922,-1.0904,1.2689,1.1623
+SPA_KM4,1,direct|ET|B1,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.0011,0.9725,1.0883,0.9725
+SPA_KM4,2,direct|ET|B1,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.6215,0.4462,0.7715,0.5902
+SPA_KM4,3,direct|ET|B1,11,"Almoloya,Tepeapulco",4.5145,4.3836,-0.131,0.2621,0.1988
+SPA_KM4,0,direct|ET|CLIM,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,4.2801,-0.2026,0.6103,0.4631
+SPA_KM4,1,direct|ET|CLIM,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1366,1.108,1.21,1.1108
+SPA_KM4,2,direct|ET|CLIM,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.387,1.2118,1.3357,1.2487
+SPA_KM4,3,direct|ET|CLIM,11,"Almoloya,Tepeapulco",4.5145,3.5781,-0.9364,1.0101,0.9364
+SPA_KM4,0,direct|ET|LOC,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,4.0624,-0.4202,0.7192,0.6003
+SPA_KM4,1,direct|ET|LOC,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.0686,1.04,1.1062,1.04
+SPA_KM4,2,direct|ET|LOC,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.2969,1.1216,1.2517,1.161
+SPA_KM4,3,direct|ET|LOC,11,"Almoloya,Tepeapulco",4.5145,4.0562,-0.4583,0.4924,0.4583
+SPA_KM4,0,direct|ET|SAT,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3786,-1.1041,1.2842,1.1774
+SPA_KM4,1,direct|ET|SAT,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.0545,1.0259,1.1291,1.0259
+SPA_KM4,2,direct|ET|SAT,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.637,0.4617,0.7798,0.5952
+SPA_KM4,3,direct|ET|SAT,11,"Almoloya,Tepeapulco",4.5145,4.4038,-0.1107,0.2785,0.2234
+SPA_KM4,0,direct|Ridge|SAT,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.4976,-0.985,1.1749,1.0635
+SPA_KM4,1,direct|Ridge|SAT,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.0196,0.9911,1.0796,0.9911
+SPA_KM4,2,direct|Ridge|SAT,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.2692,0.0939,0.7523,0.6153
+SPA_KM4,3,direct|Ridge|SAT,11,"Almoloya,Tepeapulco",4.5145,4.3816,-0.133,0.3883,0.3257
+SPA_KM4,0,ref_global,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3276,-1.155,1.2863,1.2127
+SPA_KM4,1,ref_global,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2703,1.2417,1.2977,1.2417
+SPA_KM4,2,ref_global,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.065,0.8897,1.0484,0.962
+SPA_KM4,3,ref_global,11,"Almoloya,Tepeapulco",4.5145,3.9069,-0.6076,0.6314,0.6076
+SPA_KM4,0,ref_knn,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,4.5013,0.0186,0.6135,0.3926
+SPA_KM4,1,ref_knn,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.415,1.3864,1.4365,1.3864
+SPA_KM4,2,ref_knn,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.5384,1.3631,1.483,1.3971
+SPA_KM4,3,ref_knn,11,"Almoloya,Tepeapulco",4.5145,4.3858,-0.1288,0.2754,0.2321
+SPA_KM4,0,ref_muni,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3457,-1.137,1.271,1.1947
+SPA_KM4,1,ref_muni,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2703,1.2417,1.2977,1.2417
+SPA_KM4,2,ref_muni,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.0822,0.9069,1.0407,0.9448
+SPA_KM4,3,ref_muni,11,"Almoloya,Tepeapulco",4.5145,3.9069,-0.6076,0.6314,0.6076
+SPA_KM4,0,ref_muni_knnres,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.7337,-0.749,0.9434,0.8446
+SPA_KM4,1,ref_muni_knnres,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2543,1.2257,1.282,1.2257
+SPA_KM4,2,ref_muni_knnres,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.3457,1.1704,1.2954,1.2036
+SPA_KM4,3,ref_muni_knnres,11,"Almoloya,Tepeapulco",4.5145,3.8521,-0.6624,0.7117,0.6624
+SPA_KM4,0,resid_muni|CB|ALL,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.4247,-1.058,1.2184,1.1214
+SPA_KM4,1,resid_muni|CB|ALL,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.237,1.2085,1.2739,1.2085
+SPA_KM4,2,resid_muni|CB|ALL,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9958,0.8205,1.025,0.8805
+SPA_KM4,3,resid_muni|CB|ALL,11,"Almoloya,Tepeapulco",4.5145,3.9728,-0.5418,0.5725,0.5418
+SPA_KM4,0,resid_muni|CB|SAT,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3891,-1.0936,1.2495,1.1571
+SPA_KM4,1,resid_muni|CB|SAT,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2762,1.2476,1.3092,1.2476
+SPA_KM4,2,resid_muni|CB|SAT,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9647,0.7894,0.9771,0.8538
+SPA_KM4,3,resid_muni|CB|SAT,11,"Almoloya,Tepeapulco",4.5145,4.0291,-0.4854,0.5068,0.4854
+SPA_KM4,0,resid_muni|ET|ALL,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.4705,-1.0122,1.1715,1.0884
+SPA_KM4,1,resid_muni|ET|ALL,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2185,1.1899,1.2547,1.1899
+SPA_KM4,2,resid_muni|ET|ALL,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.983,0.8077,0.9738,0.8673
+SPA_KM4,3,resid_muni|ET|ALL,11,"Almoloya,Tepeapulco",4.5145,3.9682,-0.5464,0.5682,0.5464
+SPA_KM4,0,resid_muni|ET|ALLNOLOC,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.4554,-1.0273,1.1848,1.1025
+SPA_KM4,1,resid_muni|ET|ALLNOLOC,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2237,1.1951,1.2605,1.1951
+SPA_KM4,2,resid_muni|ET|ALLNOLOC,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9737,0.7984,0.9695,0.86
+SPA_KM4,3,resid_muni|ET|ALLNOLOC,11,"Almoloya,Tepeapulco",4.5145,3.956,-0.5585,0.5762,0.5585
+SPA_KM4,0,resid_muni|ET|CLIM,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.706,-0.7767,0.9587,0.8699
+SPA_KM4,1,resid_muni|ET|CLIM,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1901,1.1615,1.2212,1.1615
+SPA_KM4,2,resid_muni|ET|CLIM,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,4.107,0.9317,1.0639,0.9716
+SPA_KM4,3,resid_muni|ET|CLIM,11,"Almoloya,Tepeapulco",4.5145,3.7929,-0.7216,0.7408,0.7216
+SPA_KM4,0,resid_muni|ET|CUR,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3743,-1.1083,1.2631,1.1741
+SPA_KM4,1,resid_muni|ET|CUR,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1901,1.1615,1.2213,1.1615
+SPA_KM4,2,resid_muni|ET|CUR,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9332,0.7579,0.9393,0.8216
+SPA_KM4,3,resid_muni|ET|CUR,11,"Almoloya,Tepeapulco",4.5145,3.9051,-0.6095,0.6263,0.6095
+SPA_KM4,0,resid_muni|ET|SAT,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.4131,-1.0696,1.2223,1.1414
+SPA_KM4,1,resid_muni|ET|SAT,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2594,1.2309,1.2949,1.2309
+SPA_KM4,2,resid_muni|ET|SAT,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9594,0.7841,0.9672,0.8395
+SPA_KM4,3,resid_muni|ET|SAT,11,"Almoloya,Tepeapulco",4.5145,4.0147,-0.4998,0.5324,0.4998
+SPA_KM4,0,resid_muni|Ridge|CUR,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.3614,-1.1213,1.2671,1.1865
+SPA_KM4,1,resid_muni|Ridge|CUR,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.1772,1.1486,1.2121,1.1486
+SPA_KM4,2,resid_muni|Ridge|CUR,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9397,0.7644,0.9482,0.8249
+SPA_KM4,3,resid_muni|Ridge|CUR,11,"Almoloya,Tepeapulco",4.5145,3.8731,-0.6415,0.6698,0.6415
+SPA_KM4,0,resid_muni|Ridge|SAT,75,"Chignahuapan,Cuautepec de Hinojosa",4.4827,3.4136,-1.069,1.214,1.1367
+SPA_KM4,1,resid_muni|Ridge|SAT,35,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.0286,4.2161,1.1875,1.2469,1.1875
+SPA_KM4,2,resid_muni|Ridge|SAT,17,"Cuautepec de Hinojosa,Singuilucan",3.1753,3.9124,0.7371,0.9242,0.7918
+SPA_KM4,3,resid_muni|Ridge|SAT,11,"Almoloya,Tepeapulco",4.5145,3.895,-0.6196,0.6389,0.6196
+SPA_KM6,0,direct|CB|ALL,41,Chignahuapan,4.6049,4.1325,-0.4724,0.7711,0.6303
+SPA_KM6,1,direct|CB|ALL,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.681,0.631,0.7737,0.6442
+SPA_KM6,2,direct|CB|ALL,16,Singuilucan,3.0812,4.0884,1.0072,1.1353,1.0072
+SPA_KM6,3,direct|CB|ALL,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.3336,-0.0116,0.5719,0.3926
+SPA_KM6,4,direct|CB|ALL,11,"Almoloya,Tepeapulco",4.5145,3.8978,-0.6168,0.6731,0.6168
+SPA_KM6,5,direct|CB|ALL,15,Calpulalpan,3.0,3.3143,0.3143,0.5328,0.4217
+SPA_KM6,0,direct|CB|SAT,41,Chignahuapan,4.6049,3.7538,-0.8511,1.0918,0.9463
+SPA_KM6,1,direct|CB|SAT,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.7114,0.6614,0.8647,0.7417
+SPA_KM6,2,direct|CB|SAT,16,Singuilucan,3.0812,3.512,0.4308,0.7823,0.6086
+SPA_KM6,3,direct|CB|SAT,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,3.8945,-0.4507,0.7946,0.6768
+SPA_KM6,4,direct|CB|SAT,11,"Almoloya,Tepeapulco",4.5145,4.4477,-0.0669,0.3127,0.232
+SPA_KM6,5,direct|CB|SAT,15,Calpulalpan,3.0,3.4716,0.4716,0.6818,0.5633
+SPA_KM6,0,direct|ET|ALL,41,Chignahuapan,4.6049,4.3018,-0.3031,0.6332,0.5022
+SPA_KM6,1,direct|ET|ALL,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3992,0.3492,0.5323,0.4372
+SPA_KM6,2,direct|ET|ALL,16,Singuilucan,3.0812,4.3974,1.3162,1.3947,1.3162
+SPA_KM6,3,direct|ET|ALL,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4995,0.1543,0.5861,0.3487
+SPA_KM6,4,direct|ET|ALL,11,"Almoloya,Tepeapulco",4.5145,3.78,-0.7346,0.7963,0.7346
+SPA_KM6,5,direct|ET|ALL,15,Calpulalpan,3.0,3.1594,0.1594,0.4431,0.3599
+SPA_KM6,0,direct|ET|ALLNOLOC,41,Chignahuapan,4.6049,4.2696,-0.3353,0.6564,0.5303
+SPA_KM6,1,direct|ET|ALLNOLOC,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.4006,0.3506,0.5366,0.4446
+SPA_KM6,2,direct|ET|ALLNOLOC,16,Singuilucan,3.0812,4.4574,1.3762,1.4502,1.3762
+SPA_KM6,3,direct|ET|ALLNOLOC,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4623,0.1172,0.563,0.3338
+SPA_KM6,4,direct|ET|ALLNOLOC,11,"Almoloya,Tepeapulco",4.5145,3.6399,-0.8747,0.9481,0.8747
+SPA_KM6,5,direct|ET|ALLNOLOC,15,Calpulalpan,3.0,3.1864,0.1864,0.4532,0.3717
+SPA_KM6,0,direct|ET|B1,41,Chignahuapan,4.6049,3.7748,-0.8301,1.0526,0.9198
+SPA_KM6,1,direct|ET|B1,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.7369,0.6869,0.9082,0.7481
+SPA_KM6,2,direct|ET|B1,16,Singuilucan,3.0812,3.6201,0.5388,0.7814,0.5864
+SPA_KM6,3,direct|ET|B1,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,3.9082,-0.437,0.7687,0.6333
+SPA_KM6,4,direct|ET|B1,11,"Almoloya,Tepeapulco",4.5145,4.3815,-0.1331,0.2546,0.1951
+SPA_KM6,5,direct|ET|B1,15,Calpulalpan,3.0,3.4174,0.4174,0.5913,0.5106
+SPA_KM6,0,direct|ET|CLIM,41,Chignahuapan,4.6049,4.4033,-0.2016,0.6034,0.4427
+SPA_KM6,1,direct|ET|CLIM,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3021,0.2521,0.4461,0.386
+SPA_KM6,2,direct|ET|CLIM,16,Singuilucan,3.0812,4.4292,1.348,1.4138,1.348
+SPA_KM6,3,direct|ET|CLIM,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.5902,0.2451,0.6334,0.4051
+SPA_KM6,4,direct|ET|CLIM,11,"Almoloya,Tepeapulco",4.5145,3.5961,-0.9184,0.99,0.9184
+SPA_KM6,5,direct|ET|CLIM,15,Calpulalpan,3.0,3.2405,0.2405,0.4485,0.3518
+SPA_KM6,0,direct|ET|LOC,41,Chignahuapan,4.6049,4.2546,-0.3503,0.6635,0.5413
+SPA_KM6,1,direct|ET|LOC,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.2022,0.1522,0.414,0.3658
+SPA_KM6,2,direct|ET|LOC,16,Singuilucan,3.0812,4.3124,1.2311,1.3048,1.2311
+SPA_KM6,3,direct|ET|LOC,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.3925,0.0473,0.554,0.3452
+SPA_KM6,4,direct|ET|LOC,11,"Almoloya,Tepeapulco",4.5145,4.0606,-0.454,0.4866,0.454
+SPA_KM6,5,direct|ET|LOC,15,Calpulalpan,3.0,3.175,0.175,0.4075,0.3488
+SPA_KM6,0,direct|ET|SAT,41,Chignahuapan,4.6049,3.7631,-0.8418,1.0628,0.9338
+SPA_KM6,1,direct|ET|SAT,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.7356,0.6856,0.9097,0.749
+SPA_KM6,2,direct|ET|SAT,16,Singuilucan,3.0812,3.626,0.5448,0.7814,0.5849
+SPA_KM6,3,direct|ET|SAT,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,3.9363,-0.4088,0.7664,0.6273
+SPA_KM6,4,direct|ET|SAT,11,"Almoloya,Tepeapulco",4.5145,4.4124,-0.1021,0.2783,0.2036
+SPA_KM6,5,direct|ET|SAT,15,Calpulalpan,3.0,3.4266,0.4266,0.5812,0.5006
+SPA_KM6,0,direct|Ridge|SAT,41,Chignahuapan,4.6049,3.8526,-0.7523,0.9661,0.8415
+SPA_KM6,1,direct|Ridge|SAT,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.6655,0.6155,0.8273,0.6637
+SPA_KM6,2,direct|Ridge|SAT,16,Singuilucan,3.0812,3.2185,0.1372,0.7537,0.6035
+SPA_KM6,3,direct|Ridge|SAT,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,3.8968,-0.4483,0.7654,0.6501
+SPA_KM6,4,direct|Ridge|SAT,11,"Almoloya,Tepeapulco",4.5145,4.3816,-0.133,0.3883,0.3257
+SPA_KM6,5,direct|Ridge|SAT,15,Calpulalpan,3.0,3.47,0.47,0.7106,0.5597
+SPA_KM6,0,ref_global,41,Chignahuapan,4.6049,3.6808,-0.9241,1.0836,0.9842
+SPA_KM6,1,ref_global,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,4.1088,1.0588,1.1263,1.0588
+SPA_KM6,2,ref_global,16,Singuilucan,3.0812,4.07,0.9887,1.0743,0.9887
+SPA_KM6,3,ref_global,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,3.8229,-0.5222,0.7407,0.672
+SPA_KM6,4,ref_global,11,"Almoloya,Tepeapulco",4.5145,3.9069,-0.6076,0.6314,0.6076
+SPA_KM6,5,ref_global,15,Calpulalpan,3.0,4.0719,1.0719,1.1324,1.0719
+SPA_KM6,0,ref_knn,41,Chignahuapan,4.6049,4.434,-0.1709,0.6046,0.4728
+SPA_KM6,1,ref_knn,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,2.9791,-0.0709,0.4145,0.3342
+SPA_KM6,2,ref_knn,16,Singuilucan,3.0812,4.5878,1.5065,1.5649,1.5065
+SPA_KM6,3,ref_knn,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4812,0.1361,0.6315,0.3721
+SPA_KM6,4,ref_knn,11,"Almoloya,Tepeapulco",4.5145,4.3858,-0.1288,0.2754,0.2321
+SPA_KM6,5,ref_knn,15,Calpulalpan,3.0,3.0628,0.0628,0.3945,0.3069
+SPA_KM6,0,ref_muni,41,Chignahuapan,4.6049,4.2464,-0.3584,0.6699,0.5455
+SPA_KM6,1,ref_muni,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.4158,0.3658,0.61,0.4919
+SPA_KM6,2,ref_muni,16,Singuilucan,3.0812,4.07,0.9887,1.0743,0.9887
+SPA_KM6,3,ref_muni,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4475,0.1023,0.6357,0.4064
+SPA_KM6,4,ref_muni,11,"Almoloya,Tepeapulco",4.5145,3.9069,-0.6076,0.6314,0.6076
+SPA_KM6,5,ref_muni,15,Calpulalpan,3.0,3.1786,0.1786,0.4065,0.35
+SPA_KM6,0,ref_muni_knnres,41,Chignahuapan,4.6049,4.4406,-0.1643,0.604,0.4736
+SPA_KM6,1,ref_muni_knnres,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.1963,0.1463,0.5039,0.377
+SPA_KM6,2,ref_muni_knnres,16,Singuilucan,3.0812,4.3352,1.2539,1.3236,1.2539
+SPA_KM6,3,ref_muni_knnres,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.409,0.0639,0.6662,0.4412
+SPA_KM6,4,ref_muni_knnres,11,"Almoloya,Tepeapulco",4.5145,3.8521,-0.6624,0.7117,0.6624
+SPA_KM6,5,ref_muni_knnres,15,Calpulalpan,3.0,2.9964,-0.0036,0.353,0.2713
+SPA_KM6,0,resid_muni|CB|ALL,41,Chignahuapan,4.6049,4.239,-0.3659,0.7024,0.5634
+SPA_KM6,1,resid_muni|CB|ALL,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3667,0.3167,0.5865,0.4424
+SPA_KM6,2,resid_muni|CB|ALL,16,Singuilucan,3.0812,3.9667,0.8855,1.0235,0.892
+SPA_KM6,3,resid_muni|CB|ALL,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4061,0.061,0.6115,0.4069
+SPA_KM6,4,resid_muni|CB|ALL,11,"Almoloya,Tepeapulco",4.5145,3.9736,-0.5409,0.5588,0.5409
+SPA_KM6,5,resid_muni|CB|ALL,15,Calpulalpan,3.0,2.9205,-0.0795,0.4287,0.3328
+SPA_KM6,0,resid_muni|CB|SAT,41,Chignahuapan,4.6049,4.2646,-0.3403,0.6809,0.5444
+SPA_KM6,1,resid_muni|CB|SAT,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3918,0.3418,0.5845,0.4603
+SPA_KM6,2,resid_muni|CB|SAT,16,Singuilucan,3.0812,3.9531,0.8718,1.0078,0.8771
+SPA_KM6,3,resid_muni|CB|SAT,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4127,0.0676,0.6248,0.415
+SPA_KM6,4,resid_muni|CB|SAT,11,"Almoloya,Tepeapulco",4.5145,3.9885,-0.526,0.5551,0.526
+SPA_KM6,5,resid_muni|CB|SAT,15,Calpulalpan,3.0,3.0026,0.0026,0.407,0.3372
+SPA_KM6,0,resid_muni|ET|ALL,41,Chignahuapan,4.6049,4.2856,-0.3193,0.6365,0.5073
+SPA_KM6,1,resid_muni|ET|ALL,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3447,0.2947,0.5842,0.4496
+SPA_KM6,2,resid_muni|ET|ALL,16,Singuilucan,3.0812,3.9566,0.8754,0.9878,0.8754
+SPA_KM6,3,resid_muni|ET|ALL,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4443,0.0992,0.6129,0.4087
+SPA_KM6,4,resid_muni|ET|ALL,11,"Almoloya,Tepeapulco",4.5145,3.9307,-0.5839,0.6052,0.5839
+SPA_KM6,5,resid_muni|ET|ALL,15,Calpulalpan,3.0,2.9099,-0.0901,0.3875,0.3148
+SPA_KM6,0,resid_muni|ET|ALLNOLOC,41,Chignahuapan,4.6049,4.2861,-0.3188,0.6395,0.5079
+SPA_KM6,1,resid_muni|ET|ALLNOLOC,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3296,0.2796,0.5705,0.4304
+SPA_KM6,2,resid_muni|ET|ALLNOLOC,16,Singuilucan,3.0812,3.9596,0.8784,0.9902,0.8784
+SPA_KM6,3,resid_muni|ET|ALLNOLOC,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4366,0.0915,0.6177,0.4029
+SPA_KM6,4,resid_muni|ET|ALLNOLOC,11,"Almoloya,Tepeapulco",4.5145,3.9541,-0.5604,0.5855,0.5604
+SPA_KM6,5,resid_muni|ET|ALLNOLOC,15,Calpulalpan,3.0,2.8872,-0.1128,0.385,0.305
+SPA_KM6,0,resid_muni|ET|CLIM,41,Chignahuapan,4.6049,4.4338,-0.1711,0.5954,0.4252
+SPA_KM6,1,resid_muni|ET|CLIM,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.2322,0.1822,0.5293,0.403
+SPA_KM6,2,resid_muni|ET|CLIM,16,Singuilucan,3.0812,4.13,1.0488,1.1299,1.0488
+SPA_KM6,3,resid_muni|ET|CLIM,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.5687,0.2235,0.6895,0.4761
+SPA_KM6,4,resid_muni|ET|CLIM,11,"Almoloya,Tepeapulco",4.5145,3.7843,-0.7303,0.7488,0.7303
+SPA_KM6,5,resid_muni|ET|CLIM,15,Calpulalpan,3.0,2.9164,-0.0836,0.3733,0.3102
+SPA_KM6,0,resid_muni|ET|CUR,41,Chignahuapan,4.6049,4.3513,-0.2535,0.6148,0.4711
+SPA_KM6,1,resid_muni|ET|CUR,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3645,0.3145,0.5874,0.4626
+SPA_KM6,2,resid_muni|ET|CUR,16,Singuilucan,3.0812,3.9215,0.8403,0.9607,0.8403
+SPA_KM6,3,resid_muni|ET|CUR,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.3899,0.0447,0.5855,0.397
+SPA_KM6,4,resid_muni|ET|CUR,11,"Almoloya,Tepeapulco",4.5145,3.8977,-0.6169,0.6329,0.6169
+SPA_KM6,5,resid_muni|ET|CUR,15,Calpulalpan,3.0,2.9881,-0.0119,0.3494,0.2749
+SPA_KM6,0,resid_muni|ET|SAT,41,Chignahuapan,4.6049,4.2697,-0.3352,0.6457,0.5174
+SPA_KM6,1,resid_muni|ET|SAT,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3759,0.3259,0.5994,0.4566
+SPA_KM6,2,resid_muni|ET|SAT,16,Singuilucan,3.0812,3.9384,0.8572,0.981,0.8572
+SPA_KM6,3,resid_muni|ET|SAT,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4477,0.1026,0.6235,0.409
+SPA_KM6,4,resid_muni|ET|SAT,11,"Almoloya,Tepeapulco",4.5145,4.006,-0.5085,0.5386,0.5085
+SPA_KM6,5,resid_muni|ET|SAT,15,Calpulalpan,3.0,2.9878,-0.0122,0.3624,0.2969
+SPA_KM6,0,resid_muni|Ridge|CUR,41,Chignahuapan,4.6049,4.256,-0.3489,0.6648,0.5392
+SPA_KM6,1,resid_muni|Ridge|CUR,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3308,0.2808,0.5646,0.4301
+SPA_KM6,2,resid_muni|Ridge|CUR,16,Singuilucan,3.0812,3.9356,0.8543,0.9765,0.8543
+SPA_KM6,3,resid_muni|Ridge|CUR,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.4243,0.0792,0.6201,0.3929
+SPA_KM6,4,resid_muni|Ridge|CUR,11,"Almoloya,Tepeapulco",4.5145,3.8731,-0.6415,0.6698,0.6415
+SPA_KM6,5,resid_muni|Ridge|CUR,15,Calpulalpan,3.0,3.027,0.027,0.3729,0.3016
+SPA_KM6,0,resid_muni|Ridge|SAT,41,Chignahuapan,4.6049,4.2697,-0.3352,0.655,0.5296
+SPA_KM6,1,resid_muni|Ridge|SAT,20,"Apan,Calpulalpan,Emiliano Zapata,Nanacamilpa de Mariano Arista",3.05,3.3632,0.3132,0.5733,0.4468
+SPA_KM6,2,resid_muni|Ridge|SAT,16,Singuilucan,3.0812,3.9162,0.8349,0.9595,0.8349
+SPA_KM6,3,resid_muni|Ridge|SAT,35,"Chignahuapan,Cuautepec de Hinojosa",4.3451,4.437,0.0918,0.6279,0.3988
+SPA_KM6,4,resid_muni|Ridge|SAT,11,"Almoloya,Tepeapulco",4.5145,3.895,-0.6196,0.6389,0.6196
+SPA_KM6,5,resid_muni|Ridge|SAT,15,Calpulalpan,3.0,3.0327,0.0327,0.3694,0.2985
+SPA_KM8,0,direct|CB|ALL,16,Singuilucan,3.0812,4.1248,1.0436,1.1836,1.0531
+SPA_KM8,1,direct|CB|ALL,11,Calpulalpan,3.0,3.2091,0.2091,0.469,0.4028
+SPA_KM8,2,direct|CB|ALL,37,Chignahuapan,4.5959,4.134,-0.4619,0.7578,0.6316
+SPA_KM8,3,direct|CB|ALL,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.171,-0.2014,0.5823,0.4431
+SPA_KM8,4,direct|CB|ALL,10,Almoloya,4.521,4.0778,-0.4432,0.4942,0.4432
+SPA_KM8,5,direct|CB|ALL,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.7763,0.8013,0.9117,0.816
+SPA_KM8,6,direct|CB|ALL,4,"Calpulalpan,Emiliano Zapata",3.375,3.2592,-0.1158,0.2701,0.2162
+SPA_KM8,7,direct|CB|ALL,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.5105,-1.0545,1.0552,1.0545
+SPA_KM8,0,direct|CB|SAT,16,Singuilucan,3.0812,3.4921,0.4109,0.7984,0.5924
+SPA_KM8,1,direct|CB|SAT,11,Calpulalpan,3.0,3.4527,0.4527,0.671,0.538
+SPA_KM8,2,direct|CB|SAT,37,Chignahuapan,4.5959,3.7819,-0.814,1.0666,0.9219
+SPA_KM8,3,direct|CB|SAT,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,3.94,-0.4324,0.7662,0.6335
+SPA_KM8,4,direct|CB|SAT,10,Almoloya,4.521,4.4752,-0.0458,0.2397,0.1932
+SPA_KM8,5,direct|CB|SAT,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.9266,0.9516,1.082,0.961
+SPA_KM8,6,direct|CB|SAT,4,"Calpulalpan,Emiliano Zapata",3.375,3.3541,-0.0209,0.378,0.3664
+SPA_KM8,7,direct|CB|SAT,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.7106,-0.8544,0.8579,0.8544
+SPA_KM8,0,direct|ET|ALL,16,Singuilucan,3.0812,4.4351,1.3538,1.4275,1.3538
+SPA_KM8,1,direct|ET|ALL,11,Calpulalpan,3.0,3.166,0.166,0.4187,0.3595
+SPA_KM8,2,direct|ET|ALL,37,Chignahuapan,4.5959,4.2825,-0.3134,0.6385,0.5054
+SPA_KM8,3,direct|ET|ALL,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.4394,0.067,0.5507,0.3259
+SPA_KM8,4,direct|ET|ALL,10,Almoloya,4.521,3.8222,-0.6988,0.777,0.6988
+SPA_KM8,5,direct|ET|ALL,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.4411,0.4661,0.624,0.5182
+SPA_KM8,6,direct|ET|ALL,4,"Calpulalpan,Emiliano Zapata",3.375,3.0775,-0.2975,0.3574,0.3059
+SPA_KM8,7,direct|ET|ALL,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.6278,-0.9372,0.9436,0.9372
+SPA_KM8,0,direct|ET|ALLNOLOC,16,Singuilucan,3.0812,4.4361,1.3549,1.429,1.3549
+SPA_KM8,1,direct|ET|ALLNOLOC,11,Calpulalpan,3.0,3.1858,0.1858,0.4304,0.3635
+SPA_KM8,2,direct|ET|ALLNOLOC,37,Chignahuapan,4.5959,4.2853,-0.3106,0.6378,0.4989
+SPA_KM8,3,direct|ET|ALLNOLOC,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.4098,0.0375,0.5605,0.3409
+SPA_KM8,4,direct|ET|ALLNOLOC,10,Almoloya,4.521,3.7353,-0.7857,0.8667,0.7857
+SPA_KM8,5,direct|ET|ALLNOLOC,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.5194,0.5444,0.6886,0.5902
+SPA_KM8,6,direct|ET|ALLNOLOC,4,"Calpulalpan,Emiliano Zapata",3.375,3.1486,-0.2264,0.3057,0.2436
+SPA_KM8,7,direct|ET|ALLNOLOC,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.7039,-0.8611,0.8731,0.8611
+SPA_KM8,0,direct|ET|B1,16,Singuilucan,3.0812,3.6031,0.5218,0.7661,0.5796
+SPA_KM8,1,direct|ET|B1,11,Calpulalpan,3.0,3.446,0.446,0.5971,0.5167
+SPA_KM8,2,direct|ET|B1,37,Chignahuapan,4.5959,3.7779,-0.818,1.0682,0.9315
+SPA_KM8,3,direct|ET|B1,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,3.9701,-0.4023,0.7325,0.5978
+SPA_KM8,4,direct|ET|B1,10,Almoloya,4.521,4.4423,-0.0787,0.2003,0.1572
+SPA_KM8,5,direct|ET|B1,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.8956,0.9206,1.0487,0.9206
+SPA_KM8,6,direct|ET|B1,4,"Calpulalpan,Emiliano Zapata",3.375,3.3124,-0.0626,0.3115,0.2993
+SPA_KM8,7,direct|ET|B1,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.747,-0.818,0.8232,0.818
+SPA_KM8,0,direct|ET|CLIM,16,Singuilucan,3.0812,4.437,1.3558,1.4206,1.3558
+SPA_KM8,1,direct|ET|CLIM,11,Calpulalpan,3.0,3.2432,0.2432,0.4428,0.3701
+SPA_KM8,2,direct|ET|CLIM,37,Chignahuapan,4.5959,4.4383,-0.1576,0.588,0.418
+SPA_KM8,3,direct|ET|CLIM,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.5074,0.135,0.5747,0.3406
+SPA_KM8,4,direct|ET|CLIM,10,Almoloya,4.521,3.7002,-0.8208,0.8865,0.8208
+SPA_KM8,5,direct|ET|CLIM,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.4092,0.4342,0.5978,0.519
+SPA_KM8,6,direct|ET|CLIM,4,"Calpulalpan,Emiliano Zapata",3.375,3.0845,-0.2905,0.3554,0.3077
+SPA_KM8,7,direct|ET|CLIM,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.8846,-0.6804,0.7054,0.6804
+SPA_KM8,0,direct|ET|LOC,16,Singuilucan,3.0812,4.3555,1.2743,1.3466,1.2743
+SPA_KM8,1,direct|ET|LOC,11,Calpulalpan,3.0,3.202,0.202,0.4293,0.3715
+SPA_KM8,2,direct|ET|LOC,37,Chignahuapan,4.5959,4.354,-0.2419,0.6133,0.4746
+SPA_KM8,3,direct|ET|LOC,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.3976,0.0252,0.5562,0.3517
+SPA_KM8,4,direct|ET|LOC,10,Almoloya,4.521,4.0915,-0.4295,0.4619,0.4295
+SPA_KM8,5,direct|ET|LOC,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2963,0.3213,0.4933,0.4313
+SPA_KM8,6,direct|ET|LOC,4,"Calpulalpan,Emiliano Zapata",3.375,3.1483,-0.2267,0.2994,0.2784
+SPA_KM8,7,direct|ET|LOC,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.901,-0.664,0.6666,0.664
+SPA_KM8,0,direct|ET|SAT,16,Singuilucan,3.0812,3.5886,0.5073,0.7721,0.5848
+SPA_KM8,1,direct|ET|SAT,11,Calpulalpan,3.0,3.4386,0.4386,0.5845,0.5111
+SPA_KM8,2,direct|ET|SAT,37,Chignahuapan,4.5959,3.7799,-0.816,1.0592,0.9252
+SPA_KM8,3,direct|ET|SAT,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.0052,-0.3672,0.709,0.5695
+SPA_KM8,4,direct|ET|SAT,10,Almoloya,4.521,4.4712,-0.0498,0.2161,0.175
+SPA_KM8,5,direct|ET|SAT,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.8734,0.8984,1.0368,0.9007
+SPA_KM8,6,direct|ET|SAT,4,"Calpulalpan,Emiliano Zapata",3.375,3.2872,-0.0878,0.339,0.3238
+SPA_KM8,7,direct|ET|SAT,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.8163,-0.7487,0.75,0.7487
+SPA_KM8,0,direct|Ridge|SAT,16,Singuilucan,3.0812,3.2185,0.1372,0.7537,0.6035
+SPA_KM8,1,direct|Ridge|SAT,11,Calpulalpan,3.0,3.4646,0.4646,0.7127,0.5618
+SPA_KM8,2,direct|Ridge|SAT,37,Chignahuapan,4.5959,3.8707,-0.7253,0.9606,0.8304
+SPA_KM8,3,direct|Ridge|SAT,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,3.9999,-0.3725,0.6983,0.5728
+SPA_KM8,4,direct|Ridge|SAT,10,Almoloya,4.521,4.4482,-0.0728,0.3761,0.3084
+SPA_KM8,5,direct|Ridge|SAT,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.8935,0.9185,0.9998,0.9185
+SPA_KM8,6,direct|Ridge|SAT,4,"Calpulalpan,Emiliano Zapata",3.375,3.0562,-0.3188,0.3977,0.3188
+SPA_KM8,7,direct|Ridge|SAT,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.9228,-0.6422,0.6431,0.6422
+SPA_KM8,0,ref_global,16,Singuilucan,3.0812,4.07,0.9887,1.0743,0.9887
+SPA_KM8,1,ref_global,11,Calpulalpan,3.0,4.0381,1.0381,1.1018,1.0381
+SPA_KM8,2,ref_global,37,Chignahuapan,4.5959,3.7207,-0.8753,1.0424,0.9483
+SPA_KM8,3,ref_global,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,3.7969,-0.5755,0.7916,0.7087
+SPA_KM8,4,ref_global,10,Almoloya,4.521,3.9112,-0.6098,0.6355,0.6098
+SPA_KM8,5,ref_global,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,4.1215,1.1465,1.2047,1.1465
+SPA_KM8,6,ref_global,4,"Calpulalpan,Emiliano Zapata",3.375,3.9727,0.5977,0.6357,0.5977
+SPA_KM8,7,ref_global,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.9464,-0.6186,0.6292,0.6186
+SPA_KM8,0,ref_knn,16,Singuilucan,3.0812,4.5878,1.5065,1.5649,1.5065
+SPA_KM8,1,ref_knn,11,Calpulalpan,3.0,3.0041,0.0041,0.4135,0.3376
+SPA_KM8,2,ref_knn,37,Chignahuapan,4.5959,4.5297,-0.0663,0.5777,0.4321
+SPA_KM8,3,ref_knn,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.5772,0.2048,0.5792,0.3445
+SPA_KM8,4,ref_knn,10,Almoloya,4.521,4.3723,-0.1487,0.2864,0.2483
+SPA_KM8,5,ref_knn,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.1091,0.1341,0.3992,0.33
+SPA_KM8,6,ref_knn,4,"Calpulalpan,Emiliano Zapata",3.375,2.927,-0.448,0.4951,0.448
+SPA_KM8,7,ref_knn,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,4.4072,-0.1578,0.1906,0.1578
+SPA_KM8,0,ref_muni,16,Singuilucan,3.0812,4.07,0.9887,1.0743,0.9887
+SPA_KM8,1,ref_muni,11,Calpulalpan,3.0,3.1416,0.1416,0.3955,0.3371
+SPA_KM8,2,ref_muni,37,Chignahuapan,4.5959,4.2974,-0.2986,0.6401,0.5107
+SPA_KM8,3,ref_muni,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.4815,0.1091,0.5959,0.3712
+SPA_KM8,4,ref_muni,10,Almoloya,4.521,3.9112,-0.6098,0.6355,0.6098
+SPA_KM8,5,ref_muni,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.314,0.339,0.6039,0.4769
+SPA_KM8,6,ref_muni,4,"Calpulalpan,Emiliano Zapata",3.375,3.7523,0.3773,0.4119,0.3773
+SPA_KM8,7,ref_muni,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,4.1267,-0.4383,0.4431,0.4383
+SPA_KM8,0,ref_muni_knnres,16,Singuilucan,3.0812,4.3352,1.2539,1.3236,1.2539
+SPA_KM8,1,ref_muni_knnres,11,Calpulalpan,3.0,2.964,-0.036,0.3925,0.3092
+SPA_KM8,2,ref_muni_knnres,37,Chignahuapan,4.5959,4.5368,-0.0592,0.5778,0.4322
+SPA_KM8,3,ref_muni_knnres,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.5243,0.1519,0.6129,0.3963
+SPA_KM8,4,ref_muni_knnres,10,Almoloya,4.521,3.8765,-0.6445,0.7156,0.6475
+SPA_KM8,5,ref_muni_knnres,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.1514,0.1764,0.5318,0.3944
+SPA_KM8,6,ref_muni_knnres,4,"Calpulalpan,Emiliano Zapata",3.375,3.5375,0.1625,0.2229,0.2107
+SPA_KM8,7,ref_muni_knnres,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,4.1171,-0.4479,0.4538,0.4479
+SPA_KM8,0,resid_muni|CB|ALL,16,Singuilucan,3.0812,3.9433,0.862,0.9883,0.862
+SPA_KM8,1,resid_muni|CB|ALL,11,Calpulalpan,3.0,2.794,-0.206,0.469,0.3648
+SPA_KM8,2,resid_muni|CB|ALL,37,Chignahuapan,4.5959,4.2819,-0.314,0.6625,0.526
+SPA_KM8,3,resid_muni|CB|ALL,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.487,0.1146,0.599,0.4015
+SPA_KM8,4,resid_muni|CB|ALL,10,Almoloya,4.521,3.99,-0.531,0.5571,0.531
+SPA_KM8,5,resid_muni|CB|ALL,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2885,0.3135,0.5548,0.4378
+SPA_KM8,6,resid_muni|CB|ALL,4,"Calpulalpan,Emiliano Zapata",3.375,3.625,0.25,0.3005,0.2589
+SPA_KM8,7,resid_muni|CB|ALL,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.8092,-0.7558,0.7562,0.7558
+SPA_KM8,0,resid_muni|CB|SAT,16,Singuilucan,3.0812,3.9583,0.877,1.0017,0.8906
+SPA_KM8,1,resid_muni|CB|SAT,11,Calpulalpan,3.0,2.9168,-0.0832,0.4363,0.3599
+SPA_KM8,2,resid_muni|CB|SAT,37,Chignahuapan,4.5959,4.2961,-0.2998,0.644,0.501
+SPA_KM8,3,resid_muni|CB|SAT,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.4982,0.1258,0.5827,0.3855
+SPA_KM8,4,resid_muni|CB|SAT,10,Almoloya,4.521,4.0509,-0.4701,0.4893,0.4701
+SPA_KM8,5,resid_muni|CB|SAT,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.3048,0.3298,0.5654,0.4415
+SPA_KM8,6,resid_muni|CB|SAT,4,"Calpulalpan,Emiliano Zapata",3.375,3.6386,0.2636,0.315,0.2636
+SPA_KM8,7,resid_muni|CB|SAT,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.9127,-0.6523,0.6523,0.6523
+SPA_KM8,0,resid_muni|ET|ALL,16,Singuilucan,3.0812,3.9615,0.8803,0.9976,0.8803
+SPA_KM8,1,resid_muni|ET|ALL,11,Calpulalpan,3.0,2.8339,-0.1661,0.4089,0.3374
+SPA_KM8,2,resid_muni|ET|ALL,37,Chignahuapan,4.5959,4.2881,-0.3078,0.632,0.4985
+SPA_KM8,3,resid_muni|ET|ALL,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.5423,0.1699,0.5968,0.3897
+SPA_KM8,4,resid_muni|ET|ALL,10,Almoloya,4.521,3.9718,-0.5492,0.5727,0.5492
+SPA_KM8,5,resid_muni|ET|ALL,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2698,0.2948,0.5722,0.4224
+SPA_KM8,6,resid_muni|ET|ALL,4,"Calpulalpan,Emiliano Zapata",3.375,3.5921,0.2171,0.3041,0.2911
+SPA_KM8,7,resid_muni|ET|ALL,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.9275,-0.6375,0.6382,0.6375
+SPA_KM8,0,resid_muni|ET|ALLNOLOC,16,Singuilucan,3.0812,3.9853,0.904,1.0134,0.904
+SPA_KM8,1,resid_muni|ET|ALLNOLOC,11,Calpulalpan,3.0,2.8158,-0.1842,0.4182,0.347
+SPA_KM8,2,resid_muni|ET|ALLNOLOC,37,Chignahuapan,4.5959,4.2966,-0.2994,0.6308,0.4959
+SPA_KM8,3,resid_muni|ET|ALLNOLOC,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.5453,0.173,0.5987,0.3879
+SPA_KM8,4,resid_muni|ET|ALLNOLOC,10,Almoloya,4.521,3.9906,-0.5304,0.5574,0.5304
+SPA_KM8,5,resid_muni|ET|ALLNOLOC,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2567,0.2817,0.5755,0.435
+SPA_KM8,6,resid_muni|ET|ALLNOLOC,4,"Calpulalpan,Emiliano Zapata",3.375,3.6136,0.2386,0.3123,0.2922
+SPA_KM8,7,resid_muni|ET|ALLNOLOC,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.9249,-0.6401,0.6401,0.6401
+SPA_KM8,0,resid_muni|ET|CLIM,16,Singuilucan,3.0812,4.1353,1.0541,1.1349,1.0541
+SPA_KM8,1,resid_muni|ET|CLIM,11,Calpulalpan,3.0,2.9958,-0.0042,0.3716,0.2793
+SPA_KM8,2,resid_muni|ET|CLIM,37,Chignahuapan,4.5959,4.4844,-0.1116,0.5781,0.3969
+SPA_KM8,3,resid_muni|ET|CLIM,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.6007,0.2284,0.6404,0.4239
+SPA_KM8,4,resid_muni|ET|CLIM,10,Almoloya,4.521,3.85,-0.671,0.6933,0.671
+SPA_KM8,5,resid_muni|ET|CLIM,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.0431,0.0681,0.5104,0.3853
+SPA_KM8,6,resid_muni|ET|CLIM,4,"Calpulalpan,Emiliano Zapata",3.375,3.447,0.072,0.1803,0.1792
+SPA_KM8,7,resid_muni|ET|CLIM,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.798,-0.767,0.7678,0.767
+SPA_KM8,0,resid_muni|ET|CUR,16,Singuilucan,3.0812,3.9253,0.8441,0.9576,0.8441
+SPA_KM8,1,resid_muni|ET|CUR,11,Calpulalpan,3.0,2.9546,-0.0454,0.3712,0.2833
+SPA_KM8,2,resid_muni|ET|CUR,37,Chignahuapan,4.5959,4.3981,-0.1978,0.5869,0.4331
+SPA_KM8,3,resid_muni|ET|CUR,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.4621,0.0898,0.5676,0.378
+SPA_KM8,4,resid_muni|ET|CUR,10,Almoloya,4.521,3.9534,-0.5676,0.5833,0.5676
+SPA_KM8,5,resid_muni|ET|CUR,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2237,0.2487,0.5584,0.4223
+SPA_KM8,6,resid_muni|ET|CUR,4,"Calpulalpan,Emiliano Zapata",3.375,3.5575,0.1825,0.2867,0.2777
+SPA_KM8,7,resid_muni|ET|CUR,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.8001,-0.7649,0.7679,0.7649
+SPA_KM8,0,resid_muni|ET|SAT,16,Singuilucan,3.0812,3.94,0.8587,0.9775,0.8587
+SPA_KM8,1,resid_muni|ET|SAT,11,Calpulalpan,3.0,2.9392,-0.0608,0.3979,0.3283
+SPA_KM8,2,resid_muni|ET|SAT,37,Chignahuapan,4.5959,4.3092,-0.2867,0.6203,0.4831
+SPA_KM8,3,resid_muni|ET|SAT,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.5282,0.1558,0.593,0.3875
+SPA_KM8,4,resid_muni|ET|SAT,10,Almoloya,4.521,4.0286,-0.4924,0.5245,0.4924
+SPA_KM8,5,resid_muni|ET|SAT,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2987,0.3237,0.5906,0.4388
+SPA_KM8,6,resid_muni|ET|SAT,4,"Calpulalpan,Emiliano Zapata",3.375,3.6005,0.2255,0.2934,0.2712
+SPA_KM8,7,resid_muni|ET|SAT,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.9936,-0.5714,0.5725,0.5714
+SPA_KM8,0,resid_muni|Ridge|CUR,16,Singuilucan,3.0812,3.9356,0.8543,0.9765,0.8543
+SPA_KM8,1,resid_muni|Ridge|CUR,11,Calpulalpan,3.0,2.9979,-0.0021,0.3823,0.316
+SPA_KM8,2,resid_muni|Ridge|CUR,37,Chignahuapan,4.5959,4.3394,-0.2566,0.614,0.4762
+SPA_KM8,3,resid_muni|Ridge|CUR,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.4743,0.1019,0.5847,0.3638
+SPA_KM8,4,resid_muni|Ridge|CUR,10,Almoloya,4.521,3.9447,-0.5763,0.5969,0.5763
+SPA_KM8,5,resid_muni|Ridge|CUR,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2292,0.2542,0.5572,0.4242
+SPA_KM8,6,resid_muni|Ridge|CUR,4,"Calpulalpan,Emiliano Zapata",3.375,3.6046,0.2296,0.2841,0.2573
+SPA_KM8,7,resid_muni|Ridge|CUR,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,3.759,-0.806,0.8278,0.806
+SPA_KM8,0,resid_muni|Ridge|SAT,16,Singuilucan,3.0812,3.9162,0.8349,0.9595,0.8349
+SPA_KM8,1,resid_muni|Ridge|SAT,11,Calpulalpan,3.0,2.9907,-0.0093,0.38,0.3101
+SPA_KM8,2,resid_muni|Ridge|SAT,37,Chignahuapan,4.5959,4.3356,-0.2603,0.6211,0.4839
+SPA_KM8,3,resid_muni|Ridge|SAT,38,"Chignahuapan,Cuautepec de Hinojosa",4.3724,4.48,0.1076,0.5907,0.3674
+SPA_KM8,4,resid_muni|Ridge|SAT,10,Almoloya,4.521,3.9151,-0.6059,0.6274,0.6059
+SPA_KM8,5,resid_muni|Ridge|SAT,20,"Apan,Calpulalpan,Nanacamilpa de Mariano Arista",2.975,3.2667,0.2917,0.5694,0.4412
+SPA_KM8,6,resid_muni|Ridge|SAT,4,"Calpulalpan,Emiliano Zapata",3.375,3.6341,0.2591,0.3026,0.2628
+SPA_KM8,7,resid_muni|Ridge|SAT,2,"Cuautepec de Hinojosa,Tepeapulco",4.565,4.0357,-0.5293,0.5326,0.5293
+SPA_BAND6,0,direct|CB|ALL,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.2342,0.2124,0.5302,0.4351
+SPA_BAND6,1,direct|CB|ALL,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.5205,-0.2347,0.584,0.4958
+SPA_BAND6,2,direct|CB|ALL,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.884,0.2053,0.5927,0.5133
+SPA_BAND6,3,direct|CB|ALL,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.425,0.3494,0.7857,0.5191
+SPA_BAND6,4,direct|CB|ALL,23,"Chignahuapan,Singuilucan",4.5248,4.4107,-0.1141,0.6744,0.4824
+SPA_BAND6,5,direct|CB|ALL,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.2798,-0.3963,0.6439,0.5109
+SPA_BAND6,0,direct|CB|SAT,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.6289,0.6071,0.8159,0.6606
+SPA_BAND6,1,direct|CB|SAT,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.9214,0.1662,0.4988,0.4024
+SPA_BAND6,2,direct|CB|SAT,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7782,0.0995,0.5506,0.4514
+SPA_BAND6,3,direct|CB|SAT,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.1588,0.0832,0.7774,0.4977
+SPA_BAND6,4,direct|CB|SAT,23,"Chignahuapan,Singuilucan",4.5248,4.2427,-0.2821,0.7627,0.5875
+SPA_BAND6,5,direct|CB|SAT,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.0575,-0.6186,0.8186,0.652
+SPA_BAND6,0,direct|ET|ALL,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.1139,0.0921,0.4659,0.4152
+SPA_BAND6,1,direct|ET|ALL,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.308,-0.4472,0.7238,0.582
+SPA_BAND6,2,direct|ET|ALL,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7928,0.1141,0.5239,0.3988
+SPA_BAND6,3,direct|ET|ALL,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4519,0.3763,0.7785,0.5004
+SPA_BAND6,4,direct|ET|ALL,23,"Chignahuapan,Singuilucan",4.5248,4.4593,-0.0655,0.6279,0.463
+SPA_BAND6,5,direct|ET|ALL,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3027,-0.3734,0.5696,0.4502
+SPA_BAND6,0,direct|ET|ALLNOLOC,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.1239,0.1021,0.4619,0.4109
+SPA_BAND6,1,direct|ET|ALLNOLOC,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.2746,-0.4806,0.775,0.6228
+SPA_BAND6,2,direct|ET|ALLNOLOC,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.822,0.1434,0.5441,0.4162
+SPA_BAND6,3,direct|ET|ALLNOLOC,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4426,0.367,0.772,0.4865
+SPA_BAND6,4,direct|ET|ALLNOLOC,23,"Chignahuapan,Singuilucan",4.5248,4.454,-0.0708,0.6397,0.4724
+SPA_BAND6,5,direct|ET|ALLNOLOC,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3278,-0.3483,0.5592,0.4338
+SPA_BAND6,0,direct|ET|B1,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.6203,0.5985,0.7931,0.66
+SPA_BAND6,1,direct|ET|B1,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.8958,0.1406,0.5556,0.4325
+SPA_BAND6,2,direct|ET|B1,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.8807,0.202,0.5849,0.498
+SPA_BAND6,3,direct|ET|B1,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.0942,0.0185,0.7563,0.5292
+SPA_BAND6,4,direct|ET|B1,23,"Chignahuapan,Singuilucan",4.5248,4.2151,-0.3097,0.7402,0.5712
+SPA_BAND6,5,direct|ET|B1,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,3.9976,-0.6785,0.8609,0.6943
+SPA_BAND6,0,direct|ET|CLIM,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.0742,0.0524,0.4631,0.4063
+SPA_BAND6,1,direct|ET|CLIM,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.2474,-0.5078,0.7904,0.6284
+SPA_BAND6,2,direct|ET|CLIM,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.8122,0.1335,0.5125,0.3746
+SPA_BAND6,3,direct|ET|CLIM,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4587,0.3831,0.7432,0.4333
+SPA_BAND6,4,direct|ET|CLIM,23,"Chignahuapan,Singuilucan",4.5248,4.398,-0.1268,0.65,0.4603
+SPA_BAND6,5,direct|ET|CLIM,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.4115,-0.2646,0.5175,0.3841
+SPA_BAND6,0,direct|ET|LOC,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.1626,0.1408,0.4418,0.3979
+SPA_BAND6,1,direct|ET|LOC,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.5851,-0.1701,0.4325,0.3797
+SPA_BAND6,2,direct|ET|LOC,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.9342,0.2555,0.5217,0.4214
+SPA_BAND6,3,direct|ET|LOC,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3833,0.3076,0.7234,0.4376
+SPA_BAND6,4,direct|ET|LOC,23,"Chignahuapan,Singuilucan",4.5248,4.3366,-0.1882,0.619,0.4469
+SPA_BAND6,5,direct|ET|LOC,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.33,-0.3461,0.5588,0.4399
+SPA_BAND6,0,direct|ET|SAT,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.631,0.6093,0.8135,0.6723
+SPA_BAND6,1,direct|ET|SAT,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.9104,0.1551,0.5474,0.4404
+SPA_BAND6,2,direct|ET|SAT,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.8854,0.2067,0.5603,0.4664
+SPA_BAND6,3,direct|ET|SAT,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.1214,0.0458,0.7423,0.5106
+SPA_BAND6,4,direct|ET|SAT,23,"Chignahuapan,Singuilucan",4.5248,4.2318,-0.293,0.7284,0.5595
+SPA_BAND6,5,direct|ET|SAT,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.0129,-0.6632,0.8321,0.6812
+SPA_BAND6,0,direct|Ridge|SAT,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.6322,0.6104,0.8269,0.6445
+SPA_BAND6,1,direct|Ridge|SAT,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.8806,0.1254,0.5835,0.5005
+SPA_BAND6,2,direct|Ridge|SAT,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.6391,-0.0396,0.5255,0.453
+SPA_BAND6,3,direct|Ridge|SAT,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.1968,0.1211,0.8271,0.6151
+SPA_BAND6,4,direct|Ridge|SAT,23,"Chignahuapan,Singuilucan",4.5248,4.4046,-0.1202,0.7052,0.506
+SPA_BAND6,5,direct|Ridge|SAT,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.0338,-0.6423,0.8442,0.6884
+SPA_BAND6,0,ref_global,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,4.1421,1.1203,1.1907,1.1203
+SPA_BAND6,1,ref_global,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.9954,0.2402,0.8256,0.755
+SPA_BAND6,2,ref_global,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,4.0107,0.332,0.8074,0.7149
+SPA_BAND6,3,ref_global,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,3.9313,-0.1443,0.7831,0.6555
+SPA_BAND6,4,ref_global,23,"Chignahuapan,Singuilucan",4.5248,3.8415,-0.6833,0.9082,0.8193
+SPA_BAND6,5,ref_global,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,3.8112,-0.8649,0.9688,0.8649
+SPA_BAND6,0,ref_knn,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,2.9089,-0.1129,0.456,0.4034
+SPA_BAND6,1,ref_knn,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.751,-0.0042,0.362,0.2821
+SPA_BAND6,2,ref_knn,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.6221,-0.0565,0.3999,0.3037
+SPA_BAND6,3,ref_knn,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3981,0.3225,0.7623,0.4979
+SPA_BAND6,4,ref_knn,23,"Chignahuapan,Singuilucan",4.5248,4.232,-0.2928,0.7571,0.6067
+SPA_BAND6,5,ref_knn,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.5841,-0.092,0.605,0.4805
+SPA_BAND6,0,ref_muni,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.2606,0.2389,0.5448,0.4333
+SPA_BAND6,1,ref_muni,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7655,0.0103,0.4629,0.4034
+SPA_BAND6,2,ref_muni,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.9188,0.2401,0.447,0.3504
+SPA_BAND6,3,ref_muni,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4318,0.3562,0.7374,0.4388
+SPA_BAND6,4,ref_muni,23,"Chignahuapan,Singuilucan",4.5248,4.3512,-0.1736,0.6024,0.43
+SPA_BAND6,5,ref_muni,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3325,-0.3436,0.5547,0.4334
+SPA_BAND6,0,ref_muni_knnres,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,2.8378,-0.1839,0.5226,0.4472
+SPA_BAND6,1,ref_muni_knnres,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.8084,0.0532,0.4157,0.3348
+SPA_BAND6,2,ref_muni_knnres,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.4975,-0.1811,0.4443,0.3398
+SPA_BAND6,3,ref_muni_knnres,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3861,0.3104,0.7657,0.5104
+SPA_BAND6,4,ref_muni_knnres,23,"Chignahuapan,Singuilucan",4.5248,4.2296,-0.2952,0.7624,0.6119
+SPA_BAND6,5,ref_muni_knnres,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.5702,-0.1059,0.6073,0.4781
+SPA_BAND6,0,resid_muni|CB|ALL,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,2.9517,-0.07,0.5475,0.4539
+SPA_BAND6,1,resid_muni|CB|ALL,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7249,-0.0303,0.3951,0.3325
+SPA_BAND6,2,resid_muni|CB|ALL,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7396,0.0609,0.4467,0.3916
+SPA_BAND6,3,resid_muni|CB|ALL,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4048,0.3292,0.7681,0.5086
+SPA_BAND6,4,resid_muni|CB|ALL,23,"Chignahuapan,Singuilucan",4.5248,4.4556,-0.0692,0.6599,0.465
+SPA_BAND6,5,resid_muni|CB|ALL,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3276,-0.3485,0.6028,0.4481
+SPA_BAND6,0,resid_muni|CB|SAT,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.0441,0.0224,0.5455,0.4324
+SPA_BAND6,1,resid_muni|CB|SAT,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7645,0.0093,0.3857,0.3258
+SPA_BAND6,2,resid_muni|CB|SAT,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7535,0.0748,0.4161,0.3574
+SPA_BAND6,3,resid_muni|CB|SAT,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3935,0.3178,0.7853,0.5346
+SPA_BAND6,4,resid_muni|CB|SAT,23,"Chignahuapan,Singuilucan",4.5248,4.4643,-0.0604,0.671,0.4675
+SPA_BAND6,5,resid_muni|CB|SAT,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3493,-0.3268,0.5919,0.4449
+SPA_BAND6,0,resid_muni|ET|ALL,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,2.8558,-0.166,0.5347,0.4524
+SPA_BAND6,1,resid_muni|ET|ALL,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7192,-0.036,0.3899,0.3252
+SPA_BAND6,2,resid_muni|ET|ALL,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.793,0.1144,0.4312,0.377
+SPA_BAND6,3,resid_muni|ET|ALL,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3688,0.2931,0.7627,0.51
+SPA_BAND6,4,resid_muni|ET|ALL,23,"Chignahuapan,Singuilucan",4.5248,4.4568,-0.068,0.6448,0.4574
+SPA_BAND6,5,resid_muni|ET|ALL,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3524,-0.3237,0.5458,0.424
+SPA_BAND6,0,resid_muni|ET|ALLNOLOC,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,2.8656,-0.1561,0.5283,0.448
+SPA_BAND6,1,resid_muni|ET|ALLNOLOC,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7211,-0.0341,0.3844,0.3174
+SPA_BAND6,2,resid_muni|ET|ALLNOLOC,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7893,0.1106,0.4425,0.3821
+SPA_BAND6,3,resid_muni|ET|ALLNOLOC,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3757,0.3,0.7749,0.5215
+SPA_BAND6,4,resid_muni|ET|ALLNOLOC,23,"Chignahuapan,Singuilucan",4.5248,4.4395,-0.0853,0.6275,0.4508
+SPA_BAND6,5,resid_muni|ET|ALLNOLOC,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3509,-0.3252,0.5574,0.4284
+SPA_BAND6,0,resid_muni|ET|CLIM,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,2.8697,-0.152,0.5119,0.4333
+SPA_BAND6,1,resid_muni|ET|CLIM,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.5795,-0.1758,0.4408,0.3667
+SPA_BAND6,2,resid_muni|ET|CLIM,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7116,0.0329,0.3895,0.3219
+SPA_BAND6,3,resid_muni|ET|CLIM,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4545,0.3789,0.7502,0.45
+SPA_BAND6,4,resid_muni|ET|CLIM,23,"Chignahuapan,Singuilucan",4.5248,4.4075,-0.1173,0.6497,0.4608
+SPA_BAND6,5,resid_muni|ET|CLIM,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.4195,-0.2565,0.5121,0.3782
+SPA_BAND6,0,resid_muni|ET|CUR,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.0476,0.0259,0.5264,0.3962
+SPA_BAND6,1,resid_muni|ET|CUR,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7075,-0.0477,0.4167,0.3497
+SPA_BAND6,2,resid_muni|ET|CUR,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.7673,0.0886,0.4335,0.367
+SPA_BAND6,3,resid_muni|ET|CUR,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3422,0.2666,0.7222,0.4535
+SPA_BAND6,4,resid_muni|ET|CUR,23,"Chignahuapan,Singuilucan",4.5248,4.4657,-0.059,0.6275,0.4538
+SPA_BAND6,5,resid_muni|ET|CUR,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.4478,-0.2282,0.5155,0.3696
+SPA_BAND6,0,resid_muni|ET|SAT,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.041,0.0192,0.5405,0.4138
+SPA_BAND6,1,resid_muni|ET|SAT,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.7668,0.0115,0.3805,0.3264
+SPA_BAND6,2,resid_muni|ET|SAT,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.803,0.1243,0.4169,0.3581
+SPA_BAND6,3,resid_muni|ET|SAT,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.365,0.2894,0.7623,0.511
+SPA_BAND6,4,resid_muni|ET|SAT,23,"Chignahuapan,Singuilucan",4.5248,4.4775,-0.0473,0.6245,0.4412
+SPA_BAND6,5,resid_muni|ET|SAT,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3475,-0.3286,0.5547,0.4237
+SPA_BAND6,0,resid_muni|Ridge|CUR,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.1036,0.0819,0.5209,0.3964
+SPA_BAND6,1,resid_muni|Ridge|CUR,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.6738,-0.0814,0.4433,0.3608
+SPA_BAND6,2,resid_muni|Ridge|CUR,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.8124,0.1338,0.4093,0.3306
+SPA_BAND6,3,resid_muni|Ridge|CUR,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.3972,0.3215,0.7246,0.4318
+SPA_BAND6,4,resid_muni|Ridge|CUR,23,"Chignahuapan,Singuilucan",4.5248,4.4467,-0.0781,0.6246,0.4195
+SPA_BAND6,5,resid_muni|Ridge|CUR,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3628,-0.3132,0.5347,0.4037
+SPA_BAND6,0,resid_muni|Ridge|SAT,23,"Calpulalpan,Nanacamilpa de Mariano Arista",3.0217,3.1153,0.0936,0.5149,0.3924
+SPA_BAND6,1,resid_muni|Ridge|SAT,23,"Almoloya,Apan,Calpulalpan,Cuautepec de Hinojosa,Emiliano Zapata,Tepeapulco",3.7552,3.723,-0.0322,0.4259,0.3663
+SPA_BAND6,2,resid_muni|Ridge|SAT,23,"Almoloya,Chignahuapan,Singuilucan",3.6787,3.8149,0.1363,0.3896,0.304
+SPA_BAND6,3,resid_muni|Ridge|SAT,23,"Chignahuapan,Cuautepec de Hinojosa,Singuilucan",4.0757,4.4041,0.3284,0.7487,0.4699
+SPA_BAND6,4,resid_muni|Ridge|SAT,23,"Chignahuapan,Singuilucan",4.5248,4.4364,-0.0883,0.5833,0.3806
+SPA_BAND6,5,resid_muni|Ridge|SAT,23,"Chignahuapan,Cuautepec de Hinojosa",4.6761,4.3387,-0.3374,0.5582,0.4304
+LMO,0,direct|CB|ALL,30,Calpulalpan,3.0,3.4692,0.4692,0.5979,0.5179
+LMO,1,direct|CB|ALL,71,Chignahuapan,4.4773,3.9058,-0.5715,0.8426,0.7214
+LMO,2,direct|CB|ALL,16,Singuilucan,3.0812,4.0884,1.0072,1.1353,1.0072
+LMO,3,direct|CB|ALL,5,Cuautepec de Hinojosa,4.598,4.1674,-0.4306,0.5204,0.4306
+LMO,4,direct|CB|ALL,3,Emiliano Zapata,3.5,3.1604,-0.3396,0.3998,0.3396
+LMO,5,direct|CB|ALL,1,Tepeapulco,4.45,3.7716,-0.6784,0.6784,0.6784
+LMO,6,direct|CB|ALL,1,Nanacamilpa de Mariano Arista,2.5,3.1458,0.6458,0.6458,0.6458
+LMO,7,direct|CB|ALL,10,Almoloya,4.521,4.2148,-0.3062,0.3695,0.3286
+LMO,8,direct|CB|ALL,1,Apan,3.0,3.1274,0.1274,0.1274,0.1274
+LMO,0,direct|CB|SAT,30,Calpulalpan,3.0,3.9101,0.9101,1.0262,0.9131
+LMO,1,direct|CB|SAT,71,Chignahuapan,4.4773,3.5211,-0.9562,1.1853,1.0571
+LMO,2,direct|CB|SAT,16,Singuilucan,3.0812,3.512,0.4308,0.7823,0.6086
+LMO,3,direct|CB|SAT,5,Cuautepec de Hinojosa,4.598,4.0428,-0.5552,0.7442,0.5552
+LMO,4,direct|CB|SAT,3,Emiliano Zapata,3.5,3.2803,-0.2197,0.3815,0.3518
+LMO,5,direct|CB|SAT,1,Tepeapulco,4.45,3.9083,-0.5417,0.5417,0.5417
+LMO,6,direct|CB|SAT,1,Nanacamilpa de Mariano Arista,2.5,3.6487,1.1487,1.1487,1.1487
+LMO,7,direct|CB|SAT,10,Almoloya,4.521,4.5167,-0.0043,0.2267,0.1797
+LMO,8,direct|CB|SAT,1,Apan,3.0,2.9781,-0.0219,0.0219,0.0219
+LMO,0,direct|ET|ALL,30,Calpulalpan,3.0,3.2522,0.2522,0.4452,0.3796
+LMO,1,direct|ET|ALL,71,Chignahuapan,4.4773,4.068,-0.4094,0.7314,0.5921
+LMO,2,direct|ET|ALL,16,Singuilucan,3.0812,4.3974,1.3162,1.3947,1.3162
+LMO,3,direct|ET|ALL,5,Cuautepec de Hinojosa,4.598,4.2962,-0.3018,0.4409,0.3304
+LMO,4,direct|ET|ALL,3,Emiliano Zapata,3.5,3.1025,-0.3975,0.4074,0.3975
+LMO,5,direct|ET|ALL,1,Tepeapulco,4.45,3.9563,-0.4937,0.4937,0.4937
+LMO,6,direct|ET|ALL,1,Nanacamilpa de Mariano Arista,2.5,2.9171,0.4171,0.4171,0.4171
+LMO,7,direct|ET|ALL,10,Almoloya,4.521,3.8313,-0.6897,0.7643,0.6897
+LMO,8,direct|ET|ALL,1,Apan,3.0,2.9307,-0.0693,0.0693,0.0693
+LMO,0,direct|ET|ALLNOLOC,30,Calpulalpan,3.0,3.2671,0.2671,0.449,0.3844
+LMO,1,direct|ET|ALLNOLOC,71,Chignahuapan,4.4773,3.8696,-0.6077,0.8771,0.7509
+LMO,2,direct|ET|ALLNOLOC,16,Singuilucan,3.0812,4.4574,1.3762,1.4502,1.3762
+LMO,3,direct|ET|ALLNOLOC,5,Cuautepec de Hinojosa,4.598,4.2776,-0.3204,0.4419,0.33
+LMO,4,direct|ET|ALLNOLOC,3,Emiliano Zapata,3.5,3.1063,-0.3937,0.4115,0.3937
+LMO,5,direct|ET|ALLNOLOC,1,Tepeapulco,4.45,4.0705,-0.3795,0.3795,0.3795
+LMO,6,direct|ET|ALLNOLOC,1,Nanacamilpa de Mariano Arista,2.5,2.9002,0.4002,0.4002,0.4002
+LMO,7,direct|ET|ALLNOLOC,10,Almoloya,4.521,3.7072,-0.8138,0.8989,0.8138
+LMO,8,direct|ET|ALLNOLOC,1,Apan,3.0,2.9104,-0.0896,0.0896,0.0896
+LMO,0,direct|ET|B1,30,Calpulalpan,3.0,3.8688,0.8688,0.9772,0.8807
+LMO,1,direct|ET|B1,71,Chignahuapan,4.4773,3.518,-0.9593,1.1759,1.0574
+LMO,2,direct|ET|B1,16,Singuilucan,3.0812,3.6201,0.5388,0.7814,0.5864
+LMO,3,direct|ET|B1,5,Cuautepec de Hinojosa,4.598,4.0431,-0.5549,0.7007,0.5549
+LMO,4,direct|ET|B1,3,Emiliano Zapata,3.5,3.2964,-0.2036,0.3472,0.3281
+LMO,5,direct|ET|B1,1,Tepeapulco,4.45,3.8347,-0.6153,0.6153,0.6153
+LMO,6,direct|ET|B1,1,Nanacamilpa de Mariano Arista,2.5,3.5616,1.0616,1.0616,1.0616
+LMO,7,direct|ET|B1,10,Almoloya,4.521,4.4271,-0.0939,0.22,0.1725
+LMO,8,direct|ET|B1,1,Apan,3.0,2.9382,-0.0618,0.0618,0.0618
+LMO,0,direct|ET|CLIM,30,Calpulalpan,3.0,3.2563,0.2563,0.4478,0.3878
+LMO,1,direct|ET|CLIM,71,Chignahuapan,4.4773,4.5117,0.0344,0.5802,0.3641
+LMO,2,direct|ET|CLIM,16,Singuilucan,3.0812,4.4292,1.348,1.4138,1.348
+LMO,3,direct|ET|CLIM,5,Cuautepec de Hinojosa,4.598,4.058,-0.54,0.5906,0.54
+LMO,4,direct|ET|CLIM,3,Emiliano Zapata,3.5,3.1284,-0.3716,0.3907,0.3716
+LMO,5,direct|ET|CLIM,1,Tepeapulco,4.45,4.1961,-0.2539,0.2539,0.2539
+LMO,6,direct|ET|CLIM,1,Nanacamilpa de Mariano Arista,2.5,2.9972,0.4972,0.4972,0.4972
+LMO,7,direct|ET|CLIM,10,Almoloya,4.521,3.731,-0.79,0.854,0.79
+LMO,8,direct|ET|CLIM,1,Apan,3.0,3.1815,0.1815,0.1815,0.1815
+LMO,0,direct|ET|LOC,30,Calpulalpan,3.0,3.4952,0.4952,0.6157,0.5004
+LMO,1,direct|ET|LOC,71,Chignahuapan,4.4773,4.3555,-0.1218,0.5948,0.4246
+LMO,2,direct|ET|LOC,16,Singuilucan,3.0812,4.3124,1.2311,1.3048,1.2311
+LMO,3,direct|ET|LOC,5,Cuautepec de Hinojosa,4.598,4.1759,-0.4221,0.4576,0.4221
+LMO,4,direct|ET|LOC,3,Emiliano Zapata,3.5,3.1738,-0.3262,0.3297,0.3262
+LMO,5,direct|ET|LOC,1,Tepeapulco,4.45,3.859,-0.591,0.591,0.591
+LMO,6,direct|ET|LOC,1,Nanacamilpa de Mariano Arista,2.5,3.175,0.675,0.675,0.675
+LMO,7,direct|ET|LOC,10,Almoloya,4.521,4.0842,-0.4368,0.4699,0.4368
+LMO,8,direct|ET|LOC,1,Apan,3.0,3.0944,0.0944,0.0944,0.0944
+LMO,0,direct|ET|SAT,30,Calpulalpan,3.0,3.8488,0.8488,0.9615,0.8603
+LMO,1,direct|ET|SAT,71,Chignahuapan,4.4773,3.5181,-0.9592,1.1809,1.0576
+LMO,2,direct|ET|SAT,16,Singuilucan,3.0812,3.626,0.5448,0.7814,0.5849
+LMO,3,direct|ET|SAT,5,Cuautepec de Hinojosa,4.598,4.0236,-0.5744,0.6862,0.5744
+LMO,4,direct|ET|SAT,3,Emiliano Zapata,3.5,3.2861,-0.2139,0.3465,0.3242
+LMO,5,direct|ET|SAT,1,Tepeapulco,4.45,3.871,-0.579,0.579,0.579
+LMO,6,direct|ET|SAT,1,Nanacamilpa de Mariano Arista,2.5,3.5538,1.0538,1.0538,1.0538
+LMO,7,direct|ET|SAT,10,Almoloya,4.521,4.4766,-0.0444,0.2213,0.1732
+LMO,8,direct|ET|SAT,1,Apan,3.0,2.9108,-0.0892,0.0892,0.0892
+LMO,0,direct|Ridge|SAT,30,Calpulalpan,3.0,3.8762,0.8762,0.9738,0.8762
+LMO,1,direct|Ridge|SAT,71,Chignahuapan,4.4773,3.5676,-0.9097,1.1142,1.0021
+LMO,2,direct|Ridge|SAT,16,Singuilucan,3.0812,3.2185,0.1372,0.7537,0.6035
+LMO,3,direct|Ridge|SAT,5,Cuautepec de Hinojosa,4.598,4.0269,-0.5711,0.7159,0.6039
+LMO,4,direct|Ridge|SAT,3,Emiliano Zapata,3.5,3.1416,-0.3584,0.4374,0.3584
+LMO,5,direct|Ridge|SAT,1,Tepeapulco,4.45,3.8956,-0.5544,0.5544,0.5544
+LMO,6,direct|Ridge|SAT,1,Nanacamilpa de Mariano Arista,2.5,3.7077,1.2077,1.2077,1.2077
+LMO,7,direct|Ridge|SAT,10,Almoloya,4.521,4.4482,-0.0728,0.3761,0.3084
+LMO,8,direct|Ridge|SAT,1,Apan,3.0,3.2366,0.2366,0.2366,0.2366
+LMO,0,ref_global,30,Calpulalpan,3.0,4.2207,1.2207,1.2742,1.2207
+LMO,1,ref_global,71,Chignahuapan,4.4773,3.4022,-1.0751,1.2217,1.1423
+LMO,2,ref_global,16,Singuilucan,3.0812,4.07,0.9887,1.0743,0.9887
+LMO,3,ref_global,5,Cuautepec de Hinojosa,4.598,3.9312,-0.6668,0.6803,0.6668
+LMO,4,ref_global,3,Emiliano Zapata,3.5,3.9655,0.4655,0.4655,0.4655
+LMO,5,ref_global,1,Tepeapulco,4.45,3.9518,-0.4982,0.4982,0.4982
+LMO,6,ref_global,1,Nanacamilpa de Mariano Arista,2.5,3.966,1.466,1.466,1.466
+LMO,7,ref_global,10,Almoloya,4.521,3.9112,-0.6098,0.6355,0.6098
+LMO,8,ref_global,1,Apan,3.0,3.9623,0.9623,0.9623,0.9623
+LMO,0,ref_knn,30,Calpulalpan,3.0,3.061,0.061,0.4213,0.342
+LMO,1,ref_knn,71,Chignahuapan,4.4773,4.5458,0.0685,0.5828,0.369
+LMO,2,ref_knn,16,Singuilucan,3.0812,4.5878,1.5065,1.5649,1.5065
+LMO,3,ref_knn,5,Cuautepec de Hinojosa,4.598,4.4475,-0.1505,0.2123,0.1806
+LMO,4,ref_knn,3,Emiliano Zapata,3.5,2.9452,-0.5548,0.5561,0.5548
+LMO,5,ref_knn,1,Tepeapulco,4.45,4.5405,0.0905,0.0905,0.0905
+LMO,6,ref_knn,1,Nanacamilpa de Mariano Arista,2.5,3.2058,0.7058,0.7058,0.7058
+LMO,7,ref_knn,10,Almoloya,4.521,4.3723,-0.1487,0.2864,0.2483
+LMO,8,ref_knn,1,Apan,3.0,2.9327,-0.0673,0.0673,0.0673
+LMO,0,ref_muni,30,Calpulalpan,3.0,4.2207,1.2207,1.2742,1.2207
+LMO,1,ref_muni,71,Chignahuapan,4.4773,3.4022,-1.0751,1.2217,1.1423
+LMO,2,ref_muni,16,Singuilucan,3.0812,4.07,0.9887,1.0743,0.9887
+LMO,3,ref_muni,5,Cuautepec de Hinojosa,4.598,3.9312,-0.6668,0.6803,0.6668
+LMO,4,ref_muni,3,Emiliano Zapata,3.5,3.9655,0.4655,0.4655,0.4655
+LMO,5,ref_muni,1,Tepeapulco,4.45,3.9518,-0.4982,0.4982,0.4982
+LMO,6,ref_muni,1,Nanacamilpa de Mariano Arista,2.5,3.966,1.466,1.466,1.466
+LMO,7,ref_muni,10,Almoloya,4.521,3.9112,-0.6098,0.6355,0.6098
+LMO,8,ref_muni,1,Apan,3.0,3.9623,0.9623,0.9623,0.9623
+LMO,0,ref_muni_knnres,30,Calpulalpan,3.0,3.1735,0.1735,0.4706,0.4012
+LMO,1,ref_muni_knnres,71,Chignahuapan,4.4773,3.7974,-0.6799,0.8912,0.7914
+LMO,2,ref_muni_knnres,16,Singuilucan,3.0812,4.3352,1.2539,1.3236,1.2539
+LMO,3,ref_muni_knnres,5,Cuautepec de Hinojosa,4.598,3.9526,-0.6454,0.659,0.6454
+LMO,4,ref_muni_knnres,3,Emiliano Zapata,3.5,3.7634,0.2634,0.266,0.2634
+LMO,5,ref_muni_knnres,1,Tepeapulco,4.45,4.1138,-0.3362,0.3362,0.3362
+LMO,6,ref_muni_knnres,1,Nanacamilpa de Mariano Arista,2.5,4.0871,1.5871,1.5871,1.5871
+LMO,7,ref_muni_knnres,10,Almoloya,4.521,3.8765,-0.6445,0.7156,0.6475
+LMO,8,ref_muni_knnres,1,Apan,3.0,3.802,0.802,0.802,0.802
+LMO,0,resid_muni|CB|ALL,30,Calpulalpan,3.0,3.7012,0.7012,0.7864,0.7012
+LMO,1,resid_muni|CB|ALL,71,Chignahuapan,4.4773,3.5268,-0.9505,1.1227,1.0333
+LMO,2,resid_muni|CB|ALL,16,Singuilucan,3.0812,3.9667,0.8855,1.0235,0.892
+LMO,3,resid_muni|CB|ALL,5,Cuautepec de Hinojosa,4.598,3.9748,-0.6232,0.6764,0.6232
+LMO,4,resid_muni|CB|ALL,3,Emiliano Zapata,3.5,3.7958,0.2958,0.3145,0.2958
+LMO,5,resid_muni|CB|ALL,1,Tepeapulco,4.45,3.948,-0.502,0.502,0.502
+LMO,6,resid_muni|CB|ALL,1,Nanacamilpa de Mariano Arista,2.5,3.868,1.368,1.368,1.368
+LMO,7,resid_muni|CB|ALL,10,Almoloya,4.521,4.03,-0.491,0.5156,0.491
+LMO,8,resid_muni|CB|ALL,1,Apan,3.0,3.8142,0.8142,0.8142,0.8142
+LMO,0,resid_muni|CB|SAT,30,Calpulalpan,3.0,4.0744,1.0744,1.1425,1.0744
+LMO,1,resid_muni|CB|SAT,71,Chignahuapan,4.4773,3.4518,-1.0255,1.1832,1.0937
+LMO,2,resid_muni|CB|SAT,16,Singuilucan,3.0812,3.9531,0.8718,1.0078,0.8771
+LMO,3,resid_muni|CB|SAT,5,Cuautepec de Hinojosa,4.598,3.9526,-0.6454,0.6892,0.6454
+LMO,4,resid_muni|CB|SAT,3,Emiliano Zapata,3.5,3.8379,0.3379,0.3404,0.3379
+LMO,5,resid_muni|CB|SAT,1,Tepeapulco,4.45,3.9749,-0.4751,0.4751,0.4751
+LMO,6,resid_muni|CB|SAT,1,Nanacamilpa de Mariano Arista,2.5,3.9331,1.4331,1.4331,1.4331
+LMO,7,resid_muni|CB|SAT,10,Almoloya,4.521,4.0365,-0.4845,0.5067,0.4845
+LMO,8,resid_muni|CB|SAT,1,Apan,3.0,3.7921,0.7921,0.7921,0.7921
+LMO,0,resid_muni|ET|ALL,30,Calpulalpan,3.0,3.3526,0.3526,0.5122,0.4296
+LMO,1,resid_muni|ET|ALL,71,Chignahuapan,4.4773,3.6206,-0.8567,1.0364,0.9516
+LMO,2,resid_muni|ET|ALL,16,Singuilucan,3.0812,3.9566,0.8754,0.9878,0.8754
+LMO,3,resid_muni|ET|ALL,5,Cuautepec de Hinojosa,4.598,4.0204,-0.5776,0.6414,0.5776
+LMO,4,resid_muni|ET|ALL,3,Emiliano Zapata,3.5,3.8231,0.3231,0.3241,0.3231
+LMO,5,resid_muni|ET|ALL,1,Tepeapulco,4.45,3.9342,-0.5158,0.5158,0.5158
+LMO,6,resid_muni|ET|ALL,1,Nanacamilpa de Mariano Arista,2.5,3.8531,1.3531,1.3531,1.3531
+LMO,7,resid_muni|ET|ALL,10,Almoloya,4.521,3.9771,-0.5439,0.5639,0.5439
+LMO,8,resid_muni|ET|ALL,1,Apan,3.0,3.7964,0.7964,0.7964,0.7964
+LMO,0,resid_muni|ET|ALLNOLOC,30,Calpulalpan,3.0,3.3681,0.3681,0.5235,0.4359
+LMO,1,resid_muni|ET|ALLNOLOC,71,Chignahuapan,4.4773,3.581,-0.8963,1.071,0.9887
+LMO,2,resid_muni|ET|ALLNOLOC,16,Singuilucan,3.0812,3.9596,0.8784,0.9902,0.8784
+LMO,3,resid_muni|ET|ALLNOLOC,5,Cuautepec de Hinojosa,4.598,4.01,-0.588,0.6525,0.588
+LMO,4,resid_muni|ET|ALLNOLOC,3,Emiliano Zapata,3.5,3.8197,0.3197,0.3233,0.3197
+LMO,5,resid_muni|ET|ALLNOLOC,1,Tepeapulco,4.45,3.9354,-0.5146,0.5146,0.5146
+LMO,6,resid_muni|ET|ALLNOLOC,1,Nanacamilpa de Mariano Arista,2.5,3.8766,1.3766,1.3766,1.3766
+LMO,7,resid_muni|ET|ALLNOLOC,10,Almoloya,4.521,3.9871,-0.5339,0.5539,0.5339
+LMO,8,resid_muni|ET|ALLNOLOC,1,Apan,3.0,3.7893,0.7893,0.7893,0.7893
+LMO,0,resid_muni|ET|CLIM,30,Calpulalpan,3.0,3.3815,0.3815,0.5294,0.4409
+LMO,1,resid_muni|ET|CLIM,71,Chignahuapan,4.4773,3.8526,-0.6247,0.8606,0.7534
+LMO,2,resid_muni|ET|CLIM,16,Singuilucan,3.0812,4.13,1.0488,1.1299,1.0488
+LMO,3,resid_muni|ET|CLIM,5,Cuautepec de Hinojosa,4.598,3.8428,-0.7552,0.7736,0.7552
+LMO,4,resid_muni|ET|CLIM,3,Emiliano Zapata,3.5,3.7739,0.2739,0.2758,0.2739
+LMO,5,resid_muni|ET|CLIM,1,Tepeapulco,4.45,3.7721,-0.6779,0.6779,0.6779
+LMO,6,resid_muni|ET|CLIM,1,Nanacamilpa de Mariano Arista,2.5,3.8787,1.3787,1.3787,1.3787
+LMO,7,resid_muni|ET|CLIM,10,Almoloya,4.521,3.8591,-0.6619,0.6846,0.6619
+LMO,8,resid_muni|ET|CLIM,1,Apan,3.0,3.8413,0.8413,0.8413,0.8413
+LMO,0,resid_muni|ET|CUR,30,Calpulalpan,3.0,3.997,0.997,1.0623,0.997
+LMO,1,resid_muni|ET|CUR,71,Chignahuapan,4.4773,3.442,-1.0354,1.1868,1.1082
+LMO,2,resid_muni|ET|CUR,16,Singuilucan,3.0812,3.9215,0.8403,0.9607,0.8403
+LMO,3,resid_muni|ET|CUR,5,Cuautepec de Hinojosa,4.598,4.1329,-0.4651,0.5733,0.4651
+LMO,4,resid_muni|ET|CUR,3,Emiliano Zapata,3.5,3.8181,0.3181,0.3237,0.3181
+LMO,5,resid_muni|ET|CUR,1,Tepeapulco,4.45,3.816,-0.634,0.634,0.634
+LMO,6,resid_muni|ET|CUR,1,Nanacamilpa de Mariano Arista,2.5,3.9666,1.4666,1.4666,1.4666
+LMO,7,resid_muni|ET|CUR,10,Almoloya,4.521,3.9519,-0.5691,0.5869,0.5691
+LMO,8,resid_muni|ET|CUR,1,Apan,3.0,3.6943,0.6943,0.6943,0.6943
+LMO,0,resid_muni|ET|SAT,30,Calpulalpan,3.0,4.0528,1.0528,1.1174,1.0528
+LMO,1,resid_muni|ET|SAT,71,Chignahuapan,4.4773,3.4705,-1.0068,1.1662,1.0906
+LMO,2,resid_muni|ET|SAT,16,Singuilucan,3.0812,3.9384,0.8572,0.981,0.8572
+LMO,3,resid_muni|ET|SAT,5,Cuautepec de Hinojosa,4.598,4.0192,-0.5788,0.6593,0.5788
+LMO,4,resid_muni|ET|SAT,3,Emiliano Zapata,3.5,3.8587,0.3587,0.3618,0.3587
+LMO,5,resid_muni|ET|SAT,1,Tepeapulco,4.45,3.9522,-0.4978,0.4978,0.4978
+LMO,6,resid_muni|ET|SAT,1,Nanacamilpa de Mariano Arista,2.5,3.9895,1.4895,1.4895,1.4895
+LMO,7,resid_muni|ET|SAT,10,Almoloya,4.521,4.0044,-0.5166,0.5469,0.5166
+LMO,8,resid_muni|ET|SAT,1,Apan,3.0,3.7864,0.7864,0.7864,0.7864
+LMO,0,resid_muni|Ridge|CUR,30,Calpulalpan,3.0,4.0507,1.0507,1.1152,1.0507
+LMO,1,resid_muni|Ridge|CUR,71,Chignahuapan,4.4773,3.4561,-1.0212,1.1724,1.0936
+LMO,2,resid_muni|Ridge|CUR,16,Singuilucan,3.0812,3.9356,0.8543,0.9765,0.8543
+LMO,3,resid_muni|Ridge|CUR,5,Cuautepec de Hinojosa,4.598,3.9852,-0.6128,0.6575,0.6128
+LMO,4,resid_muni|Ridge|CUR,3,Emiliano Zapata,3.5,3.8212,0.3212,0.3232,0.3212
+LMO,5,resid_muni|Ridge|CUR,1,Tepeapulco,4.45,3.5523,-0.8977,0.8977,0.8977
+LMO,6,resid_muni|Ridge|CUR,1,Nanacamilpa de Mariano Arista,2.5,3.9746,1.4746,1.4746,1.4746
+LMO,7,resid_muni|Ridge|CUR,10,Almoloya,4.521,3.9447,-0.5763,0.5969,0.5763
+LMO,8,resid_muni|Ridge|CUR,1,Apan,3.0,3.8171,0.8171,0.8171,0.8171
+LMO,0,resid_muni|Ridge|SAT,30,Calpulalpan,3.0,4.0899,1.0899,1.1495,1.0899
+LMO,1,resid_muni|Ridge|SAT,71,Chignahuapan,4.4773,3.4738,-1.0036,1.1576,1.0797
+LMO,2,resid_muni|Ridge|SAT,16,Singuilucan,3.0812,3.9162,0.8349,0.9595,0.8349
+LMO,3,resid_muni|Ridge|SAT,5,Cuautepec de Hinojosa,4.598,3.956,-0.642,0.6737,0.642
+LMO,4,resid_muni|Ridge|SAT,3,Emiliano Zapata,3.5,3.8441,0.3441,0.3455,0.3441
+LMO,5,resid_muni|Ridge|SAT,1,Tepeapulco,4.45,3.876,-0.574,0.574,0.574
+LMO,6,resid_muni|Ridge|SAT,1,Nanacamilpa de Mariano Arista,2.5,3.9522,1.4522,1.4522,1.4522
+LMO,7,resid_muni|Ridge|SAT,10,Almoloya,4.521,3.9151,-0.6059,0.6274,0.6059
+LMO,8,resid_muni|Ridge|SAT,1,Apan,3.0,3.8662,0.8662,0.8662,0.8662

@@ -1,0 +1,32 @@
+{
+  "B0": {
+    "n": 0,
+    "missing": [],
+    "ok": true
+  },
+  "B3": {
+    "n": 3,
+    "missing": [],
+    "ok": true
+  },
+  "B5": {
+    "n": 5,
+    "missing": [],
+    "ok": true
+  },
+  "B8": {
+    "n": 8,
+    "missing": [],
+    "ok": true
+  },
+  "B12": {
+    "n": 12,
+    "missing": [],
+    "ok": true
+  },
+  "B20": {
+    "n": 20,
+    "missing": [],
+    "ok": true
+  }
+}

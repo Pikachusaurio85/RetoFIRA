@@ -1,0 +1,6 @@
+config_space,config_method,config_m,config_sigma_factor,config_optimizer,global_selection_rank,prototype_id,municipio,particion,weight_original,weight_normalized,conceptual_original_C1a_ndvi_s2_mean,conceptual_original_C2a_amplitud_ndvi,conceptual_original_C3a_ndwi_s2_mean,conceptual_original_C4a_prec_acum_abr_oct,conceptual_original_C5a_elev_media
+compacto,ProtoDash,5,1.0,osqp,1,AGC_076,Chignahuapan,PREDICCION,0.6503616908382096,0.6877478448711648,0.359875,0.511,0.0339375,961.35080909729,2631.0
+compacto,ProtoDash,5,1.0,osqp,2,AGC_133,Chignahuapan,ENTRENAMIENTO,0.1058833616997926,0.1119700850197557,0.4371379310344827,0.5845,0.134,793.7303228378296,2839.5
+compacto,ProtoDash,5,1.0,osqp,3,AGC_162,Chignahuapan,ENTRENAMIENTO,0.0698535128140877,0.073869054053063,0.2690967741935484,0.358,0.0146451612903225,793.7303228378296,2833.25
+compacto,ProtoDash,5,1.0,osqp,4,AGC_074,Calpulalpan,ENTRENAMIENTO,0.0744479860415408,0.07872764136688,0.3958275862068965,0.662,0.1136551724137931,1459.1384239196775,2809.428571428572
+compacto,ProtoDash,5,1.0,osqp,5,AGC_170,Calpulalpan,ENTRENAMIENTO,0.0450931851584209,0.0476853746891365,0.2629999999999999,0.411,-0.0675526315789473,770.9277410507202,2501.4

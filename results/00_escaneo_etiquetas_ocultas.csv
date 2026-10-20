@@ -1,0 +1,20 @@
+archivo,columna,tiene_ID_POLIGONO,valores_no_nulos_en_las_59_ocultas
+cebada_datos_baseline_1/data_processed/features_parcela.csv,RENDIMIENTO_T_HA,True,0
+cebada_datos_baseline_1/data_processed/parcelas_base.csv,RENDIMIENTO_T_HA,True,0
+datos/entradas/ID_area_rendimiento_70_30_Reto_AgroCebada.csv,RENDIMIENTO_T_HA,True,0
+salidas/comparacion_predicciones.csv,rendimiento_etiquetado_t_ha,True,0
+salidas/datos_reorganizados_todas_observaciones.csv,Rendimiento etiquetado (t/ha) (RENDIMIENTO_T_HA),False,-1
+salidas/lectura_conjunto_de_datos_basico2022.csv,RENDIMIENTO_T_HA,True,0
+salidas/lectura_conjunto_de_datos_basico2023.csv,RENDIMIENTO_T_HA,True,0
+salidas/lectura_conjunto_de_datos_basico2024.csv,RENDIMIENTO_T_HA,True,0
+salidas/lectura_conjunto_de_datos_basico2025.csv,RENDIMIENTO_T_HA,True,0
+salidas/lectura_conjunto_de_datos_pro2025.csv,RENDIMIENTO_T_HA,True,0
+salidas/ml_entrenamiento_etiquetado.csv,RENDIMIENTO_T_HA,True,0
+salidas/ml_evolucion_parcelas_2022_2025.csv,RENDIMIENTO_T_HA,True,0
+salidas/ml_prediccion_sin_etiqueta.csv,RENDIMIENTO_T_HA,True,0
+salidas/originales/ID_area_rendimiento_70_30_Reto_AgroCebada.csv,RENDIMIENTO_T_HA,True,0
+salidas/parcelas_prediccion.csv,RENDIMIENTO_T_HA,True,0
+salidas/predicciones_prueba_espacial_etiquetadas.csv,rendimiento_etiquetado_t_ha,True,0
+salidas/predicciones_rendimiento_transferencia_objetivo_2026.csv,RENDIMIENTO_ESTIMADO_T_HA,True,0
+salidas/tabla_maestra_comparacion_parcelaria.csv,RENDIMIENTO_T_HA,True,0
+salidas/tabla_modelado_parcelaria.csv,RENDIMIENTO_T_HA,True,0

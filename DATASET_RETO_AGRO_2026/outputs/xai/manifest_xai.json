@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "seed": 2026,
+  "python": "3.10.22",
+  "source_hashes": {
+    "Conjunto_datos_BASICO_AgroCebada2026.csv": "96d68040d954d0903d761fd8ceed0dcd4a08e3842915a3ca44517d60e8bee4ef",
+    "Conjunto_datos_PRO_AgroCebada.csv": "91697f8f8d4ad5e59f766acbce2ef76f3c405eb02b41c1de92d62a07e8321888",
+    "parcelas_base.csv": "2905f7d8e576b3e4f809806854bfad0e21213d72e8c097659eb1bf5a5a490dc5",
+    "clima_mensual_parcela.csv": "957eba1e02eaf5714889fbee123d6a1c44b19de90862fa73fd6e394803402aad"
+  },
+  "component_columns": [
+    "C1a_ndvi_s2_mean",
+    "C1b_evi_s2_mean",
+    "C2a_amplitud_ndvi",
+    "C2b_auc_exceso_ndvi",
+    "C2c_doy_pico_ndvi",
+    "C3a_ndwi_s2_mean",
+    "C3b_msi_s2_mean",
+    "C3c_nddi_s2_mean",
+    "C4a_prec_acum_abr_oct",
+    "C4b_tmean_abr_oct",
+    "C5a_elev_media",
+    "C5b_pend_media"
+  ],
+  "scaler": "RobustScaler(quantile_range=(25,75))",
+  "scaler_params": {
+    "C1a_ndvi_s2_mean": {
+      "median": 0.3566296296296297,
+      "iqr": 0.04906932773109235
+    },
+    "C1b_evi_s2_mean": {
+      "median": 0.28890625000000003,
+      "iqr": 0.05039784946236553
+    },
+    "C2a_amplitud_ndvi": {
+      "median": 0.52,
+      "iqr": 0.09499999999999997
+    },
+    "C2b_auc_exceso_ndvi": {
+      "median": 48.79050000000001,
+      "iqr": 8.390250000000002
+    },
+    "C2c_doy_pico_ndvi": {
+      "median": 240.0,
+      "iqr": 32.0
+    },
+    "C3a_ndwi_s2_mean": {
+      "median": 0.04530555555555556,
+      "iqr": 0.05648487903225806
+    },
+    "C3b_msi_s2_mean": {
+      "median": 0.9826999999999999,
+      "iqr": 0.12747737068965526
+    },
+    "C3c_nddi_s2_mean": {
+      "median": 0.06364516129032258,
+      "iqr": 0.023854117647058817
+    },
+    "C4a_prec_acum_abr_oct": {
+      "median": 961.35080909729,
+      "iqr": 252.77330112457275
+    },
+    "C4b_tmean_abr_oct": {
+      "median": 18.38110249383109,
+      "iqr": 0.5975020953587133
+    },
+    "C5a_elev_media": {
+      "median": 2639.0,
+      "iqr": 115.5
+    },
+    "C5b_pend_media": {
+      "median": 2.1420652866363525,
+      "iqr": 2.7211689949035645
+    }
+  },
+  "temporal_window": {
+    "start_doy": 91,
+    "end_doy": 304,
+    "baseline_doy_max": 151
+  },
+  "cloud_thresholds": {
+    "Sentinel-2": 5.0,
+    "Planet": 20.0,
+    "Landsat": 5.0
+  },
+  "n_parcelas_total": 197
+}

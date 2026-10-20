@@ -1,0 +1,13 @@
+method,m,jaccard_mean,jaccard_std,jaccard_min,weight_corr_mean,space,config_space,config_method
+protodash,3,0.293,0.3595149510103856,0.0,1.0,completo,completo,protodash
+kmedoids,3,0.1239999999999999,0.1915045691360913,0.0,,completo,completo,kmedoids
+protodash,5,0.192579365079365,0.2144337047761291,0.0,0.8999999999999999,completo,completo,protodash
+kmedoids,5,0.142063492063492,0.1331010590202816,0.0,,completo,completo,kmedoids
+protodash,8,0.1383509823509823,0.1348440314252755,0.0,0.8808571428571429,completo,completo,protodash
+kmedoids,8,0.1357639027639027,0.1098161810328616,0.0,,completo,completo,kmedoids
+protodash,3,0.2609999999999999,0.2675425199851418,0.0,1.0,compacto,compacto,protodash
+kmedoids,3,0.1369999999999999,0.1820192297533422,0.0,,compacto,compacto,kmedoids
+protodash,5,0.2449206349206348,0.1940180618252766,0.0,0.9051724137931034,compacto,compacto,protodash
+kmedoids,5,0.0809126984126984,0.1073416659324323,0.0,,compacto,compacto,kmedoids
+protodash,8,0.2223212343212343,0.1707561541204176,0.0,0.7297297297297296,compacto,compacto,protodash
+kmedoids,8,0.0723956043956043,0.0655722013356216,0.0,,compacto,compacto,kmedoids

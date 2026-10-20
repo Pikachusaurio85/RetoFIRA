@@ -1,0 +1,13 @@
+scheme,modelo_a,modelo_b,RMSE_a,RMSE_b,dRMSE,IC95_cluster_lo,IC95_cluster_hi,reps_a_mejor,n_reps,NB_t,NB_p,NB_J,dMSE_fold_media,nota
+RCV5x10,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR,0.5177117428972735,0.5123021370214793,0.005409605875794199,-0.002363293179926826,0.016589249193363746,4.0,10.0,0.48417508166534357,0.6304187159458909,50.0,0.0054491837997012295,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+RCV5x10,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,RIDGE148,0.5177117428972735,0.5059602043501449,0.011751538547128626,-0.042926665511174224,0.06023345861876583,2.0,10.0,0.4756160510633226,0.6364615126684477,50.0,0.012098669523728739,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+RCV5x10,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Chignahuapan],,,-0.0003531904561641097,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+RCV5x10,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Calpulalpan],,,0.018089656691808953,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+RCV5x10,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Singuilucan],,,0.005180901009185834,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+RCV5x10,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Almoloya],,,0.02536832743041395,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+KM6,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR,0.6764428749328549,0.6792667341790916,-0.0028238592462366263,-0.030643991572511183,0.025934987621489682,1.0,1.0,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+KM6,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,RIDGE148,0.6764428749328549,0.743493966817396,-0.06705109188454106,-0.18494218638417279,0.0470867981104727,1.0,1.0,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+KM6,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Chignahuapan],,,-0.002363770693831979,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+KM6,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Calpulalpan],,,0.07912240114596719,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+KM6,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Singuilucan],,,-0.012595683910469946,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"
+KM6,DIAG_PRIOR_MAS_RIDGE148_RESIDUO,PRIOR [Almoloya],,,-0.16044537891326505,,,,,,,,,"Diagnostico post hoc, no candidato; alpha mas frecuente = 10000"

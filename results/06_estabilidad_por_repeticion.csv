@@ -1,0 +1,10 @@
+cfg,dRMSE_medio_reps,dRMSE_min,dRMSE_max,frac_reps_mejor_que_prior
+resid_muni|CB|ALL,0.0271,0.0131,0.0364,0.0
+resid_muni|ET|ALL,0.0052,-0.001,0.0106,0.2
+resid_muni|ET|ALLNOLOC,0.0066,-0.0009,0.0125,0.1
+resid_muni|ET|CLIM,0.0054,-0.0001,0.027,0.1
+resid_muni|ET|SAT,0.0024,-0.0056,0.0087,0.4
+resid_muni|Ridge|CLIM,-0.0105,-0.0138,-0.0027,1.0
+resid_muni|Ridge|CUR,-0.0116,-0.0169,-0.0054,1.0
+resid_muni|Ridge|SAT,-0.0063,-0.0125,0.0076,0.9
+resid_muni|Ridge|TOPO,-0.0186,-0.0275,-0.0129,1.0

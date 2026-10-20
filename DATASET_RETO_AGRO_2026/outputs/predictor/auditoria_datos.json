@@ -1,0 +1,146 @@
+{
+  "estado_global": "OK",
+  "transformaciones_aplicadas_a_tablas": "ninguna (solo lectura; cruces por ID_POLIGONO)",
+  "comprobaciones": {
+    "A_tablas_presentes_y_claves_unicas": {
+      "estado": "OK",
+      "detalle": {
+        "ausentes": [],
+        "claves_duplicadas": {
+          "features_parcela": 0,
+          "tabla_modelado_parcelaria": 0,
+          "parcelas_base": 0,
+          "clima_mensual_parcela": 0,
+          "series_dekadales_2025": 0,
+          "diccionario_features": 0
+        }
+      }
+    },
+    "B_identidad_parcelas": {
+      "estado": "OK",
+      "detalle": {
+        "n_universo": 197,
+        "tablas_con_otro_universo": {},
+        "duplicados_en_tablas_anchas": {
+          "features_parcela": 0,
+          "tabla_modelado_parcelaria": 0,
+          "parcelas_base": 0
+        }
+      }
+    },
+    "C_etiquetas_vs_fuente_oficial": {
+      "estado": "OK",
+      "detalle": {
+        "fuente": "desarrollo/datos/entradas/ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+        "sha256_fuente": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+        "mismas_197_parcelas": true,
+        "rendimiento_identico_features_parcela": true,
+        "conjunto_identico": true,
+        "rendimiento_y_particion_identicos_en_tabla_modelado": true,
+        "rendimiento_y_conjunto_identicos_en_parcelas_base": true,
+        "n_entrenamiento": 138,
+        "n_prediccion": 59,
+        "prediccion_sin_rendimiento_en_fuente": true,
+        "AREA_HA_tabla_modelado_igual_a_fuente": true
+      }
+    },
+    "D_148_caracteristicas": {
+      "estado": "OK",
+      "detalle": {
+        "n_columnas": 148,
+        "excluidas_por_diseno": [
+          "ID_POLIGONO",
+          "PARTICION",
+          "RENDIMIENTO_T_HA",
+          "AREA_HA"
+        ],
+        "columnas_prohibidas_detectadas": [],
+        "coinciden_con_experimentos_previos": {
+          "Ridge_148": {
+            "n": 148,
+            "igual_al_conjunto_148": true,
+            "faltan": [],
+            "sobran": []
+          },
+          "Lineal_148": {
+            "n": 148,
+            "igual_al_conjunto_148": true,
+            "faltan": [],
+            "sobran": []
+          },
+          "RF_148": {
+            "n": 148,
+            "igual_al_conjunto_148": true,
+            "faltan": [],
+            "sobran": []
+          },
+          "ET_148": {
+            "n": 148,
+            "igual_al_conjunto_148": true,
+            "faltan": [],
+            "sobran": []
+          }
+        },
+        "variables_por_familia": {
+          "SAT_BASICO_S2_LANDSAT": 92,
+          "SAT_PRO_PLANET": 16,
+          "CLIMA_PRECIPITACION": 12,
+          "CLIMA_TMIN": 12,
+          "CLIMA_TMAX": 12,
+          "CALIDAD_NUBOSIDAD": 2,
+          "TOPOGRAFIA": 2
+        },
+        "faltantes_197_parcelas": 0,
+        "columnas_constantes": [],
+        "todas_numericas": true
+      }
+    },
+    "E_centralizado_vs_consumido": {
+      "estado": "OK",
+      "detalle": {
+        "comparaciones": [
+          {
+            "comparacion": "tabla_modelado_parcelaria (Ridge/OLS/RF/ET leian desarrollo/salidas/)",
+            "centralizado": "cebada_datos_baseline_1/data_processed/tabla_modelado_parcelaria.csv",
+            "consumido": "salidas/tabla_modelado_parcelaria.csv",
+            "identicos_byte_a_byte": true
+          },
+          {
+            "comparacion": "fuente de etiquetas (copia en salidas/originales)",
+            "centralizado": "datos/entradas/ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+            "consumido": "salidas/originales/ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+            "identicos_byte_a_byte": true
+          },
+          {
+            "comparacion": "features_parcela (los scripts Ridge/OLS/RF/ET y 08-11 leian la misma ruta data_processed/)",
+            "centralizado": "cebada_datos_baseline_1/data_processed/features_parcela.csv",
+            "consumido": "cebada_datos_baseline_1/data_processed/features_parcela.csv",
+            "identicos_byte_a_byte": true
+          }
+        ],
+        "reproduccion_metricas_equipo": {
+          "Ridge_148_equipo": 0.4980233607942801,
+          "Ridge_148_aqui": 0.49802336079428,
+          "media_municipal_k3_equipo": 0.5328044167985871,
+          "PRIOR_K3_aqui": 0.5328044167985873,
+          "reproduce_exacto": true
+        },
+        "notas": [
+          "El README historico de cebada_datos_baseline_1 menciona data_processed/calidad_observaciones.csv y archivos en reports/; no estan en el ZIP (reports/ y figures/ vacios). No se usan en este modulo.",
+          "Las 148 variables 'HISTORICO_PROMEDIO__' no estan descritas en data_processed/diccionario_features.csv (que documenta features_parcela); su definicion esta en desarrollo/salidas/diccionario_features_comparacion.csv y en analisis/data.py.",
+          "AREA_HA (fuente oficial) y geo_area_ha (geometria) son distintas columnas; ninguna se usa en el predictor final.",
+          "diccionario_features_comparacion.csv documenta 148 de las 148 variables historicas."
+        ]
+      }
+    },
+    "F_municipio_consistente": {
+      "estado": "OK",
+      "detalle": {
+        "loc_municipio_igual_a_parcelas_base_Municipio": true,
+        "faltantes": 0,
+        "municipios": 9,
+        "municipios_PREDICCION_sin_etiquetadas": []
+      }
+    }
+  }
+}

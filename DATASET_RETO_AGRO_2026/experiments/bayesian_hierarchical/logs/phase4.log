@@ -1,0 +1,66 @@
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 12 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 13 seconds.
+There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, sigma, tau, z, beta]
+Sampling 4 chains for 1_000 tune and 2_000 draw iterations (4_000 + 8_000 draws total) took 15 seconds.
+
+=== Full-data fit B0 ===
+  ICC=0.695 [0.464,0.878]  tau=0.796 sigma=0.496
+                    municipio  count   raw_dev    u_mean  shrinkage_lambda
+                     Almoloya     10  0.565638  0.750332          0.962572
+                         Apan      1 -0.955362 -0.515776          0.720029
+                  Calpulalpan     30 -0.955362 -0.723517          0.987205
+                 Chignahuapan     71  0.521962  0.738059          0.994553
+        Cuautepec de Hinojosa      5  0.642638  0.790157          0.927845
+              Emiliano Zapata      3 -0.455362 -0.201539          0.885261
+Nanacamilpa de Mariano Arista      1 -1.455362 -0.856401          0.720029
+                  Singuilucan     16 -0.874112 -0.633442          0.976275
+                   Tepeapulco      1  0.494638  0.502418          0.720029
+
+=== Full-data fit B3 ===
+  ICC=0.672 [0.425,0.868]  tau=0.749 sigma=0.493
+                    municipio  count   raw_dev    u_mean  shrinkage_lambda
+                     Almoloya     10  0.565638  0.635692          0.958470
+                         Apan      1 -0.955362 -0.460055          0.697693
+                  Calpulalpan     30 -0.955362 -0.688089          0.985762
+                 Chignahuapan     71  0.521962  0.616141          0.993934
+        Cuautepec de Hinojosa      5  0.642638  0.774571          0.920252
+              Emiliano Zapata      3 -0.455362 -0.075673          0.873796
+Nanacamilpa de Mariano Arista      1 -1.455362 -0.775491          0.697693
+                  Singuilucan     16 -0.874112 -0.632587          0.973633
+                   Tepeapulco      1  0.494638  0.556592          0.697693
+
+=== Full-data fit B5 ===
+  ICC=0.654 [0.398,0.858]  tau=0.724 sigma=0.496
+                    municipio  count   raw_dev    u_mean  shrinkage_lambda
+                     Almoloya     10  0.565638  0.567855          0.955118
+                         Apan      1 -0.955362 -0.401539          0.680311
+                  Calpulalpan     30 -0.955362 -0.678946          0.984578
+                 Chignahuapan     71  0.521962  0.608564          0.993425
+        Cuautepec de Hinojosa      5  0.642638  0.784560          0.914091
+              Emiliano Zapata      3 -0.455362 -0.038760          0.864574
+Nanacamilpa de Mariano Arista      1 -1.455362 -0.725386          0.680311
+                  Singuilucan     16 -0.874112 -0.600655          0.971468
+                   Tepeapulco      1  0.494638  0.502096          0.680311
+
+Within-municipio pooled corr(delta_B5, resid) = 0.0513
+                    municipio   n  corr_delta_resid
+                     Almoloya 100          0.358220
+                         Apan  10               NaN
+                  Calpulalpan 300         -0.067703
+                 Chignahuapan 710          0.132573
+        Cuautepec de Hinojosa  50         -0.413743
+              Emiliano Zapata  30               NaN
+Nanacamilpa de Mariano Arista  10               NaN
+                  Singuilucan 160         -0.467103
+                   Tepeapulco  10               NaN
+
+Phase 4 done.

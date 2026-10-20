@@ -1,0 +1,945 @@
+{
+  "schema_version": "1.0",
+  "model_id": "modelo_final",
+  "model_version": "prior_municipal_calibrado_v1",
+  "tipo": "prior_municipal_encogido",
+  "formula": "pred = (S_m + k*G) / (n_m + k); municipio no visto -> G",
+  "k_encogimiento": 0.07775395769865924,
+  "k_malla": [
+    0.05,
+    0.06235140643909296,
+    0.07775395769865924,
+    0.09696137237434288,
+    0.12091355875609787,
+    0.1507826089199721,
+    0.18803015465431966,
+    0.23447889191313986,
+    0.2924017738212866,
+    0.3646332368608554,
+    0.45470790305426506,
+    0.5670335454880833,
+    0.7071067811865475,
+    0.8817820461920239,
+    1.099607015056279,
+    1.3712408783810366,
+    1.7099759466766973,
+    2.13238810504623,
+    2.6591479484724942,
+    3.3160322903377746,
+    4.135185542000139,
+    5.156692688606229,
+    6.430540834175725,
+    8.019065303497488,
+    10.0
+  ],
+  "k_criterio": "minimo error cuadratico leave-one-out en las parcelas etiquetadas",
+  "media_global_t_ha": 3.9553623188405793,
+  "n_entrenamiento": 138,
+  "municipios": {
+    "Almoloya": {
+      "n": 10,
+      "media_t_ha": 4.521,
+      "peso_municipal": 0.9922845945609476,
+      "prediccion_t_ha": 4.51663587595825,
+      "estrato_incertidumbre": "Almoloya"
+    },
+    "Apan": {
+      "n": 1,
+      "media_t_ha": 3.0,
+      "peso_municipal": 0.9278555581788925,
+      "prediccion_t_ha": 3.0689240812296728,
+      "estrato_incertidumbre": "OTROS_n<10"
+    },
+    "Calpulalpan": {
+      "n": 30,
+      "media_t_ha": 3.0,
+      "peso_municipal": 0.9974149014647832,
+      "prediccion_t_ha": 3.002469705731036,
+      "estrato_incertidumbre": "Calpulalpan"
+    },
+    "Chignahuapan": {
+      "n": 71,
+      "media_t_ha": 4.477323943661972,
+      "peso_municipal": 0.9989060718245973,
+      "prediccion_t_ha": 4.476752955134101,
+      "estrato_incertidumbre": "Chignahuapan"
+    },
+    "Cuautepec de Hinojosa": {
+      "n": 5,
+      "media_t_ha": 4.598000000000001,
+      "peso_municipal": 0.9846873325595518,
+      "prediccion_t_ha": 4.5881595029037054,
+      "estrato_incertidumbre": "OTROS_n<10"
+    },
+    "Emiliano Zapata": {
+      "n": 3,
+      "media_t_ha": 3.5,
+      "peso_municipal": 0.9747367857316318,
+      "prediccion_t_ha": 3.51150391583061,
+      "estrato_incertidumbre": "OTROS_n<10"
+    },
+    "Nanacamilpa de Mariano Arista": {
+      "n": 1,
+      "media_t_ha": 2.5,
+      "peso_municipal": 0.9278555581788925,
+      "prediccion_t_ha": 2.6049963021402265,
+      "estrato_incertidumbre": "OTROS_n<10"
+    },
+    "Singuilucan": {
+      "n": 16,
+      "media_t_ha": 3.08125,
+      "peso_municipal": 0.9951638793637947,
+      "prediccion_t_ha": 3.0854773126235067,
+      "estrato_incertidumbre": "Singuilucan"
+    },
+    "Tepeapulco": {
+      "n": 1,
+      "media_t_ha": 4.45,
+      "peso_municipal": 0.9278555581788925,
+      "prediccion_t_ha": 4.414314640589067,
+      "estrato_incertidumbre": "OTROS_n<10"
+    }
+  },
+  "incertidumbre": {
+    "method": "residuos_LOO_por_municipio_q80",
+    "nivel_nominal": 0.8,
+    "descripcion": "prediccion +- cuantil 80% (muestra finita) de |residuo leave-one-out| del prior; estrato = municipio si n>=10, si no OTROS_n<10. Es un intervalo de prediccion empirico, no un intervalo de confianza. Municipio no visto: sin intervalo (method=pending_validation, limites null).",
+    "estratos": {
+      "Almoloya": {
+        "n_residuos": 10,
+        "q_abs_t_ha": 0.39234769042696716
+      },
+      "Calpulalpan": {
+        "n_residuos": 30,
+        "q_abs_t_ha": 0.5197783222486612
+      },
+      "Chignahuapan": {
+        "n_residuos": 71,
+        "q_abs_t_ha": 0.6762686062136773
+      },
+      "OTROS_n<10": {
+        "n_residuos": 11,
+        "q_abs_t_ha": 0.9623357664233572
+      },
+      "Singuilucan": {
+        "n_residuos": 16,
+        "q_abs_t_ha": 0.6243626334070269
+      }
+    },
+    "cobertura_validada": {
+      "esquema": "RCV5x10 (cuantiles recalculados solo con el entrenamiento de cada fold)",
+      "cobertura_global": 0.8651851851851852,
+      "cobertura_por_grupo": {
+        "TODAS": 0.8652,
+        "Almoloya": 0.89,
+        "Calpulalpan": 0.9867,
+        "Chignahuapan": 0.8085,
+        "OTROS (n<10)": 1.0,
+        "Singuilucan": 0.8063
+      },
+      "cobertura_KM6_diagnostico": 0.8316831683168316
+    }
+  },
+  "advertencias_generales": [
+    "PRIOR_MUNICIPAL: la estimacion es la media municipal encogida; no distingue parcelas dentro del mismo municipio.",
+    "REGIMEN_CAPTURA: el nivel municipal puede reflejar como se registro el rendimiento (p. ej. valores en multiplos de 0.5 t/ha) ademas de diferencias agronomicas; no se puede separar con los datos actuales.",
+    "CICLO_NO_VERIFICADO: las etiquetas no indican ano o ciclo agricola; la estimacion no esta validada para 2026."
+  ],
+  "entrenado_utc": "2026-10-19T04:05:01Z",
+  "fuentes_sha256": {
+    "features_parcela": "07d444f56da566130b64033795b762311017eb8b74544746566c8f9ea95b1af2",
+    "tabla_modelado_parcelaria": "b1840eade25b022d7cc134fd57149a9f8b37986691f24fdf32cf6385478b7c8f",
+    "diccionario_features": "24f341bf7e246bf7a9b95752b313442516658c008a4eace795c27185ed2d9a61"
+  },
+  "parcelas": {
+    "AGC_001": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_002": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_003": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_004": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_005": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_006": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_007": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_008": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_009": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_010": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_011": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_012": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_013": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_014": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_015": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_016": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_017": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_018": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_019": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_020": {
+      "municipio": "Emiliano Zapata",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_021": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_022": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_023": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_024": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_025": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_026": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_027": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_028": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_029": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_030": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_031": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_032": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_033": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_034": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_035": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_036": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_037": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_038": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_039": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_040": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_041": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_042": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_043": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_044": {
+      "municipio": "Emiliano Zapata",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_045": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_046": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_047": {
+      "municipio": "Tepeapulco",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_048": {
+      "municipio": "Nanacamilpa de Mariano Arista",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_049": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_050": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_051": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_052": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_053": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_054": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_055": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_056": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_057": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_058": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_059": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_060": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_061": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_062": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_063": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_064": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_065": {
+      "municipio": "Almoloya",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_066": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_067": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_068": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_069": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_070": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_071": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_072": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_073": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_074": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_075": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_076": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_077": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_078": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_079": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_080": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_081": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_082": {
+      "municipio": "Almoloya",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_083": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_084": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_085": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_086": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_087": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_088": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_089": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_090": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_091": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_092": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_093": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_094": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_095": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_096": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_097": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_098": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_099": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_100": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_101": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_102": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_103": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_104": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_105": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_106": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_107": {
+      "municipio": "Almoloya",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_108": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_109": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_110": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_111": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_112": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_113": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_114": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_115": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_116": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_117": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_118": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_119": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_120": {
+      "municipio": "Nanacamilpa de Mariano Arista",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_121": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_122": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_123": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_124": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_125": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_126": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_127": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_128": {
+      "municipio": "Almoloya",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_129": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_130": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_131": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_132": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_133": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_134": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_135": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_136": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_137": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_138": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_139": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_140": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_141": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_142": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_143": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_144": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_145": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_146": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_147": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_148": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_149": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_150": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_151": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_152": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_153": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_154": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_155": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_156": {
+      "municipio": "Singuilucan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_157": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_158": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_159": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_160": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_161": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_162": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_163": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_164": {
+      "municipio": "Apan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_165": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_166": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_167": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_168": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_169": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_170": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_171": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_172": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_173": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_174": {
+      "municipio": "Cuautepec de Hinojosa",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_175": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_176": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_177": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_178": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_179": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_180": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_181": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_182": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_183": {
+      "municipio": "Calpulalpan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_184": {
+      "municipio": "Almoloya",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_185": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_186": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_187": {
+      "municipio": "Calpulalpan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_188": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_189": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_190": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_191": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_192": {
+      "municipio": "Chignahuapan",
+      "conjunto": "PREDICCION"
+    },
+    "AGC_193": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_194": {
+      "municipio": "Singuilucan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_195": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_196": {
+      "municipio": "Emiliano Zapata",
+      "conjunto": "ENTRENAMIENTO"
+    },
+    "AGC_197": {
+      "municipio": "Chignahuapan",
+      "conjunto": "ENTRENAMIENTO"
+    }
+  },
+  "nota_parcelas": "Mapa ID_POLIGONO -> municipio y particion oficial (sin rendimientos) para resolver solicitudes por ID."
+}

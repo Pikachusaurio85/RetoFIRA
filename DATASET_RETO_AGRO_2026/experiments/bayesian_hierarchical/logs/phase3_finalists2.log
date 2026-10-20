@@ -1,0 +1,32 @@
+
+===== FINALIST B0 =====
+
+===== FINALIST B3 =====
+
+===== FINALIST B5 =====
+        model      block     rmse      mae    n
+           B0  selection 0.511432 0.341121  690
+           B0 evaluation 0.510405 0.339326  690
+           B0        all 0.510919 0.340224 1380
+           B3  selection 0.512228 0.359835  690
+           B3 evaluation 0.512792 0.359596  690
+           B3        all 0.512510 0.359716 1380
+           B5  selection 0.521222 0.363268  690
+           B5 evaluation 0.515642 0.359568  690
+           B5        all 0.518440 0.361418 1380
+PRIOR_OFICIAL  selection 0.513576 0.337723  690
+PRIOR_OFICIAL evaluation 0.511026 0.335099  690
+PRIOR_OFICIAL        all 0.512302 0.336411 1380
+
+PAIRED vs PRIOR (rmse_a=model, rmse_b=PRIOR):
+model   rmse_a   rmse_b                         bootstrap_ci_err2_diff       pvalue
+   B0 0.510919 0.512302 [-0.004411591034217075, 0.0014219783193942846] 8.472098e-04
+   B3 0.512510 0.512302   [-0.006472757063013083, 0.00707926963568744] 2.144801e-06
+   B5 0.518440 0.512302 [-0.0008708008731255252, 0.013432534218289088] 8.314378e-07
+
+ENV vs B0 (rmse_a=env, rmse_b=B0):
+model  rmse_a   rmse_b                        bootstrap_ci_err2_diff       pvalue
+   B3 0.51251 0.510919 [-0.003835967939199981, 0.007230136565988359] 4.562000e-08
+   B5 0.51844 0.510919 [0.0018834533872760224, 0.013783359932384468] 2.469357e-06
+
+Total finalist time 1.2s

@@ -1,0 +1,64 @@
+{
+  "description": "Feature sets for progressive Bayesian hierarchical experiments. B0 = no environmental covariates (municipality random effect only). B5 uses the exact 5 official XAI concept columns from outputs/xai/perfiles_conceptuales.csv (raw, unscaled). All other sets use pre-engineered columns from data_processed/features_parcela.csv. Location columns (loc_*) are deliberately excluded to avoid absorbing municipality structure.",
+  "sets": {
+    "B0": [],
+    "B3": ["clim_prec_temp", "topo_elev_media", "s2_ndvi_amp"],
+    "B5": [
+      "C1a_ndvi_s2_mean",
+      "C2a_amplitud_ndvi",
+      "C3a_ndwi_s2_mean",
+      "C4a_prec_acum_abr_oct",
+      "C5a_elev_media"
+    ],
+    "B8": [
+      "C1a_ndvi_s2_mean",
+      "C2a_amplitud_ndvi",
+      "C3a_ndwi_s2_mean",
+      "C4a_prec_acum_abr_oct",
+      "C5a_elev_media",
+      "clim_tmean_temp",
+      "clim_prec_cv",
+      "topo_pend_media"
+    ],
+    "B12": [
+      "C1a_ndvi_s2_mean",
+      "C2a_amplitud_ndvi",
+      "C3a_ndwi_s2_mean",
+      "C4a_prec_acum_abr_oct",
+      "C5a_elev_media",
+      "clim_tmean_temp",
+      "clim_prec_cv",
+      "topo_pend_media",
+      "s2_evi_amp",
+      "s2_lai_amp",
+      "clim_gdd0_temp",
+      "clim_prec_anom_pct"
+    ],
+    "B20": [
+      "C1a_ndvi_s2_mean",
+      "C2a_amplitud_ndvi",
+      "C3a_ndwi_s2_mean",
+      "C4a_prec_acum_abr_oct",
+      "C5a_elev_media",
+      "clim_tmean_temp",
+      "clim_prec_cv",
+      "topo_pend_media",
+      "s2_evi_amp",
+      "s2_lai_amp",
+      "clim_gdd0_temp",
+      "clim_prec_anom_pct",
+      "s2_ndvi_peak",
+      "s2_ndvi_auc",
+      "s2_ndwi_pico",
+      "s2_evi_peak",
+      "s2_lai_peak_doy",
+      "s2_ndvi_los",
+      "clim_tmin_minmes",
+      "geo_area_ha"
+    ]
+  },
+  "notes": {
+    "B5": "Exact official concepts. Verified against engineered features: C4a==clim_prec_temp (r=1.0), C5a==topo_elev_media (r=1.0), C2a approx s2_ndvi_amp (r=0.95), C1a/C3a are season means not exactly reproducible from window means (r~0.77-0.81).",
+    "B20": "8 additional columns chosen for a blend of canopy, moisture, phenology timing, frost and geometry."
+  }
+}

@@ -1,0 +1,8 @@
+# Versiones usadas en la ejecucion de referencia (Python 3.13.16)
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+# opcional: solo para el contraste con la libreria SHAP en fase2_shap.py (los valores SHAP se calculan de forma exacta sin ella)
+shap==0.54.1
+# modelo_final.py (prediccion) solo usa la biblioteca estandar de Python

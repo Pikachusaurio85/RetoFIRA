@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "seed": 2026,
+  "python": "3.10.22",
+  "phase1_manifest_hash": "d74f0a4d60e0a9451af8fcab152527067f1afcbc8f733588abf79d3625ccf238",
+  "perfiles_conceptuales_hash": "7dbba2000fb99eac8f9994700154b1accc58982b59ee39a675d450d391307121",
+  "spaces": [
+    "completo",
+    "compacto"
+  ],
+  "m_values": [
+    3,
+    5,
+    8
+  ],
+  "sigma_factors": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "methods": [
+    "ProtoDash",
+    "KMedoids"
+  ],
+  "n_parcelas": 197,
+  "family_weighting": "equal_family_weight (inverse n_components per family)",
+  "corrections_applied": [
+    "global_selection_rank vs local_similarity_rank separated",
+    "original and scaled values in example_xai",
+    "ProtoDash weights_original and weights_normalized separated",
+    "KMedoids warnings recorded",
+    "order_invariance_test_implemented"
+  ]
+}

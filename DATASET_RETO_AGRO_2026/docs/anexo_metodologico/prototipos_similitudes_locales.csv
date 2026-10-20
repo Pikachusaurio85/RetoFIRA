@@ -1,0 +1,10 @@
+parcela_id,parcela_municipio,parcela_conjunto,local_rank,prototype_id,prototype_municipio,global_selection_rank,weight_global_representativeness_normalized,distance,similarity_rbf,top_comp_1,top_comp_1_contrib,top_comp_2,top_comp_2_contrib,top_comp_3,top_comp_3_contrib
+AGC_001,Calpulalpan,,1,AGC_074,Calpulalpan,4,0.07872764136688,1.9767149314611296,0.816533232138915,C1a_ndvi_s2_mean,0.3723954610170936,C5a_elev_media,0.2200912679107144,C3a_ndwi_s2_mean,0.2042514544902689
+AGC_001,Calpulalpan,,2,AGC_076,Chignahuapan,1,0.6877478448711648,2.289775762420497,0.761875139761658,C4a_prec_acum_abr_oct,,C2a_amplitud_ndvi,,C1a_ndvi_s2_mean,
+AGC_001,Calpulalpan,,3,AGC_133,Chignahuapan,2,0.1119700850197557,3.6334262326046,0.5041845539500739,C1a_ndvi_s2_mean,,C4a_prec_acum_abr_oct,,C3a_ndwi_s2_mean,
+AGC_003,Singuilucan,,1,AGC_076,Chignahuapan,1,0.6877478448711648,1.5919371578214674,0.8768150239908524,C4a_prec_acum_abr_oct,0.6347016382195539,C1a_ndvi_s2_mean,0.2363593079365169,C2a_amplitud_ndvi,0.0813356265501
+AGC_003,Singuilucan,,2,AGC_074,Calpulalpan,4,0.07872764136688,2.525987940153572,0.7182195160618424,C5a_elev_media,,C3a_ndwi_s2_mean,,C2a_amplitud_ndvi,
+AGC_003,Singuilucan,,3,AGC_133,Chignahuapan,2,0.1119700850197557,3.4792901488871086,0.5336882314955634,C4a_prec_acum_abr_oct,,C3a_ndwi_s2_mean,,C5a_elev_media,
+AGC_170,Calpulalpan,,1,AGC_170,Calpulalpan,5,0.0476853746891365,0.0,1.0,C1a_ndvi_s2_mean,,C2a_amplitud_ndvi,,C3a_ndwi_s2_mean,0.0
+AGC_170,Calpulalpan,,2,AGC_076,Chignahuapan,1,0.6877478448711648,3.1718494743730234,0.5934083762059871,C1a_ndvi_s2_mean,,C3a_ndwi_s2_mean,,C5a_elev_media,
+AGC_170,Calpulalpan,,3,AGC_162,Chignahuapan,3,0.073869054053063,3.272236193521928,0.5738260559785481,C5a_elev_media,,C3a_ndwi_s2_mean,,C2a_amplitud_ndvi,

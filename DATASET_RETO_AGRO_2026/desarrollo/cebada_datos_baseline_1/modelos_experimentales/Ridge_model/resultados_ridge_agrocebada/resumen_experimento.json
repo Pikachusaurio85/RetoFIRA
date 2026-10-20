@@ -1,0 +1,82 @@
+{
+  "etiquetadas": 138,
+  "reserva": 59,
+  "features_curadas": 24,
+  "features_historicas": 148,
+  "n_bloques": 6,
+  "tamano_bloques": {
+    "0": 37,
+    "1": 22,
+    "2": 16,
+    "3": 11,
+    "4": 39,
+    "5": 13
+  },
+  "metricas": [
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Media_global",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.7572498427281036,
+      "RMSE_t_ha": 0.8592968557231159,
+      "R2": -0.02664843550884277
+    },
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Media_municipal_suavizada",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.37099730578729684,
+      "RMSE_t_ha": 0.5328044167985871,
+      "R2": 0.6052965367238945
+    },
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Ridge_24_curadas",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.5335270914499878,
+      "RMSE_t_ha": 0.686516184828232,
+      "R2": 0.3447049837603998
+    },
+    {
+      "escenario": "aleatoria_5_folds",
+      "modelo": "Ridge_148_historicas",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.371298754768262,
+      "RMSE_t_ha": 0.49802336079428017,
+      "R2": 0.6551464240432924
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Media_global",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.8977689648011732,
+      "RMSE_t_ha": 0.9910730055390525,
+      "R2": -0.3656726081362627
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Media_municipal_suavizada",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.5297632286401509,
+      "RMSE_t_ha": 0.6846732286141296,
+      "R2": 0.3482185469867306
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Ridge_24_curadas",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.7522799768687598,
+      "RMSE_t_ha": 0.8990942230474511,
+      "R2": -0.12394670577821776
+    },
+    {
+      "escenario": "espacial_6_bloques",
+      "modelo": "Ridge_148_historicas",
+      "n_parcelas": 138,
+      "MAE_t_ha": 0.5018455564175305,
+      "RMSE_t_ha": 0.6838874045647729,
+      "R2": 0.3497138343513919
+    }
+  ],
+  "advertencia": "El año de las etiquetas es desconocido. No se garantiza transferibilidad a 2026."
+}

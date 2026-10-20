@@ -1,0 +1,756 @@
+{
+  "version": "2.0",
+  "parcelas_ejemplo": [
+    {
+      "ID_POLIGONO": "AGC_001",
+      "CONJUNTO": "DESCONOCIDO",
+      "municipio": "Calpulalpan",
+      "perfil_conceptual": {
+        "original": {
+          "C1a_ndvi_s2_mean": 0.323516129032258,
+          "C2a_amplitud_ndvi": 0.6225,
+          "C3a_ndwi_s2_mean": 0.068,
+          "C4a_prec_acum_abr_oct": 1360.9191226959229,
+          "C5a_elev_media": 2708.833333333333
+        },
+        "scaled": {
+          "C1a_ndvi_s2_mean": -0.6748309408035671,
+          "C2a_amplitud_ndvi": 1.078947368421053,
+          "C3a_ndwi_s2_mean": 0.4017791103258596,
+          "C4a_prec_acum_abr_oct": 1.5807378066472138,
+          "C5a_elev_media": 0.604617604617602
+        }
+      },
+      "prototipos_cercanos": [
+        {
+          "local_similarity_rank": 1,
+          "global_selection_rank": 3,
+          "prototype_id": "AGC_074",
+          "prototype_municipio": "Calpulalpan",
+          "weight_global_representativeness_original": 0.07444798604154082,
+          "weight_global_representativeness_normalized": 0.07872764136688001,
+          "distance": 1.9767149314611299,
+          "similarity_rbf": 0.6694832189806644,
+          "top_differentiating_components": [
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.323516129032258,
+              "parcel_value_scaled": -0.6748309408035671,
+              "prototype_value_original": 0.3958275862068965,
+              "prototype_value_scaled": 0.7988280742723398,
+              "absolute_diff_original": 0.0723114571746385,
+              "absolute_diff_scaled": 1.4736590150759068,
+              "relative_contribution_to_distance": 0.3723954610170936
+            },
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2708.833333333333,
+              "parcel_value_scaled": 0.604617604617602,
+              "prototype_value_original": 2809.428571428572,
+              "prototype_value_scaled": 1.4755720470006235,
+              "absolute_diff_original": 100.59523809523898,
+              "absolute_diff_scaled": 0.8709544423830216,
+              "relative_contribution_to_distance": 0.22009126791071443
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": 0.068,
+              "parcel_value_scaled": 0.4017791103258596,
+              "prototype_value_original": 0.1136551724137931,
+              "prototype_value_scaled": 1.210051575381858,
+              "absolute_diff_original": 0.04565517241379309,
+              "absolute_diff_scaled": 0.8082724650559983,
+              "relative_contribution_to_distance": 0.20425145449026894
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 2,
+          "global_selection_rank": 1,
+          "prototype_id": "AGC_076",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.6503616908382096,
+          "weight_global_representativeness_normalized": 0.6877478448711648,
+          "distance": 2.2897757624204975,
+          "similarity_rbf": 0.5836763826840713,
+          "top_differentiating_components": [
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1360.9191226959229,
+              "parcel_value_scaled": 1.5807378066472138,
+              "prototype_value_original": 961.35080909729,
+              "prototype_value_scaled": 0.0,
+              "absolute_diff_original": 399.5683135986328,
+              "absolute_diff_scaled": 1.5807378066472138,
+              "relative_contribution_to_distance": 0.33123112453278963
+            },
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.6225,
+              "parcel_value_scaled": 1.078947368421053,
+              "prototype_value_original": 0.511,
+              "prototype_value_scaled": -0.0947368421052632,
+              "absolute_diff_original": 0.11150000000000004,
+              "absolute_diff_scaled": 1.1736842105263163,
+              "relative_contribution_to_distance": 0.2459362579070484
+            },
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.323516129032258,
+              "parcel_value_scaled": -0.6748309408035671,
+              "prototype_value_original": 0.359875,
+              "prototype_value_scaled": 0.0661384722479898,
+              "absolute_diff_original": 0.036358870967741985,
+              "absolute_diff_scaled": 0.740969413051557,
+              "relative_contribution_to_distance": 0.15526428918027607
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 3,
+          "global_selection_rank": 2,
+          "prototype_id": "AGC_133",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.10588336169979264,
+          "weight_global_representativeness_normalized": 0.11197008501975572,
+          "distance": 3.6334262326045996,
+          "similarity_rbf": 0.2577706809076142,
+          "top_differentiating_components": [
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.323516129032258,
+              "parcel_value_scaled": -0.6748309408035671,
+              "prototype_value_original": 0.4371379310344827,
+              "prototype_value_scaled": 1.6407052048084136,
+              "absolute_diff_original": 0.11362180200222466,
+              "absolute_diff_scaled": 2.315536145611981,
+              "relative_contribution_to_distance": 0.3189809657303623
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1360.9191226959229,
+              "parcel_value_scaled": 1.5807378066472138,
+              "prototype_value_original": 793.7303228378296,
+              "prototype_value_scaled": -0.6631257554248304,
+              "absolute_diff_original": 567.1887998580933,
+              "absolute_diff_scaled": 2.243863562072044,
+              "relative_contribution_to_distance": 0.30910757638280933
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": 0.068,
+              "parcel_value_scaled": 0.4017791103258596,
+              "prototype_value_original": 0.134,
+              "prototype_value_scaled": 1.5702334140397427,
+              "absolute_diff_original": 0.066,
+              "absolute_diff_scaled": 1.168454303713883,
+              "relative_contribution_to_distance": 0.1609625843745775
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 4,
+          "global_selection_rank": 4,
+          "prototype_id": "AGC_162",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.06985351281408779,
+          "weight_global_representativeness_normalized": 0.07386905405306303,
+          "distance": 4.008653592685369,
+          "similarity_rbf": 0.19202131897978145,
+          "top_differentiating_components": [
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.6225,
+              "parcel_value_scaled": 1.078947368421053,
+              "prototype_value_original": 0.358,
+              "prototype_value_scaled": -1.7052631578947377,
+              "absolute_diff_original": 0.26450000000000007,
+              "absolute_diff_scaled": 2.784210526315791,
+              "relative_contribution_to_distance": 0.3412486543910101
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1360.9191226959229,
+              "parcel_value_scaled": 1.5807378066472138,
+              "prototype_value_original": 793.7303228378296,
+              "prototype_value_scaled": -0.6631257554248304,
+              "absolute_diff_original": 567.1887998580933,
+              "absolute_diff_scaled": 2.243863562072044,
+              "relative_contribution_to_distance": 0.2750206616765211
+            },
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.323516129032258,
+              "parcel_value_scaled": -0.6748309408035671,
+              "prototype_value_original": 0.2690967741935484,
+              "prototype_value_scaled": -1.7838609062625668,
+              "absolute_diff_original": 0.05441935483870963,
+              "absolute_diff_scaled": 1.1090299654589997,
+              "relative_contribution_to_distance": 0.13592901104823527
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 5,
+          "global_selection_rank": 5,
+          "prototype_id": "AGC_170",
+          "prototype_municipio": "Calpulalpan",
+          "weight_global_representativeness_original": 0.045093185158420916,
+          "weight_global_representativeness_normalized": 0.0476853746891365,
+          "distance": 4.572732667917565,
+          "similarity_rbf": 0.11680776878903595,
+          "top_differentiating_components": [
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": 0.068,
+              "parcel_value_scaled": 0.4017791103258596,
+              "prototype_value_original": -0.0675526315789473,
+              "prototype_value_scaled": -1.9980247646463136,
+              "absolute_diff_original": 0.1355526315789473,
+              "absolute_diff_scaled": 2.3998038749721733,
+              "relative_contribution_to_distance": 0.24023430141483124
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1360.9191226959229,
+              "parcel_value_scaled": 1.5807378066472138,
+              "prototype_value_original": 770.9277410507202,
+              "prototype_value_scaled": -0.7533353688834595,
+              "absolute_diff_original": 589.9913816452026,
+              "absolute_diff_scaled": 2.334073175530673,
+              "relative_contribution_to_distance": 0.23365427676093317
+            },
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.6225,
+              "parcel_value_scaled": 1.078947368421053,
+              "prototype_value_original": 0.411,
+              "prototype_value_scaled": -1.1473684210526318,
+              "absolute_diff_original": 0.21150000000000008,
+              "absolute_diff_scaled": 2.226315789473685,
+              "relative_contribution_to_distance": 0.22286713676517458
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID_POLIGONO": "AGC_003",
+      "CONJUNTO": "DESCONOCIDO",
+      "municipio": "Singuilucan",
+      "perfil_conceptual": {
+        "original": {
+          "C1a_ndvi_s2_mean": 0.3868928571428571,
+          "C2a_amplitud_ndvi": 0.529,
+          "C3a_ndwi_s2_mean": 0.0329642857142857,
+          "C4a_prec_acum_abr_oct": 1335.0902252197266,
+          "C5a_elev_media": 2641.818181818182
+        },
+        "scaled": {
+          "C1a_ndvi_s2_mean": 0.6167442863508272,
+          "C2a_amplitud_ndvi": 0.0947368421052632,
+          "C3a_ndwi_s2_mean": -0.2184880281716075,
+          "C4a_prec_acum_abr_oct": 1.4785557432675565,
+          "C5a_elev_media": 0.0243998425816621
+        }
+      },
+      "prototipos_cercanos": [
+        {
+          "local_similarity_rank": 1,
+          "global_selection_rank": 1,
+          "prototype_id": "AGC_076",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.6503616908382096,
+          "weight_global_representativeness_normalized": 0.6877478448711648,
+          "distance": 1.5919371578214674,
+          "similarity_rbf": 0.7708647722365728,
+          "top_differentiating_components": [
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1335.0902252197266,
+              "parcel_value_scaled": 1.4785557432675565,
+              "prototype_value_original": 961.35080909729,
+              "prototype_value_scaled": 0.0,
+              "absolute_diff_original": 373.7394161224365,
+              "absolute_diff_scaled": 1.4785557432675565,
+              "relative_contribution_to_distance": 0.6347016382195539
+            },
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.3868928571428571,
+              "parcel_value_scaled": 0.6167442863508272,
+              "prototype_value_original": 0.359875,
+              "prototype_value_scaled": 0.0661384722479898,
+              "absolute_diff_original": 0.027017857142857093,
+              "absolute_diff_scaled": 0.5506058141028374,
+              "relative_contribution_to_distance": 0.23635930793651694
+            },
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.529,
+              "parcel_value_scaled": 0.0947368421052632,
+              "prototype_value_original": 0.511,
+              "prototype_value_scaled": -0.0947368421052632,
+              "absolute_diff_original": 0.018000000000000016,
+              "absolute_diff_scaled": 0.1894736842105264,
+              "relative_contribution_to_distance": 0.08133562655010003
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 2,
+          "global_selection_rank": 3,
+          "prototype_id": "AGC_074",
+          "prototype_municipio": "Calpulalpan",
+          "weight_global_representativeness_original": 0.07444798604154082,
+          "weight_global_representativeness_normalized": 0.07872764136688001,
+          "distance": 2.525987940153572,
+          "similarity_rbf": 0.5193266449535697,
+          "top_differentiating_components": [
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2641.818181818182,
+              "parcel_value_scaled": 0.0243998425816621,
+              "prototype_value_original": 2809.428571428572,
+              "prototype_value_scaled": 1.4755720470006235,
+              "absolute_diff_original": 167.61038961039003,
+              "absolute_diff_scaled": 1.4511722044189614,
+              "relative_contribution_to_distance": 0.2930154852069968
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": 0.0329642857142857,
+              "parcel_value_scaled": -0.2184880281716075,
+              "prototype_value_original": 0.1136551724137931,
+              "prototype_value_scaled": 1.210051575381858,
+              "absolute_diff_original": 0.08069088669950739,
+              "absolute_diff_scaled": 1.4285396035534654,
+              "relative_contribution_to_distance": 0.2884455916382629
+            },
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.529,
+              "parcel_value_scaled": 0.0947368421052632,
+              "prototype_value_original": 0.662,
+              "prototype_value_scaled": 1.4947368421052638,
+              "absolute_diff_original": 0.133,
+              "absolute_diff_scaled": 1.4000000000000006,
+              "relative_contribution_to_distance": 0.2826829772790786
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 3,
+          "global_selection_rank": 2,
+          "prototype_id": "AGC_133",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.10588336169979264,
+          "weight_global_representativeness_normalized": 0.11197008501975572,
+          "distance": 3.4792901488871086,
+          "similarity_rbf": 0.2884874426093149,
+          "top_differentiating_components": [
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1335.0902252197266,
+              "parcel_value_scaled": 1.4785557432675565,
+              "prototype_value_original": 793.7303228378296,
+              "prototype_value_scaled": -0.6631257554248304,
+              "absolute_diff_original": 541.359902381897,
+              "absolute_diff_scaled": 2.141681498692387,
+              "relative_contribution_to_distance": 0.2954000550665813
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": 0.0329642857142857,
+              "parcel_value_scaled": -0.2184880281716075,
+              "prototype_value_original": 0.134,
+              "prototype_value_scaled": 1.5702334140397427,
+              "absolute_diff_original": 0.10103571428571431,
+              "absolute_diff_scaled": 1.7887214422113502,
+              "relative_contribution_to_distance": 0.24671661628987193
+            },
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2641.818181818182,
+              "parcel_value_scaled": 0.0243998425816621,
+              "prototype_value_original": 2839.5,
+              "prototype_value_scaled": 1.735930735930736,
+              "absolute_diff_original": 197.68181818181802,
+              "absolute_diff_scaled": 1.711530893349074,
+              "relative_contribution_to_distance": 0.2360697986382006
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 4,
+          "global_selection_rank": 4,
+          "prototype_id": "AGC_162",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.06985351281408779,
+          "weight_global_representativeness_normalized": 0.07386905405306303,
+          "distance": 4.0548641597941115,
+          "similarity_rbf": 0.18481258652766522,
+          "top_differentiating_components": [
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.3868928571428571,
+              "parcel_value_scaled": 0.6167442863508272,
+              "prototype_value_original": 0.2690967741935484,
+              "prototype_value_scaled": -1.7838609062625668,
+              "absolute_diff_original": 0.11779608294930871,
+              "absolute_diff_scaled": 2.4006051926133942,
+              "relative_contribution_to_distance": 0.2883947906143163
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1335.0902252197266,
+              "parcel_value_scaled": 1.4785557432675565,
+              "prototype_value_original": 793.7303228378296,
+              "prototype_value_scaled": -0.6631257554248304,
+              "absolute_diff_original": 541.359902381897,
+              "absolute_diff_scaled": 2.141681498692387,
+              "relative_contribution_to_distance": 0.2572891991063087
+            },
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.529,
+              "parcel_value_scaled": 0.0947368421052632,
+              "prototype_value_original": 0.358,
+              "prototype_value_scaled": -1.7052631578947377,
+              "absolute_diff_original": 0.17100000000000004,
+              "absolute_diff_scaled": 1.800000000000001,
+              "relative_contribution_to_distance": 0.2162415647117072
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 5,
+          "global_selection_rank": 5,
+          "prototype_id": "AGC_170",
+          "prototype_municipio": "Calpulalpan",
+          "weight_global_representativeness_original": 0.045093185158420916,
+          "weight_global_representativeness_normalized": 0.0476853746891365,
+          "distance": 4.1885352009048695,
+          "similarity_rbf": 0.16504007278036004,
+          "top_differentiating_components": [
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.3868928571428571,
+              "parcel_value_scaled": 0.6167442863508272,
+              "prototype_value_original": 0.2629999999999999,
+              "prototype_value_scaled": -1.908109076666688,
+              "absolute_diff_original": 0.1238928571428572,
+              "absolute_diff_scaled": 2.524853363017515,
+              "relative_contribution_to_distance": 0.2807224087008187
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 1335.0902252197266,
+              "parcel_value_scaled": 1.4785557432675565,
+              "prototype_value_original": 770.9277410507202,
+              "prototype_value_scaled": -0.7533353688834595,
+              "absolute_diff_original": 564.1624841690063,
+              "absolute_diff_scaled": 2.231891112151016,
+              "relative_contribution_to_distance": 0.24814979679144084
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": 0.0329642857142857,
+              "parcel_value_scaled": -0.2184880281716075,
+              "prototype_value_original": -0.0675526315789473,
+              "prototype_value_scaled": -1.9980247646463136,
+              "absolute_diff_original": 0.100516917293233,
+              "absolute_diff_scaled": 1.7795367364747061,
+              "relative_contribution_to_distance": 0.1978553869115559
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID_POLIGONO": "AGC_170",
+      "CONJUNTO": "DESCONOCIDO",
+      "municipio": "Calpulalpan",
+      "perfil_conceptual": {
+        "original": {
+          "C1a_ndvi_s2_mean": 0.2629999999999999,
+          "C2a_amplitud_ndvi": 0.411,
+          "C3a_ndwi_s2_mean": -0.0675526315789473,
+          "C4a_prec_acum_abr_oct": 770.9277410507202,
+          "C5a_elev_media": 2501.4
+        },
+        "scaled": {
+          "C1a_ndvi_s2_mean": -1.908109076666688,
+          "C2a_amplitud_ndvi": -1.1473684210526318,
+          "C3a_ndwi_s2_mean": -1.9980247646463136,
+          "C4a_prec_acum_abr_oct": -0.7533353688834595,
+          "C5a_elev_media": -1.1913419913419905
+        }
+      },
+      "prototipos_cercanos": [
+        {
+          "local_similarity_rank": 1,
+          "global_selection_rank": 5,
+          "prototype_id": "AGC_170",
+          "prototype_municipio": "Calpulalpan",
+          "weight_global_representativeness_original": 0.045093185158420916,
+          "weight_global_representativeness_normalized": 0.0476853746891365,
+          "distance": 0.0,
+          "similarity_rbf": 1.0,
+          "top_differentiating_components": [
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2501.4,
+              "parcel_value_scaled": -1.1913419913419905,
+              "prototype_value_original": 2501.4,
+              "prototype_value_scaled": -1.1913419913419905,
+              "absolute_diff_original": 0.0,
+              "absolute_diff_scaled": 0.0,
+              "relative_contribution_to_distance": 0.0
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 770.9277410507202,
+              "parcel_value_scaled": -0.7533353688834595,
+              "prototype_value_original": 770.9277410507202,
+              "prototype_value_scaled": -0.7533353688834595,
+              "absolute_diff_original": 0.0,
+              "absolute_diff_scaled": 0.0,
+              "relative_contribution_to_distance": 0.0
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": -0.0675526315789473,
+              "parcel_value_scaled": -1.9980247646463136,
+              "prototype_value_original": -0.0675526315789473,
+              "prototype_value_scaled": -1.9980247646463136,
+              "absolute_diff_original": 0.0,
+              "absolute_diff_scaled": 0.0,
+              "relative_contribution_to_distance": 0.0
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 2,
+          "global_selection_rank": 1,
+          "prototype_id": "AGC_076",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.6503616908382096,
+          "weight_global_representativeness_normalized": 0.6877478448711648,
+          "distance": 3.1718494743730234,
+          "similarity_rbf": 0.3558944619949705,
+          "top_differentiating_components": [
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.2629999999999999,
+              "parcel_value_scaled": -1.908109076666688,
+              "prototype_value_original": 0.359875,
+              "prototype_value_scaled": 0.0661384722479898,
+              "absolute_diff_original": 0.0968750000000001,
+              "absolute_diff_scaled": 1.9742475489146778,
+              "relative_contribution_to_distance": 0.2947052128374431
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": -0.0675526315789473,
+              "parcel_value_scaled": -1.9980247646463136,
+              "prototype_value_original": 0.0339375,
+              "prototype_value_scaled": -0.2012583854355667,
+              "absolute_diff_original": 0.10149013157894729,
+              "absolute_diff_scaled": 1.7967663792107469,
+              "relative_contribution_to_distance": 0.26821176427219645
+            },
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2501.4,
+              "parcel_value_scaled": -1.1913419913419905,
+              "prototype_value_original": 2631.0,
+              "prototype_value_scaled": -0.0692640692640692,
+              "absolute_diff_original": 129.5999999999999,
+              "absolute_diff_scaled": 1.1220779220779213,
+              "relative_contribution_to_distance": 0.16749784647217056
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 3,
+          "global_selection_rank": 4,
+          "prototype_id": "AGC_162",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.06985351281408779,
+          "weight_global_representativeness_normalized": 0.07386905405306303,
+          "distance": 3.2722361935219277,
+          "similarity_rbf": 0.3330205919955684,
+          "top_differentiating_components": [
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2501.4,
+              "parcel_value_scaled": -1.1913419913419905,
+              "prototype_value_original": 2833.25,
+              "prototype_value_scaled": 1.681818181818182,
+              "absolute_diff_original": 331.8499999999999,
+              "absolute_diff_scaled": 2.873160173160173,
+              "relative_contribution_to_distance": 0.5632840750195465
+            },
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": -0.0675526315789473,
+              "parcel_value_scaled": -1.9980247646463136,
+              "prototype_value_original": 0.0146451612903225,
+              "prototype_value_scaled": -0.5428071156481201,
+              "absolute_diff_original": 0.0821977928692698,
+              "absolute_diff_scaled": 1.4552176489981936,
+              "relative_contribution_to_distance": 0.2852959382582844
+            },
+            {
+              "component": "C2a_amplitud_ndvi",
+              "unit": "NDVI",
+              "parcel_value_original": 0.411,
+              "parcel_value_scaled": -1.1473684210526318,
+              "prototype_value_original": 0.358,
+              "prototype_value_scaled": -1.7052631578947377,
+              "absolute_diff_original": 0.05299999999999999,
+              "absolute_diff_scaled": 0.5578947368421059,
+              "relative_contribution_to_distance": 0.10937546181239646
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 4,
+          "global_selection_rank": 2,
+          "prototype_id": "AGC_133",
+          "prototype_municipio": "Chignahuapan",
+          "weight_global_representativeness_original": 0.10588336169979264,
+          "weight_global_representativeness_normalized": 0.11197008501975572,
+          "distance": 6.102380026779513,
+          "similarity_rbf": 0.021838978844704558,
+          "top_differentiating_components": [
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": -0.0675526315789473,
+              "parcel_value_scaled": -1.9980247646463136,
+              "prototype_value_original": 0.134,
+              "prototype_value_scaled": 1.5702334140397427,
+              "absolute_diff_original": 0.20155263157894732,
+              "absolute_diff_scaled": 3.5682581786860563,
+              "relative_contribution_to_distance": 0.2983276302253661
+            },
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.2629999999999999,
+              "parcel_value_scaled": -1.908109076666688,
+              "prototype_value_original": 0.4371379310344827,
+              "prototype_value_scaled": 1.6407052048084136,
+              "absolute_diff_original": 0.17413793103448277,
+              "absolute_diff_scaled": 3.5488142814751016,
+              "relative_contribution_to_distance": 0.29670200464369206
+            },
+            {
+              "component": "C5a_elev_media",
+              "unit": "m",
+              "parcel_value_original": 2501.4,
+              "parcel_value_scaled": -1.1913419913419905,
+              "prototype_value_original": 2839.5,
+              "prototype_value_scaled": 1.735930735930736,
+              "absolute_diff_original": 338.0999999999999,
+              "absolute_diff_scaled": 2.927272727272727,
+              "relative_contribution_to_distance": 0.24473742986618424
+            }
+          ]
+        },
+        {
+          "local_similarity_rank": 5,
+          "global_selection_rank": 3,
+          "prototype_id": "AGC_074",
+          "prototype_municipio": "Calpulalpan",
+          "weight_global_representativeness_original": 0.07444798604154082,
+          "weight_global_representativeness_normalized": 0.07872764136688001,
+          "distance": 6.255012505207126,
+          "similarity_rbf": 0.017993483459309196,
+          "top_differentiating_components": [
+            {
+              "component": "C3a_ndwi_s2_mean",
+              "unit": "NDWI [-1,1]",
+              "parcel_value_original": -0.0675526315789473,
+              "parcel_value_scaled": -1.9980247646463136,
+              "prototype_value_original": 0.1136551724137931,
+              "prototype_value_scaled": 1.210051575381858,
+              "absolute_diff_original": 0.1812078039927404,
+              "absolute_diff_scaled": 3.2080763400281715,
+              "relative_contribution_to_distance": 0.2300244942900825
+            },
+            {
+              "component": "C4a_prec_acum_abr_oct",
+              "unit": "mm",
+              "parcel_value_original": 770.9277410507202,
+              "parcel_value_scaled": -0.7533353688834595,
+              "prototype_value_original": 1459.1384239196775,
+              "prototype_value_scaled": 1.9693045610741384,
+              "absolute_diff_original": 688.2106828689573,
+              "absolute_diff_scaled": 2.722639929957598,
+              "relative_contribution_to_distance": 0.19521788344256877
+            },
+            {
+              "component": "C1a_ndvi_s2_mean",
+              "unit": "NDVI [0-1]",
+              "parcel_value_original": 0.2629999999999999,
+              "parcel_value_scaled": -1.908109076666688,
+              "prototype_value_original": 0.3958275862068965,
+              "prototype_value_scaled": 0.7988280742723398,
+              "absolute_diff_original": 0.1328275862068966,
+              "absolute_diff_scaled": 2.706937150939028,
+              "relative_contribution_to_distance": 0.19409196765383668
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "configuracion_recomendada": {
+    "space": "compacto",
+    "method": "ProtoDash",
+    "m": 5,
+    "sigma_factor": 1.0,
+    "rationale": "Espacio compacto reduce redundancia (NDVI/EVI, NDWI/MSI); ProtoDash optimiza representatividad MMD; m=5 balancea cobertura y simplicidad; sigma=mediana es heurística estándar"
+  }
+}

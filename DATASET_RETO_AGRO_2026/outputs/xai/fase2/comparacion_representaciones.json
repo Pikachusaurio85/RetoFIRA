@@ -1,0 +1,56 @@
+{
+  "full": {
+    "n_dims": 12,
+    "components": [
+      "C1a_ndvi_s2_mean_scaled",
+      "C1b_evi_s2_mean_scaled",
+      "C2a_amplitud_ndvi_scaled",
+      "C2b_auc_exceso_ndvi_scaled",
+      "C2c_doy_pico_ndvi_scaled",
+      "C3a_ndwi_s2_mean_scaled",
+      "C3b_msi_s2_mean_scaled",
+      "C3c_nddi_s2_mean_scaled",
+      "C4a_prec_acum_abr_oct_scaled",
+      "C4b_tmean_abr_oct_scaled",
+      "C5a_elev_media_scaled",
+      "C5b_pend_media_scaled"
+    ],
+    "weights": [
+      1.2000000000000002,
+      1.2000000000000002,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      1.2000000000000002,
+      1.2000000000000002,
+      1.2000000000000002,
+      1.2000000000000002
+    ],
+    "mean_dist": 3.4108191070696687,
+    "median_dist": 3.355503377639479,
+    "note": "Distancias no comparables directamente con espacio compacto por distinta dimensionalidad"
+  },
+  "compact": {
+    "n_dims": 5,
+    "components": [
+      "C1a_ndvi_s2_mean_scaled",
+      "C2a_amplitud_ndvi_scaled",
+      "C3a_ndwi_s2_mean_scaled",
+      "C4a_prec_acum_abr_oct_scaled",
+      "C5a_elev_media_scaled"
+    ],
+    "weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_dist": 2.23958048443055,
+    "median_dist": 2.1999558678799533,
+    "note": "Distancias no comparables directamente con espacio completo por distinta dimensionalidad"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "smoke":    {"draws": 500,  "tune": 500, "chains": 2, "target_accept": 0.9, "cores": 2},
+  "screen":   {"draws": 500,  "tune": 500, "chains": 2, "target_accept": 0.9, "cores": 2},
+  "finalists":{"draws": 2000, "tune": 1000,"chains": 4, "target_accept": 0.9, "cores": 4},
+  "final_fit":{"draws": 2000, "tune": 1000,"chains": 4, "target_accept": 0.9, "cores": 4},
+  "selection_repeats": [0, 1, 2, 3, 4],
+  "evaluation_repeats": [5, 6, 7, 8, 9],
+  "timeout_per_fold_s": 900
+}
